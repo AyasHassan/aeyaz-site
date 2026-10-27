@@ -3,31 +3,34 @@
   "status": "work",
   "order": 4,
   "categories": [
-    "content/categories/travel.json"
+    "content/categories/travel.json",
+    "content/categories/music-video.json"
   ],
-  "thumbnail": "",
-  "video": "",
+  "thumbnail": "/images/biennale1115.jpg",
+  "video": "https://vimeo.com/813577516?fl=pl&fe=sh",
   "credits": [
     {
       "role": "Client",
-      "name": ""
+      "name": "Saudi tourism"
     },
     {
-      "role": "Agency",
-      "name": ""
+      "role": "Agency"
     },
     {
       "role": "Production House",
-      "name": ""
+      "name": "Purple Brain"
     },
     {
       "role": "Director",
-      "name": ""
+      "name": "Ellie Fahad"
     },
     {
       "role": "Director of Photography",
       "name": "Aeyaz"
     }
   ],
-  "stills": []
+  "stills": [
+    "/images/biennale113.jpg",
+    "/images/biennale1114.jpg"
+  ]
 }
