@@ -5,29 +5,31 @@
   "categories": [
     "content/categories/brand.json"
   ],
-  "thumbnail": "",
-  "video": "",
+  "video": "https://vimeo.com/784938083",
   "credits": [
     {
       "role": "Client",
-      "name": ""
+      "name": "Home Centre"
     },
     {
       "role": "Agency",
-      "name": ""
+      "name": "Leo Burnett Dubai"
     },
     {
       "role": "Production House",
-      "name": ""
+      "name": "Prodigious"
     },
     {
       "role": "Director",
-      "name": ""
+      "name": "Tahaab Rais"
     },
     {
       "role": "Director of Photography",
       "name": "Aeyaz"
     }
   ],
-  "stills": []
+  "stills": [
+    "/images/home-centre1391.jpg",
+    "/images/home-centre1431.jpg"
+  ]
 }
