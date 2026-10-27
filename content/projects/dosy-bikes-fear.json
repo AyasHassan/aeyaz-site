@@ -3,32 +3,34 @@
   "status": "work",
   "order": 6,
   "categories": [
-    "content/categories/auto.json",
-    "content/categories/vfx.json"
+    "content/categories/narrative.json"
   ],
-  "thumbnail": "",
-  "video": "",
+  "thumbnail": "/images/dosy1126.jpg",
+  "video": "https://vimeo.com/910955992",
   "credits": [
     {
       "role": "Client",
-      "name": ""
+      "name": "Dosy Bikes"
     },
     {
       "role": "Agency",
-      "name": ""
+      "name": "Leo Burnett"
     },
     {
       "role": "Production House",
-      "name": ""
+      "name": "Good People, Egypt"
     },
     {
       "role": "Director",
-      "name": ""
+      "name": "Tahab Rais"
     },
     {
       "role": "Director of Photography",
       "name": "Aeyaz"
     }
   ],
-  "stills": []
+  "stills": [
+    "/images/dosy114.jpg",
+    "/images/dosy1125.jpg"
+  ]
 }
