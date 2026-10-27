@@ -1,0 +1,21 @@
+{
+  "title": "Sarkeet",
+  "details": [
+    "Malayalam Feature Film · 2025",
+    "Written & directed by Thamar"
+  ],
+  "role": "Director of Photography — Aeyaz",
+  "trailer": "https://www.youtube.com/watch?v=vFRKz019F7U",
+  "teaser": "https://www.youtube.com/watch?v=Nrmp5JWFeHU",
+  "stills": [],
+  "credits": [
+    {
+      "role": "Director",
+      "name": "Thamar"
+    },
+    {
+      "role": "Director of Photography",
+      "name": "Aeyaz"
+    }
+  ]
+}

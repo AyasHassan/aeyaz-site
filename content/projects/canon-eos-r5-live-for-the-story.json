@@ -1,0 +1,33 @@
+{
+  "title": "Canon EOS R5 — Live for the Story",
+  "status": "work",
+  "order": 20,
+  "categories": [
+    "content/categories/brand.json"
+  ],
+  "thumbnail": "",
+  "video": "",
+  "credits": [
+    {
+      "role": "Client",
+      "name": ""
+    },
+    {
+      "role": "Agency",
+      "name": ""
+    },
+    {
+      "role": "Production House",
+      "name": ""
+    },
+    {
+      "role": "Director",
+      "name": ""
+    },
+    {
+      "role": "Director of Photography",
+      "name": "Aeyaz"
+    }
+  ],
+  "stills": []
+}

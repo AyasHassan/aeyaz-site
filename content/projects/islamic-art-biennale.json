@@ -1,0 +1,33 @@
+{
+  "title": "Islamic Art Biennale",
+  "status": "work",
+  "order": 4,
+  "categories": [
+    "content/categories/travel.json"
+  ],
+  "thumbnail": "",
+  "video": "",
+  "credits": [
+    {
+      "role": "Client",
+      "name": ""
+    },
+    {
+      "role": "Agency",
+      "name": ""
+    },
+    {
+      "role": "Production House",
+      "name": ""
+    },
+    {
+      "role": "Director",
+      "name": ""
+    },
+    {
+      "role": "Director of Photography",
+      "name": "Aeyaz"
+    }
+  ],
+  "stills": []
+}

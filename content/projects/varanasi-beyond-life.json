@@ -1,0 +1,34 @@
+{
+  "title": "Varanasi Beyond Life",
+  "status": "work",
+  "order": 19,
+  "categories": [
+    "content/categories/travel.json",
+    "content/categories/narrative.json"
+  ],
+  "thumbnail": "",
+  "video": "",
+  "credits": [
+    {
+      "role": "Client",
+      "name": ""
+    },
+    {
+      "role": "Agency",
+      "name": ""
+    },
+    {
+      "role": "Production House",
+      "name": ""
+    },
+    {
+      "role": "Director",
+      "name": ""
+    },
+    {
+      "role": "Director of Photography",
+      "name": "Aeyaz"
+    }
+  ],
+  "stills": []
+}

@@ -1,0 +1,192 @@
+# Admin panel configuration for Pages CMS (https://app.pagescms.org)
+media:
+  input: images
+  output: /images
+
+content:
+  - name: projects
+    label: Projects
+    type: collection
+    path: content/projects
+    format: json
+    filename: "{primary}.json"
+    view:
+      fields: [title, status, order]
+      primary: title
+      sort: [order, title]
+      search: [title]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: title
+        label: Project name
+        type: string
+        required: true
+      - name: status
+        label: Show on
+        type: select
+        required: true
+        default: work
+        options:
+          values:
+            - name: work
+              label: Work (home page)
+            - name: archive
+              label: Archive
+            - name: hidden
+              label: Hidden (not listed)
+      - name: order
+        label: Position (1 = first)
+        type: number
+      - name: categories
+        label: Categories
+        type: reference
+        options:
+          collection: categories
+          multiple: true
+          search: name
+          value: "{path}"
+          label: "{name}"
+      - name: thumbnail
+        label: Thumbnail (16:9)
+        type: image
+        options:
+          extensions: [jpg, jpeg, png, webp]
+          rename: true
+      - name: video
+        label: Vimeo or YouTube link
+        type: string
+      - name: credits
+        label: Credits
+        type: object
+        list: true
+        fields:
+          - name: role
+            label: Role
+            type: string
+          - name: name
+            label: Name
+            type: string
+      - name: stills
+        label: Stills (add as many as you like)
+        type: image
+        options:
+          multiple: true
+          extensions: [jpg, jpeg, png, webp]
+          rename: true
+
+  - name: categories
+    label: Categories
+    type: collection
+    path: content/categories
+    format: json
+    filename: "{primary}.json"
+    view:
+      fields: [name, order]
+      primary: name
+      sort: [order, name]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: name
+        label: Category name
+        type: string
+        required: true
+      - name: order
+        label: Button position (1 = first)
+        type: number
+
+  - name: about
+    label: About page
+    type: file
+    path: content/about.json
+    format: json
+    fields:
+      - name: intro
+        label: Opening line
+        type: text
+      - name: body
+        label: Bio (leave a blank line between paragraphs)
+        type: text
+      - name: portrait
+        label: Portrait photo
+        type: image
+      - name: profile_url
+        label: Profile PDF link (e.g. Google Drive)
+        type: string
+
+  - name: feature-film
+    label: Feature Film page
+    type: file
+    path: content/feature-film.json
+    format: json
+    fields:
+      - name: title
+        label: Film title
+        type: string
+      - name: details
+        label: Detail lines
+        type: string
+        list: true
+      - name: role
+        label: Your credit line
+        type: string
+      - name: trailer
+        label: Trailer link (Vimeo or YouTube)
+        type: string
+      - name: teaser
+        label: Teaser link (Vimeo or YouTube)
+        type: string
+      - name: stills
+        label: Frame grabs
+        type: image
+        options:
+          multiple: true
+      - name: credits
+        label: Credits
+        type: object
+        list: true
+        fields:
+          - name: role
+            type: string
+          - name: name
+            type: string
+
+  - name: settings
+    label: Site settings
+    type: file
+    path: content/settings.json
+    format: json
+    fields:
+      - name: name
+        label: Name (top left)
+        type: string
+      - name: headline
+        label: Home page title
+        type: string
+      - name: email
+        label: Email
+        type: string
+      - name: website
+        label: Website
+        type: string
+      - name: instagram
+        label: Instagram link
+        type: string
+      - name: vimeo
+        label: Vimeo link
+        type: string
+      - name: contact_intro
+        label: Contact page intro
+        type: text
+      - name: location
+        label: Location line
+        type: string
+      - name: web3forms_key
+        label: Contact form key (from web3forms.com)
+        type: string
+      - name: seo_description
+        label: Google description
+        type: text

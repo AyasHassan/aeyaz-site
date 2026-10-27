@@ -1,0 +1,33 @@
+{
+  "title": "FUN88 × Dale Steyn",
+  "status": "work",
+  "order": 17,
+  "categories": [
+    "content/categories/sports.json"
+  ],
+  "thumbnail": "",
+  "video": "",
+  "credits": [
+    {
+      "role": "Client",
+      "name": ""
+    },
+    {
+      "role": "Agency",
+      "name": ""
+    },
+    {
+      "role": "Production House",
+      "name": ""
+    },
+    {
+      "role": "Director",
+      "name": ""
+    },
+    {
+      "role": "Director of Photography",
+      "name": "Aeyaz"
+    }
+  ],
+  "stills": []
+}
