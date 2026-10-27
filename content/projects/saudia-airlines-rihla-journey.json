@@ -5,29 +5,23 @@
   "categories": [
     "content/categories/travel.json"
   ],
-  "thumbnail": "",
-  "video": "",
+  "video": "https://vimeo.com/932017395?fl=pl&fe=sh",
   "credits": [
     {
-      "role": "Client",
-      "name": ""
+      "role": "Client"
     },
     {
-      "role": "Agency",
-      "name": ""
+      "role": "Agency"
     },
     {
-      "role": "Production House",
-      "name": ""
+      "role": "Production House"
     },
     {
-      "role": "Director",
-      "name": ""
+      "role": "Director"
     },
     {
       "role": "Director of Photography",
       "name": "Aeyaz"
     }
-  ],
-  "stills": []
+  ]
 }
