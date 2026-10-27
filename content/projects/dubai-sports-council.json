@@ -5,29 +5,34 @@
   "categories": [
     "content/categories/sports.json"
   ],
-  "thumbnail": "",
-  "video": "",
+  "thumbnail": "/images/still-2025-12-03-084749114.jpg",
+  "video": "https://vimeo.com/1142522236",
   "credits": [
     {
       "role": "Client",
-      "name": ""
+      "name": "Dubai Sports Council"
     },
     {
-      "role": "Agency",
-      "name": ""
+      "role": "Agency"
     },
     {
       "role": "Production House",
-      "name": ""
+      "name": "Company Films"
     },
     {
       "role": "Director",
-      "name": ""
+      "name": "Kiran Pullanoor"
     },
     {
       "role": "Director of Photography",
       "name": "Aeyaz"
     }
   ],
-  "stills": []
+  "stills": [
+    "/images/still-2025-12-03-0847491119.jpg",
+    "/images/still-2025-12-03-084749117.jpg",
+    "/images/still-2025-12-03-084749119.jpg",
+    "/images/still-2025-12-03-0847491118.jpg",
+    "/images/still-2025-12-03-084749118.jpg"
+  ]
 }
