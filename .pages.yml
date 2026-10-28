@@ -69,9 +69,10 @@ content:
             max: 3
           extensions: [jpg, jpeg, png, webp]
           rename: true
-      - name: video
-        label: Vimeo link
+      - name: videos
+        label: Vimeo links (first one shows at the top; add more for extra films)
         type: string
+        list: true
       - name: client
         label: Client
         type: string
