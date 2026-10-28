@@ -12,31 +12,43 @@ content:
     fields:
       - name: work
         label: Work page (home). Drag to reorder; top = first
-        type: reference
-        multiple: true
-        options:
-          collection: projects
-          search: title
-          value: "{path}"
-          label: "{title}"
+        type: object
+        list: true
+        fields:
+          - name: project
+            label: Project
+            type: reference
+            options:
+              collection: projects
+              search: title
+              value: "{path}"
+              label: "{title}"
       - name: archive
         label: Archive page. Drag to reorder; top = first
-        type: reference
-        multiple: true
-        options:
-          collection: projects
-          search: title
-          value: "{path}"
-          label: "{title}"
+        type: object
+        list: true
+        fields:
+          - name: project
+            label: Project
+            type: reference
+            options:
+              collection: projects
+              search: title
+              value: "{path}"
+              label: "{title}"
       - name: hidden
-        label: Hidden (not shown on any page)
-        type: reference
-        multiple: true
-        options:
-          collection: projects
-          search: title
-          value: "{path}"
-          label: "{title}"
+        label: Hidden (not shown on any page). Drag to reorder
+        type: object
+        list: true
+        fields:
+          - name: project
+            label: Project
+            type: reference
+            options:
+              collection: projects
+              search: title
+              value: "{path}"
+              label: "{title}"
 
   - name: projects
     label: Projects
