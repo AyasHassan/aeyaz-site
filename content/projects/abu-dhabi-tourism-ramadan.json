@@ -1,19 +1,22 @@
 {
-  "title": "Abu Dhabi Tourism — Ramadan",
+  "title": "Abu Dhabi Tourism - Ramadan",
   "categories": [
     "content/categories/tourism.json"
   ],
-  "frames": [],
-  "video": "",
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "frames": [
+    "/images/dctramadan-0-00-13-07.jpg",
+    "/images/dctramadan-0-00-44-05-1.jpg",
+    "/images/dctramadan-0-00-46-03.jpg"
+  ],
+  "video": "https://vimeo.com/1056040266",
+  "client": "Abu Dhabi Tourism",
+  "production_house": "Dejavu",
+  "director": "Samir Mallal",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
-  "editor": "",
-  "colourist": "",
-  "more_credits": [],
-  "stills": []
+  "executive_producer": "Manasvi Gosalia",
+  "producer": "Taha",
+  "stills": [
+    "/images/dctramadan-0-00-19-21.jpg",
+    "/images/dctramadan-0-00-44-05-2.jpg"
+  ]
 }
