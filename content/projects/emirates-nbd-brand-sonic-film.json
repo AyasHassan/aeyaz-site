@@ -1,12 +1,20 @@
 {
-  "title": "Emirates NBD — Brand Sonic Film",
+  "title": "Emirates NBD - Brand Sonic Film",
   "categories": [
     "content/categories/brands.json",
-    "content/categories/vfx.json"
+    "content/categories/lifestyle.json"
   ],
-  "frames": [],
+  "frames": [
+    "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-08.jpg",
+    "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-01.jpg",
+    "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-02.jpg"
+  ],
+  "videos": [
+    {
+      "url": "https://vimeo.com/1100839250?fl=pl&fe=sh"
+    }
+  ],
   "client": "Emirates NBD",
-  "agency": "",
   "production_house": "Liwa Content Driven",
   "director": "Nizar Sfair",
   "dop": "Aeyaz",
@@ -14,9 +22,19 @@
   "producer": "Aditi Heda, Jessica Pereira",
   "editor": "Nikolay Ivanov",
   "colourist": "Diego La Rosa",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/1100839250"
+  "stills": [
+    "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-01.jpg",
+    "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-02.jpg",
+    "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-03.jpg",
+    "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-04.jpg",
+    "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-05.jpg",
+    "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-10.jpg",
+    "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-09.jpg",
+    "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-08.jpg",
+    "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-07.jpg",
+    "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-06.jpg",
+    "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-11.jpg",
+    "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-12.jpg",
+    "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-13.jpg"
   ]
 }
