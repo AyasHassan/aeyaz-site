@@ -97,6 +97,7 @@ const name = settings.name || 'AEYAZ';
 const SITE_URL = String(settings.site_url || 'https://aeyaz.com').replace(/\/+$/, '');
 const PERSON = titleCase(name);
 const SEO_TAG = settings.seo_title || 'Director of Photography & Cinematographer in Dubai, UAE';
+const THUMBS = settings.thumbnail_style === 'one' ? 'one' : 'three';
 const pagesForSitemap = [];
 
 const categories = readDir(path.join(C, 'categories')).map((f) => {
@@ -236,12 +237,13 @@ const STILL_SIZES = '(max-width: 900px) 50vw, 38vw';
 
 async function row(p) {
   const cells = [];
-  for (let i = 0; i < 3; i++) {
+  const n = THUMBS === 'one' ? 1 : 3;
+  for (let i = 0; i < n; i++) {
     const r = p.frames[i] ? await responsive(p.frames[i], 640, 1280) : null;
     cells.push(`<div class="frame">${imgTag(r, i === 0 ? p.title : '', FRAME_SIZES)}</div>`);
   }
   return `<a class="proj" href="/work/${p.slug}/" data-cats="${p.cats.map((c) => c.id).join(' ')}">
-<div class="frames">${cells.join('')}</div>
+<div class="frames${THUMBS === 'one' ? ' one' : ''}">${cells.join('')}</div>
 <div class="pname">${esc(p.title)}</div>
 </a>`;
 }
@@ -309,7 +311,7 @@ ${usedCats.length ? `<div class="filters" role="group" aria-label="Filter projec
 <button type="button" data-filter="all" aria-pressed="true">All</button>
 ${usedCats.map((c) => `<button type="button" data-filter="${c.id}" aria-pressed="false">${esc(c.name)}</button>`).join('\n')}
 </div>` : '<div class="filters-space"></div>'}
-<div class="rows" id="rows">
+<div class="rows${THUMBS === 'one' ? ' rows-one' : ''}" id="rows">
 ${workRows.join('\n')}
 </div>`,
   }));
@@ -320,7 +322,7 @@ ${workRows.join('\n')}
   write('archive/index.html', page({
     title: 'Archive', active: 'archive', path: '/archive/',
     body: `<h1 class="title title-gap">Archive</h1>
-<div class="rows">
+<div class="rows${THUMBS === 'one' ? ' rows-one' : ''}">
 ${archRows.join('\n')}
 </div>`,
   }));
