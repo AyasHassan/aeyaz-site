@@ -61,13 +61,13 @@
       "project": "content/projects/canon-eos-r5-live-for-the-story.json"
     },
     {
+      "project": "content/projects/brands-for-less.json"
+    },
+    {
       "project": "content/projects/saudi-tourism-ramadan.json"
     },
     {
       "project": "content/projects/babyshop.json"
-    },
-    {
-      "project": "content/projects/brands-for-less.json"
     }
   ],
   "archive": [
