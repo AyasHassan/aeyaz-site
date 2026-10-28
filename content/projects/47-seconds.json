@@ -3,19 +3,19 @@
   "categories": [
     "content/categories/narrative.json"
   ],
-  "frames": [],
-  "client": "",
+  "frames": [
+    "/images/47 Seconds/47seconds_Long Version_EN_4K.00_00_30_14.Still005.jpg",
+    "/images/47 Seconds/J2205005_Prodigious_47seconds_graded_vfx_revised_noFlicker_v002_v026_220629.00_00_43_06.Still007.jpg",
+    "/images/47 Seconds/47seconds_Long Version_EN_4K.00_00_02_08.Still001.jpg"
+  ],
+  "videos": [
+    {}
+  ],
   "agency": "Publicis Groupe",
   "production_house": "Prodigious Worldwide ME",
   "director": "Tahaab Rais",
   "dop": "Aeyaz",
-  "executive_producer": "",
   "producer": "Bassel Kakish, Sami Saleh",
   "editor": "Neda Ahmed",
-  "colourist": "Karim Mira",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/726072412/a98224afda"
-  ]
+  "colourist": "Karim Mira"
 }
