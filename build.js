@@ -139,7 +139,14 @@ const bySlug = Object.fromEntries(projects.map((p) => [p.slug, p]));
 const placed = new Set();
 const pick = (list) => arr(list).map((r) => bySlug[stem(typeof r === 'object' && r ? r.value || r.path || '' : r)]).filter((p) => p && !placed.has(p.slug) && placed.add(p.slug));
 let work = [], archive = [];
-if (arrange) {
+if (arrange && Array.isArray(arrange.projects)) {
+  // One list: order = drag order, each row says where it shows
+  const refOf = (r) => (r && typeof r === 'object' ? r.project : r);
+  const showOf = (r) => String((r && r.show) || 'work').toLowerCase();
+  work = pick(arrange.projects.filter((r) => showOf(r) === 'work').map(refOf));
+  archive = pick(arrange.projects.filter((r) => showOf(r) === 'archive').map(refOf));
+  pick(arrange.projects.filter((r) => showOf(r) === 'hidden').map(refOf));
+} else if (arrange) {
   work = pick(arrange.work);
   archive = pick(arrange.archive);
   pick(arrange.hidden);
@@ -250,9 +257,12 @@ const arrowR = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stro
   copyDir(path.join(ROOT, 'files'), path.join(OUT, 'files'));
 
   // Work (home)
-  const usedCats = categories.filter((c) => work.some((p) => p.cats.some((pc) => pc.id === c.id)));
+  // Category buttons cover Work + Archive projects. "All" shows Work only;
+  // a category shows matching Work projects first, then matching Archive ones.
+  const usedCats = categories.filter((c) => work.concat(archive).some((p) => p.cats.some((pc) => pc.id === c.id)));
   const workRows = [];
   for (const p of work) workRows.push(await row(p));
+  for (const p of archive) if (p.cats.length) workRows.push((await row(p)).replace('<a class="proj"', '<a class="proj" data-archive hidden'));
   write('index.html', page({
     active: 'work',
     body: `<h1 class="title">${esc(settings.headline || 'Director of Photography')}</h1>

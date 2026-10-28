@@ -11,7 +11,8 @@
     bar.querySelectorAll('button').forEach(function (b) { b.setAttribute('aria-pressed', b === btn ? 'true' : 'false'); });
     cards.forEach(function (c) {
       var cats = (c.getAttribute('data-cats') || '').split(' ');
-      c.hidden = !(f === 'all' || cats.indexOf(f) !== -1);
+      var isArchive = c.hasAttribute('data-archive');
+      c.hidden = f === 'all' ? isArchive : cats.indexOf(f) === -1;
     });
   });
 })();

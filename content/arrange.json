@@ -1,44 +1,152 @@
 {
-  "work": [
-    "content/projects/abu-dhabi-tourism-ramadan.json",
-    "content/projects/dubai-sports-council.json",
-    "content/projects/home-centre-falling-in-love.json",
-    "content/projects/islamic-art-biennale.json",
-    "content/projects/saudia-airlines-rihla-journey.json",
-    "content/projects/dosy-bikes-fear.json",
-    "content/projects/jeetbuzz-x-sunil-narine-x-andre-russell.json",
-    "content/projects/faces-saudi-national-day-x-saud-abdulhamid.json",
-    "content/projects/baji-x-wasim-akram.json",
-    "content/projects/eand-money-strategy-films.json",
-    "content/projects/emirates-nbd-brand-sonic-film.json",
-    "content/projects/mall-alone-dubai-tourism-tom-felton.json",
-    "content/projects/home-centre-fathers-day.json",
-    "content/projects/the-hidden-room.json",
-    "content/projects/47-seconds.json",
-    "content/projects/the-emirates-a-winter-through-my-eyes.json",
-    "content/projects/fun88-x-dale-steyn.json",
-    "content/projects/pizza-hut.json",
-    "content/projects/varanasi-beyond-life.json",
-    "content/projects/canon-eos-r5-live-for-the-story.json",
-    "content/projects/saudi-tourism-ramadan.json"
-  ],
-  "archive": [
-    "content/projects/samsung-smart-things.json",
-    "content/projects/jsw-cement.json",
-    "content/projects/nespresso-time-to-savour.json",
-    "content/projects/samsung-make-more-happen.json",
-    "content/projects/stc-hajj.json",
-    "content/projects/mbr-district-one-diwali.json",
-    "content/projects/stc-pay-card.json",
-    "content/projects/district-one-diwali.json",
-    "content/projects/etisalat-together-matters.json",
-    "content/projects/noon-this-is-us.json",
-    "content/projects/stc-we-are-ready.json",
-    "content/projects/wakala-insurance.json",
-    "content/projects/babyshop.json",
-    "content/projects/brands-for-less.json",
-    "content/projects/emirates-islamic.json",
-    "content/projects/zain-telecom.json"
-  ],
-  "hidden": []
+  "projects": [
+    {
+      "project": "content/projects/abu-dhabi-tourism-ramadan.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/dubai-sports-council.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/home-centre-falling-in-love.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/islamic-art-biennale.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/saudia-airlines-rihla-journey.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/dosy-bikes-fear.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/jeetbuzz-x-sunil-narine-x-andre-russell.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/faces-saudi-national-day-x-saud-abdulhamid.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/baji-x-wasim-akram.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/eand-money-strategy-films.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/emirates-nbd-brand-sonic-film.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/mall-alone-dubai-tourism-tom-felton.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/home-centre-fathers-day.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/the-hidden-room.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/47-seconds.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/the-emirates-a-winter-through-my-eyes.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/fun88-x-dale-steyn.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/pizza-hut.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/varanasi-beyond-life.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/canon-eos-r5-live-for-the-story.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/saudi-tourism-ramadan.json",
+      "show": "work"
+    },
+    {
+      "project": "content/projects/samsung-smart-things.json",
+      "show": "archive"
+    },
+    {
+      "project": "content/projects/jsw-cement.json",
+      "show": "archive"
+    },
+    {
+      "project": "content/projects/nespresso-time-to-savour.json",
+      "show": "archive"
+    },
+    {
+      "project": "content/projects/samsung-make-more-happen.json",
+      "show": "archive"
+    },
+    {
+      "project": "content/projects/stc-hajj.json",
+      "show": "archive"
+    },
+    {
+      "project": "content/projects/mbr-district-one-diwali.json",
+      "show": "archive"
+    },
+    {
+      "project": "content/projects/stc-pay-card.json",
+      "show": "archive"
+    },
+    {
+      "project": "content/projects/district-one-diwali.json",
+      "show": "archive"
+    },
+    {
+      "project": "content/projects/etisalat-together-matters.json",
+      "show": "archive"
+    },
+    {
+      "project": "content/projects/noon-this-is-us.json",
+      "show": "archive"
+    },
+    {
+      "project": "content/projects/stc-we-are-ready.json",
+      "show": "archive"
+    },
+    {
+      "project": "content/projects/wakala-insurance.json",
+      "show": "archive"
+    },
+    {
+      "project": "content/projects/babyshop.json",
+      "show": "archive"
+    },
+    {
+      "project": "content/projects/brands-for-less.json",
+      "show": "archive"
+    },
+    {
+      "project": "content/projects/emirates-islamic.json",
+      "show": "archive"
+    },
+    {
+      "project": "content/projects/zain-telecom.json",
+      "show": "archive"
+    }
+  ]
 }
