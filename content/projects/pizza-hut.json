@@ -11,7 +11,9 @@
     "/images/Pizza Hut/pizza-hut-06.jpg"
   ],
   "videos": [
-    {}
+    {
+      "url": "https://vimeo.com/875093611?fl=pl&fe=sh"
+    }
   ],
   "client": "Pizza Hut",
   "production_house": "Liwa Content Driven",
