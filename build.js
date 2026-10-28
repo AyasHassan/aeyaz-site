@@ -132,7 +132,12 @@ const projects = readDir(path.join(C, 'projects')).map((f) => {
     legacyOrder: Number.isFinite(Number(d.order)) ? Number(d.order) : 9999,
     cats: arr(d.categories).map(resolveCat).filter(Boolean),
     frames: frames.slice(0, 3),
-    videos: arr(d.videos).concat(arr(d.video)).map((v) => (typeof v === 'object' && v ? v.url || v.link || '' : String(v || '')).trim()).filter(Boolean).filter((v, i, a) => a.indexOf(v) === i),
+    videos: arr(d.videos).concat(arr(d.video))
+      .map((v) => (typeof v === 'object' && v
+        ? { url: String(v.url || v.link || '').trim(), title: String(v.title || '').trim() }
+        : { url: String(v || '').trim(), title: '' }))
+      .filter((v) => v.url)
+      .filter((v, i, a) => a.findIndex((x) => x.url === v.url) === i),
     credits,
     stills: arr(d.stills).map(imgPath).filter(Boolean),
   };
@@ -335,7 +340,7 @@ ${archRows.join('\n')}
         body: `<div class="project">
 <a class="back" href="${backHref}">${arrowL}${backLabel}</a>
 <h1 class="ptitle">${esc(p.title)}</h1>
-${p.videos.length ? `<div class="players">${p.videos.map((v, i) => player(v, p.title + (p.videos.length > 1 ? ' — film ' + (i + 1) : ''))).join('\n')}</div>` : player('', p.title)}
+${p.videos.length ? `<div class="players">${p.videos.map((v, i) => `${player(v.url, v.title || p.title + (p.videos.length > 1 ? ' — film ' + (i + 1) : ''))}${v.title ? `<p class="film-label">${esc(v.title)}</p>` : ''}`).join('\n')}</div>` : player('', p.title)}
 ${creditsBlock(p.credits)}
 ${await stillsBlock(p.stills, p.title)}
 <div class="pnav">
