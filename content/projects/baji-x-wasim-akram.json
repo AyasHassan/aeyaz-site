@@ -4,9 +4,17 @@
     "content/categories/celebrities.json",
     "content/categories/sports.json"
   ],
-  "frames": [],
+  "frames": [
+    "/images/Baji x Wasim Akram/baji-wasim-23.jpg",
+    "/images/Baji x Wasim Akram/baji-wasim-06.jpg",
+    "/images/Baji x Wasim Akram/baji-wasim-22.jpg"
+  ],
+  "videos": [
+    {},
+    {},
+    {}
+  ],
   "client": "Baji",
-  "agency": "",
   "production_house": "Hanzo Films",
   "director": "Anoj Nair",
   "dop": "Aeyaz",
@@ -14,11 +22,22 @@
   "producer": "Chippy Babu",
   "editor": "Edwin Thachil",
   "colourist": "Dusan",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/1003157955/ae175feb67",
-    "https://vimeo.com/1023505661/ae175feb67",
-    "https://vimeo.com/1054743142/ae175feb67"
+  "stills": [
+    "/images/Baji x Wasim Akram/baji-wasim-01.jpg",
+    "/images/Baji x Wasim Akram/baji-wasim-03.jpg",
+    "/images/Baji x Wasim Akram/baji-wasim-04.jpg",
+    "/images/Baji x Wasim Akram/baji-wasim-05.jpg",
+    "/images/Baji x Wasim Akram/baji-wasim-07.jpg",
+    "/images/Baji x Wasim Akram/baji-wasim-10.jpg",
+    "/images/Baji x Wasim Akram/baji-wasim-13.jpg",
+    "/images/Baji x Wasim Akram/baji-wasim-16.jpg",
+    "/images/Baji x Wasim Akram/baji-wasim-17.jpg",
+    "/images/Baji x Wasim Akram/baji-wasim-19.jpg",
+    "/images/Baji x Wasim Akram/baji-wasim-21.jpg",
+    "/images/Baji x Wasim Akram/baji-wasim-22.jpg",
+    "/images/Baji x Wasim Akram/baji-wasim-24.jpg",
+    "/images/Baji x Wasim Akram/baji-wasim-26.jpg",
+    "/images/Baji x Wasim Akram/baji-wasim-29.jpg",
+    "/images/Baji x Wasim Akram/baji-wasim-30.jpg"
   ]
 }
