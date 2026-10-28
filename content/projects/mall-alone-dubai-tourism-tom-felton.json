@@ -1,10 +1,19 @@
 {
-  "title": "Mall Alone — Dubai Tourism (Tom Felton)",
+  "title": "Mall Alone - Dubai Tourism (Tom Felton)",
   "categories": [
     "content/categories/tourism.json",
     "content/categories/celebrities.json"
   ],
-  "frames": [],
+  "frames": [
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-03.jpg",
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-01.jpg",
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-04.jpg"
+  ],
+  "videos": [
+    {
+      "url": "https://vimeo.com/756316278?fl=pl&fe=sh"
+    }
+  ],
   "client": "Dubai Tourism (DTCM)",
   "agency": "Impact BBDO",
   "production_house": "Goldmine Films",
@@ -13,10 +22,22 @@
   "executive_producer": "Madhup Agarwal",
   "producer": "Shaharbano Zaidi",
   "editor": "Miraj Muhammed",
-  "colourist": "",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/756316278/a74ad8da1f"
+  "stills": [
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-01.jpg",
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-02.jpg",
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-03.jpg",
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-04.jpg",
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-05.jpg",
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-10.jpg",
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-09.jpg",
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-08.jpg",
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-07.jpg",
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-06.jpg",
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-13.jpg",
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-14.jpg",
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-15.jpg",
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-16.jpg",
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-17.jpg",
+    "/images/Dubai Tourism - Dubai Mall/dubai-tourism-mall-18.jpg"
   ]
 }
