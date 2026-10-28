@@ -94,6 +94,10 @@ const about = readJSON(path.join(C, 'about.json'));
 const film = readJSON(path.join(C, 'feature-film.json'));
 const arrange = readJSON(path.join(C, 'arrange.json'), null);
 const name = settings.name || 'AEYAZ';
+const SITE_URL = String(settings.site_url || 'https://aeyaz.com').replace(/\/+$/, '');
+const PERSON = titleCase(name);
+const SEO_TAG = settings.seo_title || 'Director of Photography & Cinematographer in Dubai, UAE';
+const pagesForSitemap = [];
 
 const categories = readDir(path.join(C, 'categories')).map((f) => {
   const d = readJSON(path.join(C, 'categories', f));
@@ -161,8 +165,11 @@ for (const p of rest) {
 // ---------- layout ----------
 const NAV = [['work', 'Work', '/'], ['archive', 'Archive', '/archive/'], ['feature', 'Feature', '/feature-film/'], ['about', 'About', '/about/'], ['contact', 'Contact', '/contact/']];
 
-function page({ title, active, body, description }) {
-  const fullTitle = title ? `${title} — ${titleCase(name)}` : `${titleCase(name)} — ${settings.headline || 'Director of Photography'}`;
+function page({ title, active, body, description, path: urlPath = '/', image = '', jsonld = null }) {
+  const fullTitle = title ? `${title} | ${PERSON} — Director of Photography, Dubai` : `${PERSON} | ${SEO_TAG}`;
+  pagesForSitemap.push(urlPath);
+  const canonical = SITE_URL + urlPath;
+  const ogImage = image ? (image.startsWith('http') ? image : SITE_URL + image) : '';
   const desc = description || settings.seo_description || '';
   const nav = NAV.map(([k, label, href]) => `<a href="${href}"${k === active ? ' aria-current="page"' : ''}>${label}</a>`).join('\n');
   const footLinks = [
@@ -177,8 +184,14 @@ function page({ title, active, body, description }) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${esc(desc)}">
+<link rel="canonical" href="${esc(canonical)}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="${esc(PERSON)}">
+<meta property="og:url" content="${esc(canonical)}">
 <meta property="og:title" content="${esc(fullTitle)}">
 <meta property="og:description" content="${esc(desc)}">
+${ogImage ? `<meta property="og:image" content="${esc(ogImage)}">\n<meta name="twitter:card" content="summary_large_image">` : '<meta name="twitter:card" content="summary">'}
+${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld).replace(/</g, '\\u003c')}</script>` : ''}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -196,7 +209,7 @@ ${nav}
 ${body}
 </main>
 <footer class="footer">
-<span>© ${new Date().getFullYear()} ${esc(titleCase(name))}</span>
+<span>© ${new Date().getFullYear()} ${esc(PERSON)} — Director of Photography &amp; Cinematographer · ${esc(settings.location || 'Based in Dubai, available worldwide.')}</span>
 <div class="foot-links">
 ${footLinks}
 </div>
@@ -255,6 +268,19 @@ async function stillsBlock(stills, alt) {
 const arrowL = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>';
 const arrowR = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
 
+const personSchema = () => ({
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: PERSON,
+  jobTitle: 'Director of Photography',
+  description: settings.seo_description || '',
+  url: SITE_URL + '/',
+  email: settings.email ? 'mailto:' + settings.email : undefined,
+  address: { '@type': 'PostalAddress', addressLocality: 'Dubai', addressCountry: 'AE' },
+  knowsAbout: ['Cinematography', 'TV commercials', 'Feature films', 'Branded content'],
+  sameAs: [settings.instagram, settings.vimeo].filter(Boolean),
+});
+
 // ---------- build ----------
 (async () => {
   fs.rmSync(OUT, { recursive: true, force: true });
@@ -269,8 +295,10 @@ const arrowR = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stro
   const workRows = [];
   for (const p of work) workRows.push(await row(p));
   for (const p of archive) if (p.cats.length) workRows.push((await row(p)).replace('<a class="proj"', '<a class="proj" data-archive hidden'));
+  const firstImg = work.find((p) => p.frames.length);
   write('index.html', page({
-    active: 'work',
+    active: 'work', path: '/', jsonld: personSchema(),
+    image: firstImg ? await variant(firstImg.frames[0], 1280) : '',
     body: `<h1 class="title">${headlineHtml(settings.headline || 'Director of Photography')}</h1>
 ${usedCats.length ? `<div class="filters" role="group" aria-label="Filter projects by category">
 <button type="button" data-filter="all" aria-pressed="true">All</button>
@@ -285,7 +313,7 @@ ${workRows.join('\n')}
   const archRows = [];
   for (const p of archive) archRows.push(await row(p));
   write('archive/index.html', page({
-    title: 'Archive', active: 'archive',
+    title: 'Archive', active: 'archive', path: '/archive/',
     body: `<h1 class="title title-gap">Archive</h1>
 <div class="rows">
 ${archRows.join('\n')}
@@ -301,8 +329,9 @@ ${archRows.join('\n')}
       const backHref = isArchive ? '/archive/' : '/';
       const backLabel = isArchive ? 'Back to Archive' : 'Back to Work';
       write(`work/${p.slug}/index.html`, page({
-        title: p.title, active: isArchive ? 'archive' : 'work',
-        description: `${p.title} — cinematography by ${titleCase(name)}.`,
+        title: p.title, active: isArchive ? 'archive' : 'work', path: `/work/${p.slug}/`,
+        image: p.frames[0] ? await variant(p.frames[0], 1280) : '',
+        description: `${p.title}${p.credits.find((c) => c.role === 'Client') ? ' for ' + p.credits.find((c) => c.role === 'Client').name : ''} — shot by ${PERSON}, Dubai-based Director of Photography.${p.credits.filter((c) => c.role !== 'Director of Photography').slice(0, 3).map((c) => ' ' + c.role + ': ' + c.name + '.').join('')}`,
         body: `<div class="project">
 <a class="back" href="${backHref}">${arrowL}${backLabel}</a>
 <h1 class="ptitle">${esc(p.title)}</h1>
@@ -321,7 +350,8 @@ ${isArchive !== null && list.length > 1 ? `<a class="next" href="/work/${next.sl
   // Feature film
   const filmStills = await stillsBlock(arr(film.stills).map(imgPath).filter(Boolean), film.title || 'Feature film');
   write('feature-film/index.html', page({
-    title: film.title || 'Feature Film', active: 'feature',
+    title: film.title || 'Feature Film', active: 'feature', path: '/feature-film/',
+    description: `${film.title || 'Feature film'} — ${(arr(film.details)).join(', ')}. ${film.role || ''}`.trim(),
     body: `<div class="film">
 <div class="film-head">
 <h1 class="title">${esc(film.title || 'Feature Film')}</h1>
@@ -341,7 +371,9 @@ ${creditsBlock(arr(film.credits).filter((c) => c && (c.name || '').trim()))}
   const paras = String(about.body || '').split(/\n\s*\n/).map((t) => t.trim()).filter(Boolean);
   const portrait = about.portrait ? await responsive(imgPath(about.portrait), 800, 1400) : null;
   write('about/index.html', page({
-    title: 'About', active: 'about',
+    title: 'About', active: 'about', path: '/about/', jsonld: personSchema(),
+    description: about.intro || settings.seo_description,
+    image: portrait ? portrait.src : '',
     body: `<h1 class="title title-gap">About</h1>
 <div class="about">
 <div class="portrait">${imgTag(portrait, name, '(max-width: 900px) 100vw, 30vw')}</div>
@@ -361,7 +393,8 @@ ${settings.website ? `<div><span class="label">Website</span><a href="https://${
   // Contact
   const igHandle = settings.instagram ? '@' + settings.instagram.replace(/\/+$/, '').split('/').pop() : '';
   write('contact/index.html', page({
-    title: 'Contact', active: 'contact',
+    title: 'Contact', active: 'contact', path: '/contact/',
+    description: `Contact ${PERSON}, Dubai-based Director of Photography — ${settings.email || ''}`,
     body: `<h1 class="title title-gap">Contact</h1>
 <div class="contact">
 <div class="contact-form-wrap">
@@ -389,6 +422,25 @@ ${settings.location ? `<p class="muted">${esc(settings.location)}</p>` : ''}
 </aside>
 </div>`,
   }));
+
+  // Search engines: sitemap + robots
+  const today = new Date().toISOString().slice(0, 10);
+  const urls = [...new Set(pagesForSitemap)].filter((u) => !hidden.some((h) => u === `/work/${h.slug}/`));
+  write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>${SITE_URL}${u}</loc><lastmod>${today}</lastmod></url>`).join('\n')}\n</urlset>\n`);
+  write('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`);
+
+  // Keep old Adobe Portfolio links working (and their Google ranking): 301 redirects
+  const OLD_LINKS = {
+    '/featured': '/',
+    '/saudia-arlines-rihla-journey': 'saudia-airlines-rihla-journey', '/jeetbuzz-x-sunil-narine-x-andre-russel': 'jeetbuzz-x-sunil-narine-x-andre-russell',
+    '/e-money-stratgey-films': 'eand-money-strategy-films', '/mall-alone-dubai-tourism': 'mall-alone-dubai-tourism-tom-felton',
+    '/homecentre-creature': 'home-centre-fathers-day', '/jsw-cements': 'jsw-cement', '/noon': 'noon-this-is-us',
+  };
+  const redirects = [];
+  for (const [from, to] of Object.entries(OLD_LINKS)) redirects.push(`${from} ${to.startsWith('/') ? to : `/work/${to}/`} 301`);
+  for (const p of projects) if (!OLD_LINKS['/' + p.slug]) redirects.push(`/${p.slug} /work/${p.slug}/ 301`);
+  for (const r of arr(settings.redirects)) if (r && r.from && r.to) redirects.push(`${r.from} ${r.to} 301`);
+  fs.writeFileSync(path.join(OUT, '_redirects'), redirects.join('\n') + '\n');
 
   write('404.html', page({ title: 'Page not found', active: '', body: `<h1 class="title title-gap">Not found</h1><p class="muted">This page doesn’t exist. <a class="u" href="/">Back to Work</a></p>` }));
 
