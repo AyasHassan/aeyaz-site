@@ -1,10 +1,14 @@
 {
-  "title": "Home Centre — Falling in Love",
+  "title": "Home Centre - Falling in Love",
   "categories": [
     "content/categories/brands.json",
     "content/categories/lifestyle.json"
   ],
-  "frames": [],
+  "frames": [
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-17.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-73.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-54.jpg"
+  ],
   "client": "Home Centre",
   "agency": "Leo Burnett",
   "production_house": "Prodigious",
@@ -14,9 +18,31 @@
   "producer": "Marie Noel Bou Haila",
   "editor": "Neda Zag",
   "colourist": "Karim Mira",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/784938083/ae175feb67"
+  "stills": [
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-17.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-22.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-23.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-27.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-29.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-31.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-33.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-35.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-38.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-44.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-43.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-47.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-48.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-50.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-51.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-52.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-53.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-55.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-56.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-62.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-58.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-68.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-69.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-78.jpg",
+    "/images/Home Centre - Falling in Love/hc-falling-in-love-80.jpg"
   ]
 }
