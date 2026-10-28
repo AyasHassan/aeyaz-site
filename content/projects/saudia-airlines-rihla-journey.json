@@ -1,29 +1,20 @@
 {
   "title": "Saudia Airlines — Rihla (Journey)",
-  "status": "work",
-  "order": 5,
   "categories": [
-    "content/categories/travel.json",
-    "content/categories/music-video.json"
+    "content/categories/tourism.json",
+    "content/categories/brands.json"
   ],
-  "thumbnail": "/images/saudia1115.jpg",
-  "video": "https://vimeo.com/932017395?fl=pl&fe=sh",
-  "credits": [
-    {
-      "role": "Client"
-    },
-    {
-      "role": "Agency"
-    },
-    {
-      "role": "Production House"
-    },
-    {
-      "role": "Director"
-    },
-    {
-      "role": "Director of Photography",
-      "name": "Aeyaz"
-    }
-  ]
+  "frames": [],
+  "video": "",
+  "client": "",
+  "agency": "",
+  "production_house": "",
+  "director": "",
+  "dop": "Aeyaz",
+  "executive_producer": "",
+  "producer": "",
+  "editor": "",
+  "colourist": "",
+  "more_credits": [],
+  "stills": []
 }

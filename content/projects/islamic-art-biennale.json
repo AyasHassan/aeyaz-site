@@ -1,36 +1,19 @@
 {
   "title": "Islamic Art Biennale",
-  "status": "work",
-  "order": 4,
   "categories": [
-    "content/categories/travel.json",
-    "content/categories/music-video.json"
+    "content/categories/tourism.json"
   ],
-  "thumbnail": "/images/biennale1115.jpg",
-  "video": "https://vimeo.com/813577516?fl=pl&fe=sh",
-  "credits": [
-    {
-      "role": "Client",
-      "name": "Saudi tourism"
-    },
-    {
-      "role": "Agency"
-    },
-    {
-      "role": "Production House",
-      "name": "Purple Brain"
-    },
-    {
-      "role": "Director",
-      "name": "Ellie Fahad"
-    },
-    {
-      "role": "Director of Photography",
-      "name": "Aeyaz"
-    }
-  ],
-  "stills": [
-    "/images/biennale113.jpg",
-    "/images/biennale1114.jpg"
-  ]
+  "frames": [],
+  "video": "",
+  "client": "",
+  "agency": "",
+  "production_house": "",
+  "director": "",
+  "dop": "Aeyaz",
+  "executive_producer": "",
+  "producer": "",
+  "editor": "",
+  "colourist": "",
+  "more_credits": [],
+  "stills": []
 }

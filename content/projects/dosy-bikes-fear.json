@@ -1,36 +1,20 @@
 {
   "title": "DOSY Bikes — FEAR",
-  "status": "work",
-  "order": 6,
   "categories": [
-    "content/categories/narrative.json"
+    "content/categories/vfx.json",
+    "content/categories/brands.json"
   ],
-  "thumbnail": "/images/dosy1126.jpg",
-  "video": "https://vimeo.com/910955992",
-  "credits": [
-    {
-      "role": "Client",
-      "name": "Dosy Bikes"
-    },
-    {
-      "role": "Agency",
-      "name": "Leo Burnett"
-    },
-    {
-      "role": "Production House",
-      "name": "Good People, Egypt"
-    },
-    {
-      "role": "Director",
-      "name": "Tahab Rais"
-    },
-    {
-      "role": "Director of Photography",
-      "name": "Aeyaz"
-    }
-  ],
-  "stills": [
-    "/images/dosy114.jpg",
-    "/images/dosy1125.jpg"
-  ]
+  "frames": [],
+  "video": "",
+  "client": "",
+  "agency": "",
+  "production_house": "",
+  "director": "",
+  "dop": "Aeyaz",
+  "executive_producer": "",
+  "producer": "",
+  "editor": "",
+  "colourist": "",
+  "more_credits": [],
+  "stills": []
 }

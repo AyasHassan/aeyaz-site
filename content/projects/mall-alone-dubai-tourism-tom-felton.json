@@ -1,33 +1,20 @@
 {
   "title": "Mall Alone — Dubai Tourism (Tom Felton)",
-  "status": "work",
-  "order": 12,
   "categories": [
-    "content/categories/travel.json"
+    "content/categories/tourism.json",
+    "content/categories/celebrities.json"
   ],
-  "thumbnail": "",
+  "frames": [],
   "video": "",
-  "credits": [
-    {
-      "role": "Client",
-      "name": ""
-    },
-    {
-      "role": "Agency",
-      "name": ""
-    },
-    {
-      "role": "Production House",
-      "name": ""
-    },
-    {
-      "role": "Director",
-      "name": ""
-    },
-    {
-      "role": "Director of Photography",
-      "name": "Aeyaz"
-    }
-  ],
+  "client": "",
+  "agency": "",
+  "production_house": "",
+  "director": "",
+  "dop": "Aeyaz",
+  "executive_producer": "",
+  "producer": "",
+  "editor": "",
+  "colourist": "",
+  "more_credits": [],
   "stills": []
 }

@@ -1,7 +1,7 @@
 // Category filters on the Work page
 (function () {
   var bar = document.querySelector('.filters');
-  var grid = document.getElementById('grid');
+  var grid = document.getElementById('rows');
   if (!bar || !grid) return;
   var cards = grid.querySelectorAll('.proj');
   bar.addEventListener('click', function (e) {

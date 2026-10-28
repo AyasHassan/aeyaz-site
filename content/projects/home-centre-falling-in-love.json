@@ -1,35 +1,20 @@
 {
   "title": "Home Centre — Falling in Love",
-  "status": "work",
-  "order": 3,
   "categories": [
-    "content/categories/brand.json"
+    "content/categories/brands.json",
+    "content/categories/lifestyle.json"
   ],
-  "video": "https://vimeo.com/784938083",
-  "credits": [
-    {
-      "role": "Client",
-      "name": "Home Centre"
-    },
-    {
-      "role": "Agency",
-      "name": "Leo Burnett Dubai"
-    },
-    {
-      "role": "Production House",
-      "name": "Prodigious"
-    },
-    {
-      "role": "Director",
-      "name": "Tahaab Rais"
-    },
-    {
-      "role": "Director of Photography",
-      "name": "Aeyaz"
-    }
-  ],
-  "stills": [
-    "/images/home-centre1391.jpg",
-    "/images/home-centre1431.jpg"
-  ]
+  "frames": [],
+  "video": "",
+  "client": "",
+  "agency": "",
+  "production_house": "",
+  "director": "",
+  "dop": "Aeyaz",
+  "executive_producer": "",
+  "producer": "",
+  "editor": "",
+  "colourist": "",
+  "more_credits": [],
+  "stills": []
 }

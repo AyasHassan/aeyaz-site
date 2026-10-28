@@ -1,34 +1,20 @@
 {
   "title": "e& Money — Strategy Films",
-  "status": "work",
-  "order": 10,
   "categories": [
-    "content/categories/brand.json",
+    "content/categories/brands.json",
     "content/categories/vfx.json"
   ],
-  "thumbnail": "",
+  "frames": [],
   "video": "",
-  "credits": [
-    {
-      "role": "Client",
-      "name": ""
-    },
-    {
-      "role": "Agency",
-      "name": ""
-    },
-    {
-      "role": "Production House",
-      "name": ""
-    },
-    {
-      "role": "Director",
-      "name": ""
-    },
-    {
-      "role": "Director of Photography",
-      "name": "Aeyaz"
-    }
-  ],
+  "client": "",
+  "agency": "",
+  "production_house": "",
+  "director": "",
+  "dop": "Aeyaz",
+  "executive_producer": "",
+  "producer": "",
+  "editor": "",
+  "colourist": "",
+  "more_credits": [],
   "stills": []
 }

@@ -1,38 +1,19 @@
 {
   "title": "Dubai Sports Council",
-  "status": "work",
-  "order": 2,
   "categories": [
     "content/categories/sports.json"
   ],
-  "thumbnail": "/images/still-2025-12-03-084749114.jpg",
-  "video": "https://vimeo.com/1142522236",
-  "credits": [
-    {
-      "role": "Client",
-      "name": "Dubai Sports Council"
-    },
-    {
-      "role": "Agency"
-    },
-    {
-      "role": "Production House",
-      "name": "Company Films"
-    },
-    {
-      "role": "Director",
-      "name": "Kiran Pullanoor"
-    },
-    {
-      "role": "Director of Photography",
-      "name": "Aeyaz"
-    }
-  ],
-  "stills": [
-    "/images/still-2025-12-03-0847491119.jpg",
-    "/images/still-2025-12-03-084749117.jpg",
-    "/images/still-2025-12-03-084749119.jpg",
-    "/images/still-2025-12-03-0847491118.jpg",
-    "/images/still-2025-12-03-084749118.jpg"
-  ]
+  "frames": [],
+  "video": "",
+  "client": "",
+  "agency": "",
+  "production_house": "",
+  "director": "",
+  "dop": "Aeyaz",
+  "executive_producer": "",
+  "producer": "",
+  "editor": "",
+  "colourist": "",
+  "more_credits": [],
+  "stills": []
 }
