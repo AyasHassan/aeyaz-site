@@ -70,9 +70,16 @@ content:
           extensions: [jpg, jpeg, png, webp]
           rename: true
       - name: videos
-        label: Vimeo links (first one shows at the top; add more for extra films)
-        type: string
+        label: Films (first one shows at the top; add more for extra films)
+        type: object
         list: true
+        fields:
+          - name: title
+            label: Film name (shown under the film, e.g. "30 sec — Bumper")
+            type: string
+          - name: url
+            label: Vimeo link
+            type: string
       - name: client
         label: Client
         type: string
