@@ -216,6 +216,16 @@ content:
       - name: headline
         label: Home page title
         type: string
+      - name: thumbnail_style
+        label: Work page thumbnails
+        type: select
+        default: three
+        options:
+          values:
+            - name: three
+              label: Three images per project
+            - name: one
+              label: One image per project (three projects side by side)
       - name: email
         label: Email
         type: string
