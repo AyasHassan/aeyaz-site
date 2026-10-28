@@ -62,15 +62,15 @@
     },
     {
       "project": "content/projects/saudi-tourism-ramadan.json"
-    }
-  ],
-  "archive": [
+    },
     {
       "project": "content/projects/babyshop.json"
     },
     {
       "project": "content/projects/brands-for-less.json"
-    },
+    }
+  ],
+  "archive": [
     {
       "project": "content/projects/emirates-islamic.json"
     },
@@ -116,6 +116,5 @@
     {
       "project": "content/projects/wakala-insurance.json"
     }
-  ],
-  "hidden": []
+  ]
 }
