@@ -10,9 +10,9 @@
     "/images/Babyshop/babyshop-02.jpg"
   ],
   "videos": [
-    "https://vimeo.com/1054722308/ae175feb67",
-    "https://vimeo.com/1054723292/ae175feb67",
-    "https://vimeo.com/1054722839/ae175feb67"
+    {},
+    {},
+    {}
   ],
   "client": "Babyshop",
   "agency": "Leo Burnett",
@@ -20,6 +20,7 @@
   "director": "Trever McMahan",
   "dop": "Aeyaz",
   "executive_producer": "Sandip",
+  "producer": "Angee Ibrahim",
   "editor": "Neda Ahmed",
   "stills": [
     "/images/Babyshop/babyshop-01.jpg",
