@@ -3,17 +3,36 @@
   "categories": [
     "content/categories/sports.json"
   ],
-  "frames": [],
-  "video": "",
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "frames": [
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.11.jpg",
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.4.jpg",
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.7.jpg"
+  ],
+  "video": "https://vimeo.com/1142522236",
+  "client": "Dubai Sports Council",
+  "production_house": "The Company Films",
+  "director": "Kiran Pullanoor",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
-  "editor": "",
-  "colourist": "",
-  "more_credits": [],
-  "stills": []
+  "executive_producer": "Rajiv",
+  "producer": "Yousef",
+  "editor": "Lal Krishnan",
+  "colourist": "Vineesh",
+  "stills": [
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.1.jpg",
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.10.jpg",
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.11.jpg",
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.12.jpg",
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.14.jpg",
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.15.jpg",
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.16.jpg",
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.17.jpg",
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.18.jpg",
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.19.jpg",
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.20.jpg",
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.21.jpg",
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.4.jpg",
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.6.jpg",
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.7.jpg",
+    "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.9.jpg"
+  ]
 }
