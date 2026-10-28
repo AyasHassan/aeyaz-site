@@ -4,9 +4,17 @@
     "content/categories/celebrities.json",
     "content/categories/sports.json"
   ],
-  "frames": [],
+  "frames": [
+    "/images/FUN88 x Dale Steyn/fun88-steyn-05.jpg",
+    "/images/FUN88 x Dale Steyn/fun88-steyn-08.jpg",
+    "/images/FUN88 x Dale Steyn/fun88-steyn-04.jpg"
+  ],
+  "videos": [
+    {
+      "url": "https://vimeo.com/1017503455?fl=pl&fe=sh"
+    }
+  ],
   "client": "FUN88",
-  "agency": "",
   "production_house": "The Storm Production",
   "director": "Shane Stephen",
   "dop": "Aeyaz",
@@ -14,9 +22,18 @@
   "producer": "Ajmal PM",
   "editor": "Vishal Munge",
   "colourist": "Dan Mitre",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/1017503455"
+  "stills": [
+    "/images/FUN88 x Dale Steyn/fun88-steyn-06.jpg",
+    "/images/FUN88 x Dale Steyn/fun88-steyn-01.jpg",
+    "/images/FUN88 x Dale Steyn/fun88-steyn-02.jpg",
+    "/images/FUN88 x Dale Steyn/fun88-steyn-03.jpg",
+    "/images/FUN88 x Dale Steyn/fun88-steyn-04.jpg",
+    "/images/FUN88 x Dale Steyn/fun88-steyn-05.jpg",
+    "/images/FUN88 x Dale Steyn/fun88-steyn-09.jpg",
+    "/images/FUN88 x Dale Steyn/fun88-steyn-08.jpg",
+    "/images/FUN88 x Dale Steyn/fun88-steyn-07.jpg",
+    "/images/FUN88 x Dale Steyn/fun88-steyn-12.jpg",
+    "/images/FUN88 x Dale Steyn/fun88-steyn-14.jpg",
+    "/images/FUN88 x Dale Steyn/fun88-steyn-11.jpg"
   ]
 }
