@@ -2,21 +2,38 @@
   "title": "Pizza Hut",
   "categories": [
     "content/categories/food.json",
-    "content/categories/brands.json"
+    "content/categories/brands.json",
+    "content/categories/sports.json"
   ],
-  "frames": [],
+  "frames": [
+    "/images/Pizza Hut/pizza-hut-20.jpg",
+    "/images/Pizza Hut/pizza-hut-14.jpg",
+    "/images/Pizza Hut/pizza-hut-06.jpg"
+  ],
+  "videos": [
+    {}
+  ],
   "client": "Pizza Hut",
-  "agency": "",
   "production_house": "Liwa Content Driven",
   "director": "Shane Stephen",
   "dop": "Aeyaz",
   "executive_producer": "Sagar R, Shweta S",
   "producer": "Jessica P",
-  "editor": "",
-  "colourist": "",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/875093611/ae175feb67"
+  "stills": [
+    "/images/Pizza Hut/pizza-hut-01.jpg",
+    "/images/Pizza Hut/pizza-hut-02.jpg",
+    "/images/Pizza Hut/pizza-hut-03.jpg",
+    "/images/Pizza Hut/pizza-hut-04.jpg",
+    "/images/Pizza Hut/pizza-hut-05.jpg",
+    "/images/Pizza Hut/pizza-hut-06.jpg",
+    "/images/Pizza Hut/pizza-hut-08.jpg",
+    "/images/Pizza Hut/pizza-hut-14.jpg",
+    "/images/Pizza Hut/pizza-hut-15.jpg",
+    "/images/Pizza Hut/pizza-hut-16.jpg",
+    "/images/Pizza Hut/pizza-hut-17.jpg",
+    "/images/Pizza Hut/pizza-hut-18.jpg",
+    "/images/Pizza Hut/pizza-hut-19.jpg",
+    "/images/Pizza Hut/pizza-hut-20.jpg",
+    "/images/Pizza Hut/pizza-hut-22.jpg"
   ]
 }
