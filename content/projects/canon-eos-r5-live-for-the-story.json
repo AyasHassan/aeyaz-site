@@ -3,7 +3,14 @@
   "categories": [
     "content/categories/brands.json"
   ],
-  "frames": [],
+  "frames": [
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-04.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-07.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-24.jpg"
+  ],
+  "videos": [
+    {}
+  ],
   "client": "Canon Middle East",
   "agency": "Momentum",
   "production_house": "Dejavu Dubai",
@@ -13,9 +20,25 @@
   "producer": "Sampada Harkara",
   "editor": "Aeyaz",
   "colourist": "Mile Studios",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/499939090"
+  "stills": [
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-02.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-04.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-05.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-09.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-08.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-07.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-10.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-13.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-12.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-14.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-15.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-16.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-24.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-23.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-22.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-29.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-25.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-28.jpg",
+    "/images/Canon EOS R5 - Live for the Story/canon-r5-26.jpg"
   ]
 }
