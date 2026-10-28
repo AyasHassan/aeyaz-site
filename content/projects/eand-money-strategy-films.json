@@ -1,11 +1,26 @@
 {
-  "title": "e& Money — Strategy Films",
+  "title": "Etisalat e& Money - Strategy Films",
   "categories": [
     "content/categories/brands.json",
-    "content/categories/vfx.json"
+    "content/categories/lifestyle.json"
   ],
-  "frames": [],
-  "client": "e& Money",
+  "frames": [
+    "/images/e& Money - Strategy Films/eand-money-02.jpg",
+    "/images/e& Money - Strategy Films/eand-money-25.jpg",
+    "/images/e& Money - Strategy Films/eand-money-17.jpg"
+  ],
+  "videos": [
+    {
+      "url": "https://vimeo.com/910955992?fl=pl&fe=sh"
+    },
+    {
+      "url": "https://vimeo.com/910955992?fl=pl&fe=sh"
+    },
+    {
+      "url": "https://vimeo.com/910955992?fl=pl&fe=sh"
+    }
+  ],
+  "client": "Etisalat e&",
   "agency": "Saatchi & Saatchi, Dubai",
   "production_house": "The Goldmine, Dubai",
   "director": "Omar Abbas",
@@ -14,11 +29,27 @@
   "producer": "Hersh",
   "editor": "Timeline Dudee",
   "colourist": "Mile Studios Dubai",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/1233651932",
-    "https://vimeo.com/1233671065",
-    "https://vimeo.com/1233672491"
+  "stills": [
+    "/images/e& Money - Strategy Films/eand-money-01.jpg",
+    "/images/e& Money - Strategy Films/eand-money-03.jpg",
+    "/images/e& Money - Strategy Films/eand-money-04.jpg",
+    "/images/e& Money - Strategy Films/eand-money-05.jpg",
+    "/images/e& Money - Strategy Films/eand-money-06.jpg",
+    "/images/e& Money - Strategy Films/eand-money-07.jpg",
+    "/images/e& Money - Strategy Films/eand-money-08.jpg",
+    "/images/e& Money - Strategy Films/eand-money-09.jpg",
+    "/images/e& Money - Strategy Films/eand-money-11.jpg",
+    "/images/e& Money - Strategy Films/eand-money-13.jpg",
+    "/images/e& Money - Strategy Films/eand-money-14.jpg",
+    "/images/e& Money - Strategy Films/eand-money-16.jpg",
+    "/images/e& Money - Strategy Films/eand-money-17.jpg",
+    "/images/e& Money - Strategy Films/eand-money-18.jpg",
+    "/images/e& Money - Strategy Films/eand-money-19.jpg",
+    "/images/e& Money - Strategy Films/eand-money-20.jpg",
+    "/images/e& Money - Strategy Films/eand-money-24.jpg",
+    "/images/e& Money - Strategy Films/eand-money-25.jpg",
+    "/images/e& Money - Strategy Films/eand-money-27.jpg",
+    "/images/e& Money - Strategy Films/eand-money-26.jpg",
+    "/images/e& Money - Strategy Films/eand-money-30.jpg"
   ]
 }
