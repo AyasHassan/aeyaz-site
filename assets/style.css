@@ -40,6 +40,10 @@ img{display:block;max-width:100%}
 .proj{display:flex;flex-direction:column;gap:4px}
 .proj[hidden]{display:none}
 .frames{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}
+.rows.rows-one{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 12px}
+.rows.rows-one .proj{min-width:0}
+.frames.one{grid-template-columns:1fr}
+.frames.one .frame{border-radius:2px}
 .frame{aspect-ratio:16/9;background:var(--box);overflow:hidden;transition:filter .3s ease}
 .frame:first-child{border-radius:2px 0 0 2px}.frame:last-child{border-radius:0 2px 2px 0}
 .frame img{width:100%;height:100%;object-fit:cover}
