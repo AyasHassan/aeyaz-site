@@ -1,21 +1,44 @@
 {
   "title": "Emirates Islamic",
-  "categories": [],
-  "frames": [],
+  "categories": [
+    "content/categories/lifestyle.json"
+  ],
+  "frames": [
+    "/images/Emirates Islamic/emirates-islamic-05.jpg",
+    "/images/Emirates Islamic/emirates-islamic-02.jpg",
+    "/images/Emirates Islamic/emirates-islamic-08.jpg"
+  ],
+  "videos": [
+    {
+      "title": "Multiple Bill Payments",
+      "url": "https://vimeo.com/1051412066?fl=pl&fe=sh"
+    },
+    {
+      "title": "Account Statements",
+      "url": "https://vimeo.com/1051414189?fl=pl&fe=sh"
+    },
+    {
+      "title": "Digital Wealth",
+      "url": "https://vimeo.com/1051413870?fl=pl&fe=sh"
+    }
+  ],
   "client": "Emirates Islamic",
-  "agency": "",
-  "production_house": "Liwa",
+  "production_house": "Liwa Content Driven",
   "director": "Trever McMahan",
   "dop": "Aeyaz",
   "executive_producer": "Sagar Rege, Shweta Sandeep",
   "producer": "Aditi Heda & Gauthami Katwe",
-  "editor": "",
-  "colourist": "",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/1051414189/ae175feb67",
-    "https://vimeo.com/1051412066/ae175feb67",
-    "https://vimeo.com/1051413870/ae175feb67"
+  "stills": [
+    "/images/Emirates Islamic/emirates-islamic-05.jpg",
+    "/images/Emirates Islamic/emirates-islamic-02.jpg",
+    "/images/Emirates Islamic/emirates-islamic-08.jpg",
+    "/images/Emirates Islamic/emirates-islamic-01.jpg",
+    "/images/Emirates Islamic/emirates-islamic-03.jpg",
+    "/images/Emirates Islamic/emirates-islamic-04.jpg",
+    "/images/Emirates Islamic/emirates-islamic-10.jpg",
+    "/images/Emirates Islamic/emirates-islamic-09.jpg",
+    "/images/Emirates Islamic/emirates-islamic-07.jpg",
+    "/images/Emirates Islamic/emirates-islamic-11.jpg",
+    "/images/Emirates Islamic/emirates-islamic-06.jpg"
   ]
 }
