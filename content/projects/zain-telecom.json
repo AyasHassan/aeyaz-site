@@ -1,19 +1,37 @@
 {
   "title": "Zain Telecom",
-  "categories": [],
-  "frames": [],
+  "categories": [
+    "content/categories/brands.json",
+    "content/categories/vfx.json"
+  ],
+  "frames": [
+    "/images/Zain Mart/zain-mart-04.jpg",
+    "/images/Zain Mart/zain-mart-07.jpg",
+    "/images/Zain Mart/zain-mart-01.jpg"
+  ],
+  "videos": [
+    {
+      "url": "https://vimeo.com/1195703585?fl=pl&fe=sh"
+    }
+  ],
   "client": "Zain Iraq / Zain Mart",
   "agency": "Memac Ogilvy",
   "production_house": "9T Studio",
   "director": "M. Kalawi",
   "dop": "Aeyaz",
   "executive_producer": "Ali Alkhairo",
-  "producer": "",
   "editor": "Mostafa Salah Eisa",
   "colourist": "Tharan Tandle",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/1195703585"
+  "stills": [
+    "/images/Zain Mart/zain-mart-01.jpg",
+    "/images/Zain Mart/zain-mart-02.jpg",
+    "/images/Zain Mart/zain-mart-03.jpg",
+    "/images/Zain Mart/zain-mart-04.jpg",
+    "/images/Zain Mart/zain-mart-05.jpg",
+    "/images/Zain Mart/zain-mart-06.jpg",
+    "/images/Zain Mart/zain-mart-07.jpg",
+    "/images/Zain Mart/zain-mart-08.jpg",
+    "/images/Zain Mart/zain-mart-09.jpg",
+    "/images/Zain Mart/zain-mart-10.jpg"
   ]
 }
