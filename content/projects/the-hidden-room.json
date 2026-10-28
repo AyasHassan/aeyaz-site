@@ -4,16 +4,18 @@
     "content/categories/narrative.json"
   ],
   "frames": [],
-  "video": "",
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "client": "Home Box",
+  "agency": "Leo Burnett Dubai",
+  "production_house": "Liwa Content.Driven",
+  "director": "Tahaab Rais",
   "dop": "Aeyaz",
-  "executive_producer": "",
+  "executive_producer": "Sagar Rege, Shane Vessaoukar",
   "producer": "",
-  "editor": "",
-  "colourist": "",
+  "editor": "Neda Zag",
+  "colourist": "Karim Mira",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/730715275/5f13e4abc7"
+  ]
 }

@@ -5,16 +5,18 @@
     "content/categories/lifestyle.json"
   ],
   "frames": [],
-  "video": "",
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "client": "Home Centre",
+  "agency": "Leo Burnett, Dubai",
+  "production_house": "Prodigious ME",
+  "director": "Tahaab Rais",
   "dop": "Aeyaz",
   "executive_producer": "",
-  "producer": "",
-  "editor": "",
-  "colourist": "",
+  "producer": "Ralph Mater",
+  "editor": "Neda Zag",
+  "colourist": "Karim Mira",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/859061397"
+  ]
 }

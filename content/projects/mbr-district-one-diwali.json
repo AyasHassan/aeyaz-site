@@ -2,16 +2,18 @@
   "title": "MBR District One — Diwali",
   "categories": [],
   "frames": [],
-  "video": "",
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "client": "MBR City District One",
+  "agency": "Blue Apple Advertising",
+  "production_house": "Dejavu",
+  "director": "Sizil Srivastava",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
-  "editor": "",
+  "executive_producer": "Manasvi Gosalia",
+  "producer": "Kavya Iyer",
+  "editor": "Jayesh Kilpady",
   "colourist": "",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/366092862"
+  ]
 }

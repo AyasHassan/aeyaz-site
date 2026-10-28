@@ -2,16 +2,18 @@
   "title": "Nespresso — Time to Savour",
   "categories": [],
   "frames": [],
-  "video": "",
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "client": "Nespresso",
+  "agency": "M&S Saatchi, Dubai",
+  "production_house": "Dejavu, Dubai",
+  "director": "Aeyaz",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
-  "editor": "",
-  "colourist": "",
+  "executive_producer": "Manasvi Gosalia",
+  "producer": "Sampada Harkara",
+  "editor": "Rizwan Maple",
+  "colourist": "Aeyaz",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/336304992"
+  ]
 }

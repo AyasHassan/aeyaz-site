@@ -5,16 +5,18 @@
     "content/categories/lifestyle.json"
   ],
   "frames": [],
-  "video": "",
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "client": "Home Centre",
+  "agency": "Leo Burnett",
+  "production_house": "Prodigious",
+  "director": "Tahaab Rais",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
-  "editor": "",
-  "colourist": "",
+  "executive_producer": "Naji Bechara",
+  "producer": "Marie Noel Bou Haila",
+  "editor": "Neda Zag",
+  "colourist": "Karim Mira",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/784938083/ae175feb67"
+  ]
 }

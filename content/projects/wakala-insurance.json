@@ -2,16 +2,19 @@
   "title": "Wakala Insurance",
   "categories": [],
   "frames": [],
-  "video": "",
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "client": "Wakala Insurance",
+  "agency": "Amber Dubai",
+  "production_house": "Film Dojo",
+  "director": "Arun Francis",
   "dop": "Aeyaz",
   "executive_producer": "",
   "producer": "",
   "editor": "",
   "colourist": "",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/935360504",
+    "https://vimeo.com/857083734"
+  ]
 }

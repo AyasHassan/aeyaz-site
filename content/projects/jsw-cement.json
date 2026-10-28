@@ -2,16 +2,18 @@
   "title": "JSW Cement",
   "categories": [],
   "frames": [],
-  "video": "",
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "client": "JSW Cement",
+  "agency": "Cocktail Art Company",
+  "production_house": "Cocktail Art Company",
+  "director": "Aeyaz (Co-Director)",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
+  "executive_producer": "Deena Hasan",
+  "producer": "Disha Goklani",
   "editor": "",
-  "colourist": "",
+  "colourist": "Prime Focus Studios",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/799383449/3f54773b27"
+  ]
 }

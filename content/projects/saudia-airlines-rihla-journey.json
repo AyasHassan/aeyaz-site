@@ -5,16 +5,18 @@
     "content/categories/brands.json"
   ],
   "frames": [],
-  "video": "",
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "client": "Saudia Airlines",
+  "agency": "Leo Burnett",
+  "production_house": "Liwa Advertising, Dubai",
+  "director": "Tahaab Rais",
   "dop": "Aeyaz",
-  "executive_producer": "",
+  "executive_producer": "Sagar Rege",
   "producer": "",
-  "editor": "",
-  "colourist": "",
+  "editor": "Neda Zag",
+  "colourist": "Company 3",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/932017395/ae175feb67"
+  ]
 }

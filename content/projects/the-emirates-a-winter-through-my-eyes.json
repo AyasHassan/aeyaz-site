@@ -4,16 +4,18 @@
     "content/categories/tourism.json"
   ],
   "frames": [],
-  "video": "",
-  "client": "",
+  "client": "The Emirates",
   "agency": "",
-  "production_house": "",
-  "director": "",
+  "production_house": "Dejavu Dubai",
+  "director": "Tahaab Rais",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
-  "editor": "",
-  "colourist": "",
+  "executive_producer": "Manasvi Gosalia",
+  "producer": "Sampada Harkara",
+  "editor": "Rizwan Maple",
+  "colourist": "Karim Mira",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/670548610/ac42752203"
+  ]
 }

@@ -2,16 +2,18 @@
   "title": "Zain Telecom",
   "categories": [],
   "frames": [],
-  "video": "",
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "client": "Zain Iraq / Zain Mart",
+  "agency": "Memac Ogilvy",
+  "production_house": "9T Studio",
+  "director": "M. Kalawi",
   "dop": "Aeyaz",
-  "executive_producer": "",
+  "executive_producer": "Ali Alkhairo",
   "producer": "",
-  "editor": "",
-  "colourist": "",
+  "editor": "Mostafa Salah Eisa",
+  "colourist": "Tharan Tandle",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/1195703585"
+  ]
 }

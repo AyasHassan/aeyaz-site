@@ -2,16 +2,18 @@
   "title": "STC — We Are Ready",
   "categories": [],
   "frames": [],
-  "video": "",
-  "client": "",
+  "client": "STC",
   "agency": "",
   "production_house": "",
-  "director": "",
-  "dop": "Aeyaz",
+  "director": "Ahmed Hussain",
+  "dop": "Fatih Turker & Aeyaz",
   "executive_producer": "",
   "producer": "",
   "editor": "",
   "colourist": "",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/382172388"
+  ]
 }

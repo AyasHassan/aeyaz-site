@@ -4,16 +4,18 @@
     "content/categories/narrative.json"
   ],
   "frames": [],
-  "video": "",
   "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "agency": "Publicis Groupe",
+  "production_house": "Prodigious Worldwide ME",
+  "director": "Tahaab Rais",
   "dop": "Aeyaz",
   "executive_producer": "",
-  "producer": "",
-  "editor": "",
-  "colourist": "",
+  "producer": "Bassel Kakish, Sami Saleh",
+  "editor": "Neda Ahmed",
+  "colourist": "Karim Mira",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/726072412/a98224afda"
+  ]
 }

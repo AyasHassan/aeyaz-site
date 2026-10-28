@@ -2,16 +2,18 @@
   "title": "Samsung — Make More Happen",
   "categories": [],
   "frames": [],
-  "video": "",
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "client": "Samsung",
+  "agency": "Cheil Worldwide, Dubai",
+  "production_house": "Goldmine Films, Dubai",
+  "director": "Aeyaz",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
-  "editor": "",
-  "colourist": "",
+  "executive_producer": "Madhup Agarwal",
+  "producer": "Farha Moon",
+  "editor": "Miraj Mohd",
+  "colourist": "Aeyaz",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/310942061"
+  ]
 }

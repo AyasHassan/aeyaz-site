@@ -118,3 +118,4 @@ textarea.field{resize:vertical}
 
 /* phones: tighter gap between menu and title */
 @media (max-width:600px){.header{padding-bottom:14px}.main{padding-top:15px}}
+.players{display:flex;flex-direction:column;gap:clamp(16px,2vw,28px)}

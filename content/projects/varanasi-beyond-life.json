@@ -5,16 +5,18 @@
     "content/categories/tourism.json"
   ],
   "frames": [],
-  "video": "",
   "client": "",
   "agency": "",
   "production_house": "",
-  "director": "",
+  "director": "Aeyaz",
   "dop": "Aeyaz",
   "executive_producer": "",
   "producer": "",
-  "editor": "",
-  "colourist": "",
+  "editor": "Aeyaz",
+  "colourist": "Aeyaz",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/216306429"
+  ]
 }

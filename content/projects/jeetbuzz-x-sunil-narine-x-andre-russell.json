@@ -5,16 +5,18 @@
     "content/categories/sports.json"
   ],
   "frames": [],
-  "video": "",
-  "client": "",
+  "client": "Jeetbuzz",
   "agency": "",
-  "production_house": "",
-  "director": "",
+  "production_house": "Hanzo Films, Dubai",
+  "director": "Anoj Nair",
   "dop": "Aeyaz",
-  "executive_producer": "",
+  "executive_producer": "Hijaz",
   "producer": "",
   "editor": "",
   "colourist": "",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/1195706019"
+  ]
 }

@@ -5,16 +5,20 @@
     "content/categories/vfx.json"
   ],
   "frames": [],
-  "video": "",
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "client": "e& Money",
+  "agency": "Saatchi & Saatchi, Dubai",
+  "production_house": "The Goldmine, Dubai",
+  "director": "Omar Abbas",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
-  "editor": "",
-  "colourist": "",
+  "executive_producer": "Madhup Agarwal",
+  "producer": "Hersh",
+  "editor": "Timeline Dudee",
+  "colourist": "Mile Studios Dubai",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/1233651932",
+    "https://vimeo.com/1233671065",
+    "https://vimeo.com/1233672491"
+  ]
 }

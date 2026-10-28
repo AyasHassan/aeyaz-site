@@ -85,6 +85,22 @@
       "show": "work"
     },
     {
+      "project": "content/projects/babyshop.json",
+      "show": "archive"
+    },
+    {
+      "project": "content/projects/brands-for-less.json",
+      "show": "archive"
+    },
+    {
+      "project": "content/projects/emirates-islamic.json",
+      "show": "archive"
+    },
+    {
+      "project": "content/projects/zain-telecom.json",
+      "show": "archive"
+    },
+    {
       "project": "content/projects/samsung-smart-things.json",
       "show": "archive"
     },
@@ -125,27 +141,15 @@
       "show": "archive"
     },
     {
+      "project": "content/projects/home-centre-a-dads-job.json",
+      "show": "archive"
+    },
+    {
       "project": "content/projects/stc-we-are-ready.json",
       "show": "archive"
     },
     {
       "project": "content/projects/wakala-insurance.json",
-      "show": "archive"
-    },
-    {
-      "project": "content/projects/babyshop.json",
-      "show": "archive"
-    },
-    {
-      "project": "content/projects/brands-for-less.json",
-      "show": "archive"
-    },
-    {
-      "project": "content/projects/emirates-islamic.json",
-      "show": "archive"
-    },
-    {
-      "project": "content/projects/zain-telecom.json",
       "show": "archive"
     }
   ]

@@ -4,16 +4,18 @@
     "content/categories/brands.json"
   ],
   "frames": [],
-  "video": "",
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "client": "Canon Middle East",
+  "agency": "Momentum",
+  "production_house": "Dejavu Dubai",
+  "director": "Aeyaz",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
-  "editor": "",
-  "colourist": "",
+  "executive_producer": "Manasvi Gosalia",
+  "producer": "Sampada Harkara",
+  "editor": "Aeyaz",
+  "colourist": "Mile Studios",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/499939090"
+  ]
 }

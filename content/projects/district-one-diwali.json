@@ -2,16 +2,18 @@
   "title": "District One — Diwali",
   "categories": [],
   "frames": [],
-  "video": "",
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "client": "MBR District One",
+  "agency": "Blue Apple",
+  "production_house": "Dejavu Dubai",
+  "director": "Sizil Srivastava",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
+  "executive_producer": "Manasvi Gosalia",
+  "producer": "Sampada Harkara",
   "editor": "",
   "colourist": "",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/479246866"
+  ]
 }

@@ -5,16 +5,18 @@
     "content/categories/sports.json"
   ],
   "frames": [],
-  "video": "",
-  "client": "",
+  "client": "Faces",
   "agency": "",
-  "production_house": "",
+  "production_house": "XO Productions",
   "director": "",
   "dop": "Aeyaz",
   "executive_producer": "",
   "producer": "",
-  "editor": "",
-  "colourist": "",
+  "editor": "LalKrishnan Achutham",
+  "colourist": "Josh Borrill",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/1181095813"
+  ]
 }

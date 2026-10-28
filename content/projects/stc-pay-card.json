@@ -2,16 +2,18 @@
   "title": "STC Pay Card",
   "categories": [],
   "frames": [],
-  "video": "",
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "client": "STC Pay",
+  "agency": "JWT KSA",
+  "production_house": "Dejavu Dubai",
+  "director": "Aeyaz",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
-  "editor": "",
+  "executive_producer": "Manasvi Gosalia",
+  "producer": "Rasha Hashem, Micheal Makram",
+  "editor": "Aeyaz",
   "colourist": "",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/553292808"
+  ]
 }

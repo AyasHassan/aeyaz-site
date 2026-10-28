@@ -4,16 +4,18 @@
     "content/categories/tourism.json"
   ],
   "frames": [],
-  "video": "",
   "client": "",
   "agency": "",
-  "production_house": "",
-  "director": "",
+  "production_house": "Purple Brain KSA",
+  "director": "Ellie Fahad",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
+  "executive_producer": "Otbah Rayess",
+  "producer": "Rawaa Fouladkar",
   "editor": "",
   "colourist": "",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/813577516"
+  ]
 }

@@ -2,16 +2,20 @@
   "title": "Babyshop",
   "categories": [],
   "frames": [],
-  "video": "",
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "client": "Babyshop",
+  "agency": "Leo Burnett",
+  "production_house": "Feel Productions",
+  "director": "Trever McMahan",
   "dop": "Aeyaz",
-  "executive_producer": "",
+  "executive_producer": "Sandip",
   "producer": "",
   "editor": "",
   "colourist": "",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/1054722308/ae175feb67",
+    "https://vimeo.com/1054723292/ae175feb67",
+    "https://vimeo.com/1054722839/ae175feb67"
+  ]
 }

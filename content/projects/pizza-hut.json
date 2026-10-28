@@ -5,16 +5,18 @@
     "content/categories/brands.json"
   ],
   "frames": [],
-  "video": "",
-  "client": "",
+  "client": "Pizza Hut",
   "agency": "",
-  "production_house": "",
-  "director": "",
+  "production_house": "Liwa Content Driven",
+  "director": "Shane Stephen",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
+  "executive_producer": "Sagar R, Shweta S",
+  "producer": "Jessica P",
   "editor": "",
   "colourist": "",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/875093611/ae175feb67"
+  ]
 }

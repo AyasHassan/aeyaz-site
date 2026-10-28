@@ -4,16 +4,18 @@
     "content/categories/tourism.json"
   ],
   "frames": [],
-  "video": "",
-  "client": "",
+  "client": "Saudi Tourism",
   "agency": "",
-  "production_house": "",
-  "director": "",
+  "production_house": "Dejavu",
+  "director": "Neelay Shah",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
+  "executive_producer": "Manasvi Gosalia",
+  "producer": "Hala El Am",
   "editor": "",
   "colourist": "",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/1167443224"
+  ]
 }

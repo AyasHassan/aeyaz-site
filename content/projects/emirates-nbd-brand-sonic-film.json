@@ -5,16 +5,18 @@
     "content/categories/vfx.json"
   ],
   "frames": [],
-  "video": "",
-  "client": "",
+  "client": "Emirates NBD",
   "agency": "",
-  "production_house": "",
-  "director": "",
+  "production_house": "Liwa Content Driven",
+  "director": "Nizar Sfair",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
-  "editor": "",
-  "colourist": "",
+  "executive_producer": "Sagar Rege, Shweta Sandeep",
+  "producer": "Aditi Heda, Jessica Pereira",
+  "editor": "Nikolay Ivanov",
+  "colourist": "Diego La Rosa",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/1100839250"
+  ]
 }

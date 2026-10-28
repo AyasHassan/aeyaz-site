@@ -5,16 +5,20 @@
     "content/categories/sports.json"
   ],
   "frames": [],
-  "video": "",
-  "client": "",
+  "client": "Baji",
   "agency": "",
-  "production_house": "",
-  "director": "",
+  "production_house": "Hanzo Films",
+  "director": "Anoj Nair",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
-  "editor": "",
-  "colourist": "",
+  "executive_producer": "Hijaz Moosa, Gemsheer",
+  "producer": "Chippy Babu",
+  "editor": "Edwin Thachil",
+  "colourist": "Dusan",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/1003157955/ae175feb67",
+    "https://vimeo.com/1023505661/ae175feb67",
+    "https://vimeo.com/1054743142/ae175feb67"
+  ]
 }

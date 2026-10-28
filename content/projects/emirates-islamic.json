@@ -2,16 +2,20 @@
   "title": "Emirates Islamic",
   "categories": [],
   "frames": [],
-  "video": "",
-  "client": "",
+  "client": "Emirates Islamic",
   "agency": "",
-  "production_house": "",
-  "director": "",
+  "production_house": "Liwa",
+  "director": "Trever McMahan",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
+  "executive_producer": "Sagar Rege, Shweta Sandeep",
+  "producer": "Aditi Heda & Gauthami Katwe",
   "editor": "",
   "colourist": "",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/1051414189/ae175feb67",
+    "https://vimeo.com/1051412066/ae175feb67",
+    "https://vimeo.com/1051413870/ae175feb67"
+  ]
 }

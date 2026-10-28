@@ -5,16 +5,18 @@
     "content/categories/sports.json"
   ],
   "frames": [],
-  "video": "",
-  "client": "",
+  "client": "FUN88",
   "agency": "",
-  "production_house": "",
-  "director": "",
+  "production_house": "The Storm Production",
+  "director": "Shane Stephen",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
-  "editor": "",
-  "colourist": "",
+  "executive_producer": "Alena Dovnar",
+  "producer": "Ajmal PM",
+  "editor": "Vishal Munge",
+  "colourist": "Dan Mitre",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/1017503455"
+  ]
 }

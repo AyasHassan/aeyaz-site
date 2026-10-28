@@ -5,16 +5,18 @@
     "content/categories/celebrities.json"
   ],
   "frames": [],
-  "video": "",
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "",
+  "client": "Dubai Tourism (DTCM)",
+  "agency": "Impact BBDO",
+  "production_house": "Goldmine Films",
+  "director": "Mark Middlewick",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
-  "editor": "",
+  "executive_producer": "Madhup Agarwal",
+  "producer": "Shaharbano Zaidi",
+  "editor": "Miraj Muhammed",
   "colourist": "",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/756316278/a74ad8da1f"
+  ]
 }

@@ -2,16 +2,18 @@
   "title": "Samsung — Smart Things",
   "categories": [],
   "frames": [],
-  "video": "",
-  "client": "",
+  "client": "Samsung",
   "agency": "",
-  "production_house": "",
-  "director": "",
+  "production_house": "The Goldmine Films",
+  "director": "Marcus Acqueres",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
-  "editor": "",
-  "colourist": "",
+  "executive_producer": "Madhup Agarwal",
+  "producer": "Shaharbano Zaidi",
+  "editor": "Miraj Mohamed",
+  "colourist": "Vineesh Vijayan",
   "more_credits": [],
-  "stills": []
+  "stills": [],
+  "videos": [
+    "https://vimeo.com/768495005/dd7af6d72f"
+  ]
 }
