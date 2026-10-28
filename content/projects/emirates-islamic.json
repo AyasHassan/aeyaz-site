@@ -1,7 +1,8 @@
 {
   "title": "Emirates Islamic",
   "categories": [
-    "content/categories/lifestyle.json"
+    "content/categories/lifestyle.json",
+    "content/categories/brands.json"
   ],
   "frames": [
     "/images/Emirates Islamic/emirates-islamic-05.jpg",
