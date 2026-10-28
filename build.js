@@ -147,7 +147,7 @@ const bySlug = Object.fromEntries(projects.map((p) => [p.slug, p]));
 
 // Order and placement come from the "Arrange projects" page
 const placed = new Set();
-const pick = (list) => arr(list).map((r) => bySlug[stem(typeof r === 'object' && r ? r.value || r.path || '' : r)]).filter((p) => p && !placed.has(p.slug) && placed.add(p.slug));
+const pick = (list) => arr(list).map((r) => bySlug[stem(typeof r === 'object' && r ? r.project || r.value || r.path || '' : r)]).filter((p) => p && !placed.has(p.slug) && placed.add(p.slug));
 let work = [], archive = [];
 if (arrange && Array.isArray(arrange.projects)) {
   // One list: order = drag order, each row says where it shows
