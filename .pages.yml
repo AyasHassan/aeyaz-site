@@ -10,33 +10,31 @@ content:
     path: content/arrange.json
     format: json
     fields:
-      - name: work
-        label: Work page — drag to reorder (top = first)
-        type: reference
+      - name: projects
+        label: "Drag to reorder (top = first). Choose where each project shows."
+        type: object
         list: true
-        options:
-          collection: projects
-          search: title
-          value: "{path}"
-          label: "{title}"
-      - name: archive
-        label: Archive page — drag to reorder
-        type: reference
-        list: true
-        options:
-          collection: projects
-          search: title
-          value: "{path}"
-          label: "{title}"
-      - name: hidden
-        label: Hidden — not shown anywhere
-        type: reference
-        list: true
-        options:
-          collection: projects
-          search: title
-          value: "{path}"
-          label: "{title}"
+        fields:
+          - name: project
+            label: Project
+            type: reference
+            options:
+              collection: projects
+              search: title
+              value: "{path}"
+              label: "{title}"
+          - name: show
+            label: Show on
+            type: select
+            default: work
+            options:
+              values:
+                - name: work
+                  label: Work page
+                - name: archive
+                  label: Archive page
+                - name: hidden
+                  label: Hidden
 
   - name: projects
     label: Projects
