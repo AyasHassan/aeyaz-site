@@ -3,9 +3,17 @@
   "categories": [
     "content/categories/tourism.json"
   ],
-  "frames": [],
+  "frames": [
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-17.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-04.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-19.jpg"
+  ],
+  "videos": [
+    {
+      "url": "https://vimeo.com/670548610?fl=pl&fe=sh"
+    }
+  ],
   "client": "The Emirates",
-  "agency": "",
   "production_house": "Dejavu Dubai",
   "director": "Tahaab Rais",
   "dop": "Aeyaz",
@@ -13,9 +21,27 @@
   "producer": "Sampada Harkara",
   "editor": "Rizwan Maple",
   "colourist": "Karim Mira",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/670548610/ac42752203"
+  "stills": [
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-01.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-02.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-03.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-04.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-05.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-06.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-07.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-08.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-09.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-10.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-11.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-12.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-14.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-15.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-16.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-17.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-18.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-19.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-20.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-22.jpg",
+    "/images/The Emirates - A Winter Through My Eyes/emirates-winter-24.jpg"
   ]
 }
