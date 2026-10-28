@@ -115,3 +115,6 @@ textarea.field{resize:vertical}
 .foot-links{display:flex;flex-wrap:wrap;gap:0 24px}
 
 :focus-visible{outline:2px solid var(--fg);outline-offset:3px}
+
+/* phones: tighter gap between menu and title */
+@media (max-width:600px){.header{padding-bottom:14px}.main{padding-top:15px}}

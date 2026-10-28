@@ -159,7 +159,7 @@ for (const p of rest) {
 }
 
 // ---------- layout ----------
-const NAV = [['work', 'Work', '/'], ['archive', 'Archive', '/archive/'], ['feature', 'Feature Film', '/feature-film/'], ['about', 'About', '/about/'], ['contact', 'Contact', '/contact/']];
+const NAV = [['work', 'Work', '/'], ['archive', 'Archive', '/archive/'], ['feature', 'Feature', '/feature-film/'], ['about', 'About', '/about/'], ['contact', 'Contact', '/contact/']];
 
 function page({ title, active, body, description }) {
   const fullTitle = title ? `${title} — ${titleCase(name)}` : `${titleCase(name)} — ${settings.headline || 'Director of Photography'}`;
