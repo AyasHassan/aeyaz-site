@@ -1,22 +1,40 @@
 {
-  "title": "Faces — Saudi National Day × Saud Abdulhamid",
+  "title": "Faces - Saudi National Day × Saud Abdulhamid",
   "categories": [
     "content/categories/celebrities.json",
     "content/categories/sports.json"
   ],
-  "frames": [],
+  "frames": [
+    "/images/Faces - Saudi National Day/faces-snd-15.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-02.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-08.jpg"
+  ],
+  "videos": [
+    {
+      "url": "https://vimeo.com/1181095813?fl=pl&fe=sh"
+    }
+  ],
   "client": "Faces",
-  "agency": "",
   "production_house": "XO Productions",
-  "director": "",
   "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
   "editor": "LalKrishnan Achutham",
   "colourist": "Josh Borrill",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/1181095813"
+  "stills": [
+    "/images/Faces - Saudi National Day/faces-snd-14.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-01.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-02.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-03.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-04.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-05.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-10.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-09.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-08.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-07.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-11.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-12.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-15.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-18.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-19.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-16.jpg"
   ]
 }
