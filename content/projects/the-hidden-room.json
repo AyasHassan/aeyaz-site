@@ -3,19 +3,40 @@
   "categories": [
     "content/categories/narrative.json"
   ],
-  "frames": [],
+  "frames": [
+    "/images/The Hidden Room/hidden-room-22.jpg",
+    "/images/The Hidden Room/hidden-room-43.jpg",
+    "/images/The Hidden Room/hidden-room-24.jpg"
+  ],
+  "videos": [
+    {
+      "url": "https://vimeo.com/730715275?fl=pl&fe=sh"
+    }
+  ],
   "client": "Home Box",
   "agency": "Leo Burnett Dubai",
   "production_house": "Liwa Content.Driven",
   "director": "Tahaab Rais",
   "dop": "Aeyaz",
   "executive_producer": "Sagar Rege, Shane Vessaoukar",
-  "producer": "",
   "editor": "Neda Zag",
   "colourist": "Karim Mira",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/730715275/5f13e4abc7"
+  "stills": [
+    "/images/The Hidden Room/hidden-room-21.jpg",
+    "/images/The Hidden Room/hidden-room-22.jpg",
+    "/images/The Hidden Room/hidden-room-23.jpg",
+    "/images/The Hidden Room/hidden-room-24.jpg",
+    "/images/The Hidden Room/hidden-room-25.jpg",
+    "/images/The Hidden Room/hidden-room-26.jpg",
+    "/images/The Hidden Room/hidden-room-27.jpg",
+    "/images/The Hidden Room/hidden-room-28.jpg",
+    "/images/The Hidden Room/hidden-room-29.jpg",
+    "/images/The Hidden Room/hidden-room-31.jpg",
+    "/images/The Hidden Room/hidden-room-39.jpg",
+    "/images/The Hidden Room/hidden-room-40.jpg",
+    "/images/The Hidden Room/hidden-room-42.jpg",
+    "/images/The Hidden Room/hidden-room-43.jpg",
+    "/images/The Hidden Room/hidden-room-47.jpg",
+    "/images/The Hidden Room/hidden-room-48.jpg"
   ]
 }
