@@ -9,7 +9,9 @@
     "/images/47 Seconds/47seconds_Long Version_EN_4K.00_00_02_08.Still001.jpg"
   ],
   "videos": [
-    {}
+    {
+      "url": "https://vimeo.com/726072412?fl=pl&fe=sh"
+    }
   ],
   "agency": "Publicis Groupe",
   "production_house": "Prodigious Worldwide ME",
@@ -17,5 +19,12 @@
   "dop": "Aeyaz",
   "producer": "Bassel Kakish, Sami Saleh",
   "editor": "Neda Ahmed",
-  "colourist": "Karim Mira"
+  "colourist": "Karim Mira",
+  "stills": [
+    "/images/47 Seconds/47seconds_Long Version_EN_4K.00_00_02_08.Still001.jpg",
+    "/images/47 Seconds/47seconds_Long Version_EN_4K.00_00_30_14.Still005.jpg",
+    "/images/47 Seconds/J2205005_Prodigious_47seconds_graded_vfx_revised_noFlicker_v002_v026_220629.00_00_13_18.Still003.jpg",
+    "/images/47 Seconds/47seconds_Long Version_EN_4K.00_00_44_13.Still004.jpg",
+    "/images/47 Seconds/J2205005_Prodigious_47seconds_graded_vfx_revised_noFlicker_v002_v026_220629.00_00_32_18.Still008.jpg"
+  ]
 }
