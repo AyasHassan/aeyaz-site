@@ -1,21 +1,38 @@
 {
   "title": "Babyshop",
-  "categories": [],
-  "frames": [],
+  "categories": [
+    "content/categories/brands.json",
+    "content/categories/lifestyle.json"
+  ],
+  "frames": [
+    "/images/Babyshop/babyshop-01.jpg",
+    "/images/Babyshop/babyshop-06.jpg",
+    "/images/Babyshop/babyshop-02.jpg"
+  ],
+  "videos": [
+    "https://vimeo.com/1054722308/ae175feb67",
+    "https://vimeo.com/1054723292/ae175feb67",
+    "https://vimeo.com/1054722839/ae175feb67"
+  ],
   "client": "Babyshop",
   "agency": "Leo Burnett",
   "production_house": "Feel Productions",
   "director": "Trever McMahan",
   "dop": "Aeyaz",
   "executive_producer": "Sandip",
-  "producer": "",
-  "editor": "",
-  "colourist": "",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/1054722308/ae175feb67",
-    "https://vimeo.com/1054723292/ae175feb67",
-    "https://vimeo.com/1054722839/ae175feb67"
+  "editor": "Neda Ahmed",
+  "stills": [
+    "/images/Babyshop/babyshop-01.jpg",
+    "/images/Babyshop/babyshop-12.jpg",
+    "/images/Babyshop/babyshop-02.jpg",
+    "/images/Babyshop/babyshop-03.jpg",
+    "/images/Babyshop/babyshop-04.jpg",
+    "/images/Babyshop/babyshop-05.jpg",
+    "/images/Babyshop/babyshop-10.jpg",
+    "/images/Babyshop/babyshop-09.jpg",
+    "/images/Babyshop/babyshop-08.jpg",
+    "/images/Babyshop/babyshop-07.jpg",
+    "/images/Babyshop/babyshop-06.jpg",
+    "/images/Babyshop/babyshop-11.jpg"
   ]
 }
