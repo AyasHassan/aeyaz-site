@@ -207,6 +207,12 @@ ${footLinks}
 </html>`;
 }
 
+// Home title: last word goes on its own line ("Director of" / "Photography")
+const headlineHtml = (t) => {
+  const w = String(t).trim().split(/\s+/);
+  return w.length > 1 ? `${esc(w.slice(0, -1).join(' '))}<br>${esc(w[w.length - 1])}` : esc(t);
+};
+
 const FRAME_SIZES = '(max-width: 900px) 33vw, 25vw';
 const STILL_SIZES = '(max-width: 900px) 50vw, 38vw';
 
@@ -265,7 +271,7 @@ const arrowR = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stro
   for (const p of archive) if (p.cats.length) workRows.push((await row(p)).replace('<a class="proj"', '<a class="proj" data-archive hidden'));
   write('index.html', page({
     active: 'work',
-    body: `<h1 class="title">${esc(settings.headline || 'Director of Photography')}</h1>
+    body: `<h1 class="title">${headlineHtml(settings.headline || 'Director of Photography')}</h1>
 ${usedCats.length ? `<div class="filters" role="group" aria-label="Filter projects by category">
 <button type="button" data-filter="all" aria-pressed="true">All</button>
 ${usedCats.map((c) => `<button type="button" data-filter="${c.id}" aria-pressed="false">${esc(c.name)}</button>`).join('\n')}
