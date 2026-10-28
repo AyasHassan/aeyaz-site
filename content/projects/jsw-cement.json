@@ -1,19 +1,36 @@
 {
   "title": "JSW Cement",
-  "categories": [],
-  "frames": [],
+  "categories": [
+    "content/categories/brands.json",
+    "content/categories/tourism.json"
+  ],
+  "frames": [
+    "/images/JSW Cement/jsw-cement-01.jpg",
+    "/images/JSW Cement/jsw-cement-03.jpg",
+    "/images/JSW Cement/jsw-cement-07.jpg"
+  ],
+  "videos": [
+    {
+      "url": "https://vimeo.com/799383449?fl=pl&fe=sh"
+    }
+  ],
   "client": "JSW Cement",
   "agency": "Cocktail Art Company",
   "production_house": "Cocktail Art Company",
-  "director": "Aeyaz (Co-Director)",
   "dop": "Aeyaz",
   "executive_producer": "Deena Hasan",
   "producer": "Disha Goklani",
-  "editor": "",
+  "editor": "Aeyaz",
   "colourist": "Prime Focus Studios",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/799383449/3f54773b27"
+  "stills": [
+    "/images/JSW Cement/jsw-cement-01.jpg",
+    "/images/JSW Cement/jsw-cement-02.jpg",
+    "/images/JSW Cement/jsw-cement-03.jpg",
+    "/images/JSW Cement/jsw-cement-04.jpg",
+    "/images/JSW Cement/jsw-cement-05.jpg",
+    "/images/JSW Cement/jsw-cement-06.jpg",
+    "/images/JSW Cement/jsw-cement-07.jpg",
+    "/images/JSW Cement/jsw-cement-08.jpg",
+    "/images/JSW Cement/jsw-cement-09.jpg"
   ]
 }
