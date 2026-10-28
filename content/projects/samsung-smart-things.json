@@ -1,9 +1,20 @@
 {
-  "title": "Samsung — Smart Things",
-  "categories": [],
-  "frames": [],
+  "title": "Samsung - Smart Things",
+  "categories": [
+    "content/categories/brands.json",
+    "content/categories/sports.json"
+  ],
+  "frames": [
+    "/images/Samsung - Smart Things/samsung-smartthings-01.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-12.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-09.jpg"
+  ],
+  "videos": [
+    {
+      "url": "https://vimeo.com/768495005?fl=pl&fe=sh"
+    }
+  ],
   "client": "Samsung",
-  "agency": "",
   "production_house": "The Goldmine Films",
   "director": "Marcus Acqueres",
   "dop": "Aeyaz",
@@ -11,9 +22,24 @@
   "producer": "Shaharbano Zaidi",
   "editor": "Miraj Mohamed",
   "colourist": "Vineesh Vijayan",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/768495005/dd7af6d72f"
+  "stills": [
+    "/images/Samsung - Smart Things/samsung-smartthings-01.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-02.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-03.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-04.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-05.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-10.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-09.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-08.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-07.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-06.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-11.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-12.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-13.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-14.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-15.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-18.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-17.jpg",
+    "/images/Samsung - Smart Things/samsung-smartthings-16.jpg"
   ]
 }
