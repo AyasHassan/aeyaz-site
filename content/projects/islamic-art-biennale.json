@@ -1,21 +1,48 @@
 {
   "title": "Islamic Art Biennale",
   "categories": [
-    "content/categories/tourism.json"
+    "content/categories/tourism.json",
+    "content/categories/musical.json"
   ],
-  "frames": [],
-  "client": "",
-  "agency": "",
+  "frames": [
+    "/images/Islamic Art Biennale/art-biennale-01.jpg",
+    "/images/Islamic Art Biennale/art-biennale-20.jpg",
+    "/images/Islamic Art Biennale/art-biennale-21.jpg"
+  ],
+  "videos": [
+    {
+      "url": "https://vimeo.com/813577516?fl=pl&fe=sh"
+    }
+  ],
   "production_house": "Purple Brain KSA",
   "director": "Ellie Fahad",
   "dop": "Aeyaz",
   "executive_producer": "Otbah Rayess",
   "producer": "Rawaa Fouladkar",
-  "editor": "",
-  "colourist": "",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/813577516"
+  "stills": [
+    "/images/Islamic Art Biennale/art-biennale-01.jpg",
+    "/images/Islamic Art Biennale/art-biennale-02.jpg",
+    "/images/Islamic Art Biennale/art-biennale-03.jpg",
+    "/images/Islamic Art Biennale/art-biennale-04.jpg",
+    "/images/Islamic Art Biennale/art-biennale-05.jpg",
+    "/images/Islamic Art Biennale/art-biennale-10.jpg",
+    "/images/Islamic Art Biennale/art-biennale-09.jpg",
+    "/images/Islamic Art Biennale/art-biennale-08.jpg",
+    "/images/Islamic Art Biennale/art-biennale-07.jpg",
+    "/images/Islamic Art Biennale/art-biennale-06.jpg",
+    "/images/Islamic Art Biennale/art-biennale-11.jpg",
+    "/images/Islamic Art Biennale/art-biennale-12.jpg",
+    "/images/Islamic Art Biennale/art-biennale-13.jpg",
+    "/images/Islamic Art Biennale/art-biennale-14.jpg",
+    "/images/Islamic Art Biennale/art-biennale-15.jpg",
+    "/images/Islamic Art Biennale/art-biennale-20.jpg",
+    "/images/Islamic Art Biennale/art-biennale-19.jpg",
+    "/images/Islamic Art Biennale/art-biennale-18.jpg",
+    "/images/Islamic Art Biennale/art-biennale-17.jpg",
+    "/images/Islamic Art Biennale/art-biennale-16.jpg",
+    "/images/Islamic Art Biennale/art-biennale-21.jpg",
+    "/images/Islamic Art Biennale/art-biennale-22.jpg",
+    "/images/Islamic Art Biennale/art-biennale-23.jpg",
+    "/images/Islamic Art Biennale/art-biennale-24.jpg"
   ]
 }
