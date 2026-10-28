@@ -1,20 +1,25 @@
 {
   "title": "Wakala Insurance",
-  "categories": [],
-  "frames": [],
+  "categories": [
+    "content/categories/brands.json",
+    "content/categories/lifestyle.json"
+  ],
+  "frames": [
+    "/images/Wakala Insurance/wakala-02.jpg",
+    "/images/Wakala Insurance/wakala-01.jpg",
+    "/images/Wakala Insurance/wakala-03.jpg"
+  ],
+  "videos": [
+    {
+      "url": "https://vimeo.com/935360504?fl=pl&fe=sh"
+    },
+    {
+      "url": "https://vimeo.com/857083734?fl=pl&fe=sh"
+    }
+  ],
   "client": "Wakala Insurance",
   "agency": "Amber Dubai",
   "production_house": "Film Dojo",
   "director": "Arun Francis",
-  "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
-  "editor": "",
-  "colourist": "",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/935360504",
-    "https://vimeo.com/857083734"
-  ]
+  "dop": "Aeyaz"
 }
