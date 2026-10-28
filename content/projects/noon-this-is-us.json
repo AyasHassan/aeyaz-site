@@ -9,7 +9,9 @@
     "/images/noon - This Is Us/noon-03.jpg"
   ],
   "videos": [
-    {}
+    {
+      "url": "https://vimeo.com/317175582?fl=pl&fe=sh"
+    }
   ],
   "client": "noon.com",
   "production_house": "Dejavu Dubai",
