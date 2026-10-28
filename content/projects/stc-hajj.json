@@ -1,7 +1,18 @@
 {
   "title": "STC Hajj",
-  "categories": [],
-  "frames": [],
+  "categories": [
+    "content/categories/tourism.json"
+  ],
+  "frames": [
+    "/images/STC Hajj/stc-hajj-01.jpg",
+    "/images/STC Hajj/stc-hajj-02.jpg",
+    "/images/STC Hajj/stc-hajj-03.jpg"
+  ],
+  "videos": [
+    {
+      "url": "https://vimeo.com/309217424?fl=pl&fe=sh"
+    }
+  ],
   "client": "STC",
   "agency": "JWT KSA",
   "production_house": "Dejavu Dubai",
@@ -10,10 +21,5 @@
   "executive_producer": "Manasvi Gosalia",
   "producer": "Farah Assaf",
   "editor": "Rizwan Maple",
-  "colourist": "Aeyaz",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/309217424"
-  ]
+  "colourist": "Aeyaz"
 }
