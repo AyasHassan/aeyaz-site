@@ -1,19 +1,29 @@
 {
-  "title": "noon — This Is Us",
-  "categories": [],
-  "frames": [],
+  "title": "Noon - This Is Us",
+  "categories": [
+    "content/categories/lifestyle.json"
+  ],
+  "frames": [
+    "/images/noon - This Is Us/noon-01.jpg",
+    "/images/noon - This Is Us/noon-02.jpg",
+    "/images/noon - This Is Us/noon-03.jpg"
+  ],
+  "videos": [
+    {}
+  ],
   "client": "noon.com",
-  "agency": "",
   "production_house": "Dejavu Dubai",
   "director": "Aeyaz & Neelay",
   "dop": "Aeyaz",
   "executive_producer": "Manasvi Gosalia",
   "producer": "Farah Assaf",
-  "editor": "",
-  "colourist": "",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/317175582"
+  "stills": [
+    "/images/noon - This Is Us/noon-02.jpg",
+    "/images/noon - This Is Us/noon-01.jpg",
+    "/images/noon - This Is Us/noon-03.jpg",
+    "/images/noon - This Is Us/noon-04.jpg",
+    "/images/noon - This Is Us/noon-05.jpg",
+    "/images/noon - This Is Us/noon-07.jpg",
+    "/images/noon - This Is Us/noon-06.jpg"
   ]
 }
