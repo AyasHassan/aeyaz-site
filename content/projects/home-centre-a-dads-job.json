@@ -1,21 +1,39 @@
 {
-  "title": "Home Centre — A Dad’s Job",
+  "title": "Home Centre - A Dad’s Job",
   "categories": [
-    "content/categories/brands.json"
+    "content/categories/brands.json",
+    "content/categories/narrative.json"
   ],
-  "frames": [],
-  "stills": [],
+  "frames": [
+    "/images/Home Centre - Fathers Day/hc-fathers-day-03.jpg",
+    "/images/Home Centre - Fathers Day/hc-fathers-day-08.jpg",
+    "/images/Home Centre - Fathers Day/hc-fathers-day-05.jpg"
+  ],
   "videos": [
-    "https://vimeo.com/431455422"
+    {
+      "url": "https://vimeo.com/859061397?fl=pl&fe=sh"
+    }
   ],
   "client": "Home Centre",
   "agency": "FP7 McCann MENAT",
-  "production_house": "Dejavu",
+  "production_house": "Prodigious",
   "director": "Tahaab Rais",
   "dop": "Aeyaz",
-  "executive_producer": "Manasvi Gosalia",
-  "producer": "Kavya Iyer",
-  "editor": "Rizwan Maple",
-  "colourist": "",
-  "more_credits": []
+  "editor": "Neda Ahmed",
+  "stills": [
+    "/images/Home Centre - Fathers Day/hc-fathers-day-01.jpg",
+    "/images/Home Centre - Fathers Day/hc-fathers-day-02.jpg",
+    "/images/Home Centre - Fathers Day/hc-fathers-day-03.jpg",
+    "/images/Home Centre - Fathers Day/hc-fathers-day-05.jpg",
+    "/images/Home Centre - Fathers Day/hc-fathers-day-04.jpg",
+    "/images/Home Centre - Fathers Day/hc-fathers-day-06.jpg",
+    "/images/Home Centre - Fathers Day/hc-fathers-day-07.jpg",
+    "/images/Home Centre - Fathers Day/hc-fathers-day-08.jpg",
+    "/images/Home Centre - Fathers Day/hc-fathers-day-09.jpg",
+    "/images/Home Centre - Fathers Day/hc-fathers-day-10.jpg",
+    "/images/Home Centre - Fathers Day/hc-fathers-day-11.jpg",
+    "/images/Home Centre - Fathers Day/hc-fathers-day-12.jpg",
+    "/images/Home Centre - Fathers Day/hc-fathers-day-13.jpg",
+    "/images/Home Centre - Fathers Day/hc-fathers-day-14.jpg"
+  ]
 }
