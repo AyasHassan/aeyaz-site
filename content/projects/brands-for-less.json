@@ -1,19 +1,58 @@
 {
   "title": "Brands For Less",
-  "categories": [],
-  "frames": [],
+  "categories": [
+    "content/categories/musical.json",
+    "content/categories/celebrities.json"
+  ],
+  "frames": [
+    "/images/Brands For Less/brands-for-less-11.jpg",
+    "/images/Brands For Less/brands-for-less-24.jpg",
+    "/images/Brands For Less/brands-for-less-14.jpg"
+  ],
+  "videos": [
+    {
+      "url": "https://vimeo.com/876613353"
+    }
+  ],
   "client": "Brands for Less",
-  "agency": "",
   "production_house": "Satori Digital",
   "director": "Kiran",
   "dop": "Aeyaz",
-  "executive_producer": "",
   "producer": "Ajmal",
-  "editor": "",
-  "colourist": "",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/876613353"
+  "colourist": "Joshua",
+  "stills": [
+    "/images/Brands For Less/brands-for-less-04.jpg",
+    "/images/Brands For Less/brands-for-less-01.jpg",
+    "/images/Brands For Less/brands-for-less-02.jpg",
+    "/images/Brands For Less/brands-for-less-03.jpg",
+    "/images/Brands For Less/brands-for-less-05.jpg",
+    "/images/Brands For Less/brands-for-less-10.jpg",
+    "/images/Brands For Less/brands-for-less-09.jpg",
+    "/images/Brands For Less/brands-for-less-08.jpg",
+    "/images/Brands For Less/brands-for-less-07.jpg",
+    "/images/Brands For Less/brands-for-less-06.jpg",
+    "/images/Brands For Less/brands-for-less-11.jpg",
+    "/images/Brands For Less/brands-for-less-12.jpg",
+    "/images/Brands For Less/brands-for-less-13.jpg",
+    "/images/Brands For Less/brands-for-less-14.jpg",
+    "/images/Brands For Less/brands-for-less-15.jpg",
+    "/images/Brands For Less/brands-for-less-18.jpg",
+    "/images/Brands For Less/brands-for-less-17.jpg",
+    "/images/Brands For Less/brands-for-less-16.jpg",
+    "/images/Brands For Less/brands-for-less-21.jpg",
+    "/images/Brands For Less/brands-for-less-23.jpg",
+    "/images/Brands For Less/brands-for-less-24.jpg",
+    "/images/Brands For Less/brands-for-less-25.jpg",
+    "/images/Brands For Less/brands-for-less-30.jpg",
+    "/images/Brands For Less/brands-for-less-29.jpg",
+    "/images/Brands For Less/brands-for-less-28.jpg",
+    "/images/Brands For Less/brands-for-less-27.jpg",
+    "/images/Brands For Less/brands-for-less-26.jpg",
+    "/images/Brands For Less/brands-for-less-33.jpg",
+    "/images/Brands For Less/brands-for-less-34.jpg",
+    "/images/Brands For Less/brands-for-less-35.jpg",
+    "/images/Brands For Less/brands-for-less-39.jpg",
+    "/images/Brands For Less/brands-for-less-37.jpg",
+    "/images/Brands For Less/brands-for-less-36.jpg"
   ]
 }
