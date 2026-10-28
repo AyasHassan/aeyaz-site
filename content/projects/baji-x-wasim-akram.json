@@ -10,9 +10,15 @@
     "/images/Baji x Wasim Akram/baji-wasim-22.jpg"
   ],
   "videos": [
-    {},
-    {},
-    {}
+    {
+      "url": "https://vimeo.com/1003157955"
+    },
+    {
+      "url": "https://vimeo.com/1023505661"
+    },
+    {
+      "url": "https://vimeo.com/1054743142"
+    }
   ],
   "client": "Baji",
   "production_house": "Hanzo Films",
