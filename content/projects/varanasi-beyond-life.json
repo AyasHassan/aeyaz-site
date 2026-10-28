@@ -1,22 +1,30 @@
 {
-  "title": "Varanasi Beyond Life",
+  "title": "Varanasi - Beyond Life",
   "categories": [
     "content/categories/narrative.json",
     "content/categories/tourism.json"
   ],
-  "frames": [],
-  "client": "",
-  "agency": "",
-  "production_house": "",
-  "director": "Aeyaz",
-  "dop": "Aeyaz",
-  "executive_producer": "",
-  "producer": "",
-  "editor": "Aeyaz",
-  "colourist": "Aeyaz",
-  "more_credits": [],
-  "stills": [],
+  "frames": [
+    "/images/Varanasi Beyond Life/varanasi-01.jpg",
+    "/images/Varanasi Beyond Life/varanasi-03.jpg",
+    "/images/Varanasi Beyond Life/varanasi-04.jpg"
+  ],
   "videos": [
-    "https://vimeo.com/216306429"
+    {
+      "url": "https://vimeo.com/216306429?fl=pl&fe=sh"
+    }
+  ],
+  "dop": "Aeyaz",
+  "more_credits": [
+    {
+      "role": "Director/DOP/Editor/Grade",
+      "name": "Aeyaz"
+    }
+  ],
+  "stills": [
+    "/images/Varanasi Beyond Life/varanasi-01.jpg",
+    "/images/Varanasi Beyond Life/varanasi-02.jpg",
+    "/images/Varanasi Beyond Life/varanasi-03.jpg",
+    "/images/Varanasi Beyond Life/varanasi-04.jpg"
   ]
 }
