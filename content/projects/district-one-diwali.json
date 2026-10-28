@@ -1,7 +1,16 @@
 {
   "title": "District One — Diwali",
-  "categories": [],
-  "frames": [],
+  "categories": [
+    "content/categories/lifestyle.json"
+  ],
+  "frames": [
+    "/images/District One - Diwali/district-one-diwali-05.jpg",
+    "/images/District One - Diwali/district-one-diwali-01.jpg",
+    "/images/District One - Diwali/district-one-diwali-02.jpg"
+  ],
+  "videos": [
+    {}
+  ],
   "client": "MBR District One",
   "agency": "Blue Apple",
   "production_house": "Dejavu Dubai",
@@ -9,11 +18,11 @@
   "dop": "Aeyaz",
   "executive_producer": "Manasvi Gosalia",
   "producer": "Sampada Harkara",
-  "editor": "",
-  "colourist": "",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/479246866"
+  "stills": [
+    "/images/District One - Diwali/district-one-diwali-01.jpg",
+    "/images/District One - Diwali/district-one-diwali-02.jpg",
+    "/images/District One - Diwali/district-one-diwali-03.jpg",
+    "/images/District One - Diwali/district-one-diwali-04.jpg",
+    "/images/District One - Diwali/district-one-diwali-05.jpg"
   ]
 }
