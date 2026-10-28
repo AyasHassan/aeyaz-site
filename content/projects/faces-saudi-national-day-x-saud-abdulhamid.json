@@ -5,9 +5,9 @@
     "content/categories/sports.json"
   ],
   "frames": [
-    "/images/Faces - Saudi National Day/faces-snd-15.jpg",
-    "/images/Faces - Saudi National Day/faces-snd-02.jpg",
-    "/images/Faces - Saudi National Day/faces-snd-08.jpg"
+    "/images/Faces - Saudi National Day/faces-snd-01.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-18.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-15.jpg"
   ],
   "videos": [
     {
@@ -20,7 +20,6 @@
   "editor": "LalKrishnan Achutham",
   "colourist": "Josh Borrill",
   "stills": [
-    "/images/Faces - Saudi National Day/faces-snd-14.jpg",
     "/images/Faces - Saudi National Day/faces-snd-01.jpg",
     "/images/Faces - Saudi National Day/faces-snd-02.jpg",
     "/images/Faces - Saudi National Day/faces-snd-03.jpg",
@@ -30,11 +29,14 @@
     "/images/Faces - Saudi National Day/faces-snd-09.jpg",
     "/images/Faces - Saudi National Day/faces-snd-08.jpg",
     "/images/Faces - Saudi National Day/faces-snd-07.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-06.jpg",
     "/images/Faces - Saudi National Day/faces-snd-11.jpg",
     "/images/Faces - Saudi National Day/faces-snd-12.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-14.jpg",
     "/images/Faces - Saudi National Day/faces-snd-15.jpg",
-    "/images/Faces - Saudi National Day/faces-snd-18.jpg",
     "/images/Faces - Saudi National Day/faces-snd-19.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-18.jpg",
+    "/images/Faces - Saudi National Day/faces-snd-17.jpg",
     "/images/Faces - Saudi National Day/faces-snd-16.jpg"
   ]
 }
