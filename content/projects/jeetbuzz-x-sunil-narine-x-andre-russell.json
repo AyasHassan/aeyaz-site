@@ -4,19 +4,33 @@
     "content/categories/celebrities.json",
     "content/categories/sports.json"
   ],
-  "frames": [],
+  "frames": [
+    "/images/Jeetbuzz x Sunil Narine x Andre Russell/jeetbuzz-04.jpg",
+    "/images/Jeetbuzz x Sunil Narine x Andre Russell/jeetbuzz-11.jpg",
+    "/images/Jeetbuzz x Sunil Narine x Andre Russell/jeetbuzz-05.jpg"
+  ],
+  "videos": [
+    {
+      "url": "https://vimeo.com/1195706019?fl=pl&fe=sh"
+    }
+  ],
   "client": "Jeetbuzz",
-  "agency": "",
   "production_house": "Hanzo Films, Dubai",
   "director": "Anoj Nair",
   "dop": "Aeyaz",
   "executive_producer": "Hijaz",
-  "producer": "",
-  "editor": "",
-  "colourist": "",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/1195706019"
+  "stills": [
+    "/images/Jeetbuzz x Sunil Narine x Andre Russell/jeetbuzz-01.jpg",
+    "/images/Jeetbuzz x Sunil Narine x Andre Russell/jeetbuzz-02.jpg",
+    "/images/Jeetbuzz x Sunil Narine x Andre Russell/jeetbuzz-03.jpg",
+    "/images/Jeetbuzz x Sunil Narine x Andre Russell/jeetbuzz-04.jpg",
+    "/images/Jeetbuzz x Sunil Narine x Andre Russell/jeetbuzz-05.jpg",
+    "/images/Jeetbuzz x Sunil Narine x Andre Russell/jeetbuzz-06.jpg",
+    "/images/Jeetbuzz x Sunil Narine x Andre Russell/jeetbuzz-07.jpg",
+    "/images/Jeetbuzz x Sunil Narine x Andre Russell/jeetbuzz-08.jpg",
+    "/images/Jeetbuzz x Sunil Narine x Andre Russell/jeetbuzz-09.jpg",
+    "/images/Jeetbuzz x Sunil Narine x Andre Russell/jeetbuzz-11.jpg",
+    "/images/Jeetbuzz x Sunil Narine x Andre Russell/jeetbuzz-12.jpg",
+    "/images/Jeetbuzz x Sunil Narine x Andre Russell/jeetbuzz-13.jpg"
   ]
 }
