@@ -132,6 +132,7 @@ const projects = readDir(path.join(C, 'projects')).map((f) => {
     legacyStatus: (d.status || '').toLowerCase(),
     legacyOrder: Number.isFinite(Number(d.order)) ? Number(d.order) : 9999,
     show: String(d.show || 'work').toLowerCase(),
+    visible: d.visible !== false,
     cats: arr(d.categories).map(resolveCat).filter(Boolean),
     frames: frames.slice(0, 3),
     videos: arr(d.videos).concat(arr(d.video))
@@ -151,7 +152,7 @@ const bySlug = Object.fromEntries(projects.map((p) => [p.slug, p]));
 const norm = (t) => String(t || '').toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, '');
 const orderFile = path.join(C, 'order.txt');
 const orderLines = fs.existsSync(orderFile) ? fs.readFileSync(orderFile, 'utf8').split('\n').map((l) => l.trim()).filter(Boolean) : [];
-const isHidden = (p) => p.show === 'hidden' || p.legacyStatus === 'hidden';
+const isHidden = (p) => !p.visible || p.show === 'hidden' || p.legacyStatus === 'hidden';
 const visible = projects.filter((p) => !isHidden(p));
 const work = [];
 for (const line of orderLines) {
