@@ -1,5 +1,6 @@
 {
   "title": "STC Hajj",
+  "show": "work",
   "categories": [
     "content/categories/tourism.json"
   ],
@@ -9,9 +10,7 @@
     "/images/STC Hajj/stc-hajj-03.jpg"
   ],
   "videos": [
-    {
-      "url": "https://vimeo.com/309217424?fl=pl&fe=sh"
-    }
+    "https://vimeo.com/309217424?fl=pl&fe=sh"
   ],
   "client": "STC",
   "agency": "JWT KSA",
@@ -21,5 +20,10 @@
   "executive_producer": "Manasvi Gosalia",
   "producer": "Farah Assaf",
   "editor": "Rizwan Maple",
-  "colourist": "Aeyaz"
+  "colourist": "Aeyaz",
+  "stills": [
+    "/images/STC Hajj/stc-hajj-01.jpg",
+    "/images/STC Hajj/stc-hajj-02.jpg",
+    "/images/STC Hajj/stc-hajj-03.jpg"
+  ]
 }
