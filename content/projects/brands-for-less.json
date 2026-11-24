@@ -1,8 +1,10 @@
 {
   "title": "Brands For Less",
+  "visible": true,
   "categories": [
     "content/categories/musical.json",
-    "content/categories/celebrities.json"
+    "content/categories/celebrities.json",
+    "content/categories/lifestyle.json"
   ],
   "frames": [
     "/images/Brands For Less/brands-for-less-11.jpg",
@@ -10,9 +12,7 @@
     "/images/Brands For Less/brands-for-less-14.jpg"
   ],
   "videos": [
-    {
-      "url": "https://vimeo.com/876613353"
-    }
+    "https://vimeo.com/876613353?fl=pl&fe=sh"
   ],
   "client": "Brands for Less",
   "production_house": "Satori Digital",
