@@ -1,12 +1,13 @@
 {
   "title": "Nespresso — Time to Savour",
+  "show": "work",
   "frames": [
     "/images/Nespresso/Reel_03.00_00_10_19.Still009.jpg",
     "/images/Nespresso/Reel_03.00_00_12_00.Still010.jpg",
     "/images/Nespresso/Reel_03.00_00_29_07.Still016.jpg"
   ],
   "videos": [
-    {}
+    "https://vimeo.com/336304992?fl=pl&fe=sh"
   ],
   "client": "Nespresso",
   "agency": "M&S Saatchi, Dubai",
