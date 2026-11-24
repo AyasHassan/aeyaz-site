@@ -1,6 +1,6 @@
 {
   "title": "Samsung - Make More Happen",
-  "visible": true,
+  "visible": false,
   "categories": [
     "content/categories/lifestyle.json",
     "content/categories/sports.json"
