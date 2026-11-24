@@ -131,6 +131,7 @@ const projects = readDir(path.join(C, 'projects')).map((f) => {
     title: d.title || 'Untitled',
     legacyStatus: (d.status || '').toLowerCase(),
     legacyOrder: Number.isFinite(Number(d.order)) ? Number(d.order) : 9999,
+    show: String(d.show || 'work').toLowerCase(),
     cats: arr(d.categories).map(resolveCat).filter(Boolean),
     frames: frames.slice(0, 3),
     videos: arr(d.videos).concat(arr(d.video))
@@ -145,25 +146,20 @@ const projects = readDir(path.join(C, 'projects')).map((f) => {
 });
 const bySlug = Object.fromEntries(projects.map((p) => [p.slug, p]));
 
-// Order and placement come from the "Arrange projects" page
-const placed = new Set();
-const pick = (list) => arr(list).map((r) => bySlug[stem(typeof r === 'object' && r ? r.project || r.value || r.path || '' : r)]).filter((p) => p && !placed.has(p.slug) && placed.add(p.slug));
-let work = [];
-if (arrange && Array.isArray(arrange.projects)) {
-  // One list: order = drag order, each row says where it shows
-  const refOf = (r) => (r && typeof r === 'object' ? r.project : r);
-  const showOf = (r) => { const v = String((r && r.show) || 'work').toLowerCase(); return v === 'hidden' ? 'hidden' : 'work'; };
-  work = pick(arrange.projects.filter((r) => showOf(r) === 'work').map(refOf));
-  pick(arrange.projects.filter((r) => showOf(r) === 'hidden').map(refOf));
-} else if (arrange) {
-  work = pick(arrange.work);
-  pick(arrange.hidden);
+// Order comes from content/order.txt (one project title per line, top first).
+// Matching ignores case, punctuation and spacing. Projects not listed go to the bottom, A–Z.
+const norm = (t) => String(t || '').toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, '');
+const orderFile = path.join(C, 'order.txt');
+const orderLines = fs.existsSync(orderFile) ? fs.readFileSync(orderFile, 'utf8').split('\n').map((l) => l.trim()).filter(Boolean) : [];
+const isHidden = (p) => p.show === 'hidden' || p.legacyStatus === 'hidden';
+const visible = projects.filter((p) => !isHidden(p));
+const work = [];
+for (const line of orderLines) {
+  const hit = visible.find((p) => norm(p.title) === norm(line) && !work.includes(p));
+  if (hit) work.push(hit);
+  else console.log(`Order file: no project matches "${line}"`);
 }
-// Projects not placed yet: use their old setting, otherwise add to the end of Work
-const rest = projects.filter((p) => !placed.has(p.slug)).sort((a, b) => a.legacyOrder - b.legacyOrder || a.title.localeCompare(b.title));
-for (const p of rest) {
-  if (p.legacyStatus !== 'hidden') work.push(p);
-}
+for (const p of visible.filter((p) => !work.includes(p)).sort((a, b) => a.title.localeCompare(b.title))) work.push(p);
 
 // ---------- layout ----------
 const NAV = [['work', 'Work', '/'], ['feature', 'Feature', '/feature-film/'], ['about', 'About', '/about/'], ['contact', 'Contact', '/contact/']];
