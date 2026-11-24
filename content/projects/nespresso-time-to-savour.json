@@ -1,6 +1,10 @@
 {
   "title": "Nespresso — Time to Savour",
-  "show": "work",
+  "visible": true,
+  "categories": [
+    "content/categories/lifestyle.json",
+    "content/categories/narrative.json"
+  ],
   "frames": [
     "/images/Nespresso/Reel_03.00_00_10_19.Still009.jpg",
     "/images/Nespresso/Reel_03.00_00_12_00.Still010.jpg",
