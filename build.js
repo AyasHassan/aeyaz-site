@@ -168,8 +168,12 @@ for (const p of rest) {
   else if (p.legacyStatus !== 'hidden') work.push(p);
 }
 
+// Archive page removed: every Archive project now shows on the Work page, after the Work ones
+work = work.concat(archive);
+archive = [];
+
 // ---------- layout ----------
-const NAV = [['work', 'Work', '/'], ['archive', 'Archive', '/archive/'], ['feature', 'Feature', '/feature-film/'], ['about', 'About', '/about/'], ['contact', 'Contact', '/contact/']];
+const NAV = [['work', 'Work', '/'], ['feature', 'Feature', '/feature-film/'], ['about', 'About', '/about/'], ['contact', 'Contact', '/contact/']];
 
 function page({ title, active, body, description, path: urlPath = '/', image = '', jsonld = null }) {
   const fullTitle = title ? `${title} | ${PERSON} — Director of Photography, Dubai` : `${PERSON} | ${SEO_TAG}`;
@@ -301,7 +305,6 @@ const personSchema = () => ({
   const usedCats = categories.filter((c) => work.concat(archive).some((p) => p.cats.some((pc) => pc.id === c.id)));
   const workRows = [];
   for (const p of work) workRows.push(await row(p));
-  for (const p of archive) if (p.cats.length) workRows.push((await row(p)).replace('<a class="proj"', '<a class="proj" data-archive hidden'));
   const firstImg = work.find((p) => p.frames.length);
   write('index.html', page({
     active: 'work', path: '/', jsonld: personSchema(),
@@ -316,25 +319,14 @@ ${workRows.join('\n')}
 </div>`,
   }));
 
-  // Archive
-  const archRows = [];
-  for (const p of archive) archRows.push(await row(p));
-  write('archive/index.html', page({
-    title: 'Archive', active: 'archive', path: '/archive/',
-    body: `<h1 class="title title-gap">Archive</h1>
-<div class="rows${THUMBS === 'one' ? ' rows-one' : ''}">
-${archRows.join('\n')}
-</div>`,
-  }));
-
   // Project pages
   const hidden = projects.filter((p) => !work.includes(p) && !archive.includes(p));
   for (const [list, isArchive] of [[work, false], [archive, true], [hidden, null]]) {
     for (let i = 0; i < list.length; i++) {
       const p = list[i];
       const next = list[(i + 1) % list.length];
-      const backHref = isArchive ? '/archive/' : '/';
-      const backLabel = isArchive ? 'Back to Archive' : 'Back to Work';
+      const backHref = '/';
+      const backLabel = 'Back to Work';
       write(`work/${p.slug}/index.html`, page({
         title: p.title, active: isArchive ? 'archive' : 'work', path: `/work/${p.slug}/`,
         image: p.frames[0] ? await variant(p.frames[0], 1280) : '',
