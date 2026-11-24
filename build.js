@@ -388,12 +388,12 @@ ${settings.website ? `<div><span class="label">Website</span><a href="https://${
 <div class="contact">
 <div class="contact-form-wrap">
 <form class="contact-form" id="contact-form" data-key="${esc(settings.web3forms_key || '')}" data-email="${esc(settings.email || '')}">
-<p class="lead">${esc(settings.contact_intro || 'Have a project in mind? Send a message.')}</p>
+<p class="lead">${esc(settings.contact_intro || 'Say hello.')}</p>
 <div class="two">
 <label><span class="label">Name</span><input class="field" type="text" name="name" required autocomplete="name" placeholder="Your name"></label>
 <label><span class="label">Email</span><input class="field" type="email" name="email" required autocomplete="email" placeholder="you@company.com"></label>
 </div>
-<label><span class="label">Message</span><textarea class="field" name="message" rows="5" required placeholder="Tell me about the project, dates and location"></textarea></label>
+<label><span class="label">Message</span><textarea class="field" name="message" rows="5" required></textarea></label>
 <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
 <button type="submit" class="send">Send message</button>
 <p class="form-error" role="alert" hidden>Sorry, something went wrong. Please email me directly instead.</p>
