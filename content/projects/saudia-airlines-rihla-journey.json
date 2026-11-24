@@ -1,9 +1,9 @@
 {
   "title": "Saudia Airlines - Rihla (Journey)",
-  "show": "work",
+  "visible": true,
   "categories": [
     "content/categories/tourism.json",
-    "content/categories/brands.json"
+    "content/categories/narrative.json"
   ],
   "frames": [
     "/images/Saudia Airlines - Rihla (Journey)/saudia-rihla-02.jpg",
