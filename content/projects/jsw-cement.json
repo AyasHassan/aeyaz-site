@@ -1,7 +1,7 @@
 {
   "title": "JSW Cement",
+  "visible": true,
   "categories": [
-    "content/categories/brands.json",
     "content/categories/tourism.json"
   ],
   "frames": [
@@ -10,9 +10,7 @@
     "/images/JSW Cement/jsw-cement-07.jpg"
   ],
   "videos": [
-    {
-      "url": "https://vimeo.com/799383449?fl=pl&fe=sh"
-    }
+    "https://vimeo.com/799383449?fl=pl&fe=sh"
   ],
   "client": "JSW Cement",
   "agency": "Cocktail Art Company",
