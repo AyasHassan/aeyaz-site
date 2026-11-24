@@ -1,7 +1,9 @@
 {
   "title": "The Emirates - “A Winter Through My Eyes”",
+  "visible": true,
   "categories": [
-    "content/categories/tourism.json"
+    "content/categories/tourism.json",
+    "content/categories/narrative.json"
   ],
   "frames": [
     "/images/The Emirates - A Winter Through My Eyes/emirates-winter-17.jpg",
@@ -9,9 +11,7 @@
     "/images/The Emirates - A Winter Through My Eyes/emirates-winter-19.jpg"
   ],
   "videos": [
-    {
-      "url": "https://vimeo.com/670548610?fl=pl&fe=sh"
-    }
+    "https://vimeo.com/670548610?fl=pl&fe=sh"
   ],
   "client": "The Emirates",
   "production_house": "Dejavu Dubai",
