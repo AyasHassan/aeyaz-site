@@ -1,12 +1,13 @@
 {
   "title": "Samsung - Make More Happen",
+  "show": "work",
   "frames": [
     "/images/Samsung - Make More Happen/Reel_03.00_00_18_10.Still012.jpg",
     "/images/Samsung - Make More Happen/Reel_03.00_01_41_15.Still044.jpg",
     "/images/Samsung - Make More Happen/Reel_03.00_00_15_20.Still011.jpg"
   ],
   "videos": [
-    {}
+    "https://vimeo.com/310942061?fl=pl&fe=sh"
   ],
   "client": "Samsung",
   "agency": "Cheil Worldwide, Dubai",
