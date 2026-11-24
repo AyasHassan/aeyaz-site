@@ -1,0 +1,17 @@
+{
+  "title": "Just Life",
+  "visible": true,
+  "categories": [
+    "content/categories/lifestyle.json"
+  ],
+  "videos": [
+    "https://vimeo.com/1195703065?fl=pl&fe=sh",
+    "https://vimeo.com/1195701953?fl=pl&fe=sh",
+    "https://vimeo.com/1195702589?fl=pl&fe=sh"
+  ],
+  "client": "Just Life",
+  "director": "Kiran Pullanoor",
+  "dop": "Aeyaz",
+  "producer": "Khushi Rawat",
+  "editor": "Lal Krishnan"
+}
