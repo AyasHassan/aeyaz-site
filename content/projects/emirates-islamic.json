@@ -5,25 +5,17 @@
     "content/categories/brands.json"
   ],
   "frames": [
-    "/images/Emirates Islamic/emirates-islamic-05.jpg",
     "/images/Emirates Islamic/emirates-islamic-02.jpg",
+    "/images/Emirates Islamic/emirates-islamic-05.jpg",
     "/images/Emirates Islamic/emirates-islamic-08.jpg"
   ],
   "videos": [
-    {
-      "title": "Multiple Bill Payments",
-      "url": "https://vimeo.com/1051412066?fl=pl&fe=sh"
-    },
-    {
-      "title": "Account Statements",
-      "url": "https://vimeo.com/1051414189?fl=pl&fe=sh"
-    },
-    {
-      "title": "Digital Wealth",
-      "url": "https://vimeo.com/1051413870?fl=pl&fe=sh"
-    }
+    "https://vimeo.com/1051414189?fl=pl&fe=sh",
+    "https://vimeo.com/1051412066?fl=pl&fe=sh",
+    "https://vimeo.com/1051413870?fl=pl&fe=sh"
   ],
   "client": "Emirates Islamic",
+  "agency": "Liwa Content Driven",
   "production_house": "Liwa Content Driven",
   "director": "Trever McMahan",
   "dop": "Aeyaz",
