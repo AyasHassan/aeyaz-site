@@ -1,7 +1,7 @@
 {
   "title": "STC  We Are Ready",
+  "visible": true,
   "categories": [
-    "content/categories/narrative.json",
     "content/categories/tourism.json"
   ],
   "frames": [
@@ -10,9 +10,7 @@
     "/images/STC - We Are Ready/stc-we-are-ready-01.jpg"
   ],
   "videos": [
-    {
-      "url": "https://vimeo.com/382172388?fl=pl&fe=sh"
-    }
+    "https://vimeo.com/382172388?fl=pl&fe=sh"
   ],
   "client": "STC",
   "production_house": "Dejavu",
