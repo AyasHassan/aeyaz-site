@@ -197,6 +197,8 @@ ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld).replace(
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style.css">
+<link rel="icon" type="image/png" href="/assets/favicon.png">
+<link rel="apple-touch-icon" href="/assets/favicon.png">
 </head>
 <body>
 <div class="site">
