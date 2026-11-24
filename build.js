@@ -199,6 +199,12 @@ ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld).replace(
 <link rel="stylesheet" href="/assets/style.css">
 <link rel="icon" type="image/png" href="/assets/favicon.png">
 <link rel="apple-touch-icon" href="/assets/favicon.png">
+<style>
+.ig{display:inline-flex;align-items:center;color:inherit;margin-left:18px;opacity:.85}
+.ig:hover{opacity:1}
+.to-top{position:fixed;right:20px;bottom:20px;width:44px;height:44px;border:1px solid #F2F2F0;background:#0A0A0A;color:#F2F2F0;display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .3s;z-index:50;padding:0}
+.to-top.show{opacity:1;pointer-events:auto}
+</style>
 </head>
 <body>
 <div class="site">
@@ -206,6 +212,7 @@ ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld).replace(
 <a class="logo" href="/">${esc(name)}</a>
 <nav class="nav" aria-label="Primary">
 ${nav}
+${settings.instagram ? `<a class="ig" href="${esc(settings.instagram)}" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>` : ''}
 </nav>
 </header>
 <main class="main">
@@ -218,6 +225,8 @@ ${footLinks}
 </div>
 </footer>
 </div>
+${urlPath === '/' ? `<button class="to-top" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<script>(function(){var b=document.querySelector('.to-top');if(!b)return;function t(){b.classList.toggle('show',window.scrollY>600)}window.addEventListener('scroll',t,{passive:true});t();b.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})})})();</script>` : ''}
 <script src="/assets/site.js" defer></script>
 </body>
 </html>`;
