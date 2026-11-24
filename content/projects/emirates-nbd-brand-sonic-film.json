@@ -1,18 +1,16 @@
 {
   "title": "Emirates NBD - Brand Sonic Film",
+  "visible": true,
   "categories": [
-    "content/categories/brands.json",
     "content/categories/lifestyle.json"
   ],
   "frames": [
-    "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-08.jpg",
     "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-01.jpg",
+    "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-08.jpg",
     "/images/Emirates NBD - Brand Sonic Film/enbd-sonic-02.jpg"
   ],
   "videos": [
-    {
-      "url": "https://vimeo.com/1100839250?fl=pl&fe=sh"
-    }
+    "https://vimeo.com/1100839250?fl=pl&fe=sh"
   ],
   "client": "Emirates NBD",
   "production_house": "Liwa Content Driven",
