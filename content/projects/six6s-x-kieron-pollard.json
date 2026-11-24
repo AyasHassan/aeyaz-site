@@ -5,10 +5,23 @@
     "content/categories/sports.json",
     "content/categories/vfx.json"
   ],
+  "frames": [
+    "/images/Six6s x Pollard/Six6s X Plloy_Film 03_HD_Clean.mov.00_00_05_15.Still001.jpg",
+    "/images/Six6s x Pollard/Six6s X Plloy_Film 03_HD_Clean.mov.00_00_09_04.Still004.jpg",
+    "/images/Six6s x Pollard/Six6s X Plloy_Film 03_HD_Clean.mov.00_00_18_09.Still006.jpg"
+  ],
   "videos": [
     "https://vimeo.com/1233736511?fl=pl&fe=sh"
   ],
   "client": "Six6s",
   "director": "Anoj Nair",
-  "dop": "Aeyaz"
+  "dop": "Aeyaz",
+  "stills": [
+    "/images/Six6s x Pollard/Six6s X Plloy_Film 03_HD_Clean.mov.00_00_05_15.Still001.jpg",
+    "/images/Six6s x Pollard/Six6s X Plloy_Film 03_HD_Clean.mov.00_00_06_21.Still002.jpg",
+    "/images/Six6s x Pollard/Six6s X Plloy_Film 03_HD_Clean.mov.00_00_09_04.Still004.jpg",
+    "/images/Six6s x Pollard/Six6s X Plloy_Film 03_HD_Clean.mov.00_00_13_05.Still005.jpg",
+    "/images/Six6s x Pollard/Six6s X Plloy_Film 03_HD_Clean.mov.00_00_18_09.Still006.jpg",
+    "/images/Six6s x Pollard/Six6s X Plloy_Film 03_HD_Clean.mov.00_00_23_06.Still007.jpg"
+  ]
 }
