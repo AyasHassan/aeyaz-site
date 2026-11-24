@@ -1,12 +1,16 @@
 {
-  "title": "MBR District One — Diwali",
+  "title": "MBR District One - Diwali",
+  "show": "work",
+  "categories": [
+    "content/categories/lifestyle.json"
+  ],
   "frames": [
     "/images/MBR Diwali (Kid)/MBR Diwali Dir Cut_16-9.00_01_10_02.Still013-1.jpg",
     "/images/MBR Diwali (Kid)/MBR Diwali Dir Cut_16-9.00_00_50_19.Still014.jpg",
     "/images/MBR Diwali (Kid)/MBR Diwali Dir Cut_16-9.00_00_00_00.Still012.jpg"
   ],
   "videos": [
-    {}
+    "https://vimeo.com/366092862"
   ],
   "client": "MBR City District One",
   "agency": "Blue Apple Advertising",
