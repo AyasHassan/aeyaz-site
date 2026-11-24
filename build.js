@@ -298,9 +298,20 @@ const personSchema = () => ({
   const workRows = [];
   for (const p of work) workRows.push(await row(p));
   const firstImg = work.find((p) => p.frames.length);
+  // Share image: the picture shown when the link is pasted into WhatsApp, email etc.
+  // Uses the "Share image" from Site settings if set, otherwise the first project still.
+  let shareImage = '';
+  if (settings.share_image) {
+    const shareFile = path.join(ROOT, String(settings.share_image).replace(/^\/+/, ''));
+    if (sharp && fs.existsSync(shareFile)) {
+      fs.mkdirSync(path.join(OUT, 'img'), { recursive: true });
+      await sharp(shareFile, { failOn: 'none' }).rotate().resize(1200, 630, { fit: 'cover' }).jpeg({ quality: 82 }).toFile(path.join(OUT, 'img', 'share.jpg'));
+      shareImage = '/img/share.jpg';
+    } else console.warn('Share image not found or sharp missing:', settings.share_image);
+  }
   write('index.html', page({
     active: 'work', path: '/', jsonld: personSchema(),
-    image: firstImg ? await variant(firstImg.frames[0], 1280) : '',
+    image: shareImage || (firstImg ? await variant(firstImg.frames[0], 1280) : ''),
     body: `<h1 class="title">${headlineHtml(settings.headline || 'Director of Photography')}</h1>
 ${usedCats.length && SHOW_CATS ? `<div class="filters" role="group" aria-label="Filter projects by category">
 <button type="button" data-filter="all" aria-pressed="true">All</button>
