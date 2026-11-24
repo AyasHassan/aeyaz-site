@@ -1,5 +1,6 @@
 {
   "title": "Varanasi - Beyond Life",
+  "show": "work",
   "categories": [
     "content/categories/narrative.json",
     "content/categories/tourism.json"
@@ -10,9 +11,7 @@
     "/images/Varanasi Beyond Life/varanasi-04.jpg"
   ],
   "videos": [
-    {
-      "url": "https://vimeo.com/216306429?fl=pl&fe=sh"
-    }
+    "https://vimeo.com/216306429?fl=pl&fe=sh"
   ],
   "dop": "Aeyaz",
   "more_credits": [
@@ -25,6 +24,19 @@
     "/images/Varanasi Beyond Life/varanasi-01.jpg",
     "/images/Varanasi Beyond Life/varanasi-02.jpg",
     "/images/Varanasi Beyond Life/varanasi-03.jpg",
-    "/images/Varanasi Beyond Life/varanasi-04.jpg"
+    "/images/Varanasi Beyond Life/varanasi-04.jpg",
+    "/images/Varanasi Beyond Life/Varanasi_00001.jpg",
+    "/images/Varanasi Beyond Life/varanasi-03.jpg",
+    "/images/Varanasi Beyond Life/varanasi-04.jpg",
+    "/images/Varanasi Beyond Life/varanasi-01.jpg",
+    "/images/Varanasi Beyond Life/Varanasi_00017.jpg",
+    "/images/Varanasi Beyond Life/Varanasi_00010.jpg",
+    "/images/Varanasi Beyond Life/Varanasi_00016.jpg",
+    "/images/Varanasi Beyond Life/Varanasi_00004.jpg",
+    "/images/Varanasi Beyond Life/Varanasi-Beyond Life 1080.00_00_02_02.Still001.jpg",
+    "/images/Varanasi Beyond Life/Varanasi-Beyond Life 1080.00_02_29_22.Still007.jpg",
+    "/images/Varanasi Beyond Life/Varanasi-Beyond Life 1080.00_01_42_20.Still004.jpg",
+    "/images/Varanasi Beyond Life/Varanasi-Beyond Life 1080.00_00_16_15.Still003.jpg",
+    "/images/Varanasi Beyond Life/Varanasi_00011.jpg"
   ]
 }
