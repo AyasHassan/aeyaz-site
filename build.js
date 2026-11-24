@@ -98,6 +98,7 @@ const SITE_URL = String(settings.site_url || 'https://aeyaz.com').replace(/\/+$/
 const PERSON = titleCase(name);
 const SEO_TAG = settings.seo_title || 'Director of Photography & Cinematographer in Dubai, UAE';
 const THUMBS = settings.thumbnail_style === 'one' ? 'one' : 'three';
+const SHOW_CATS = settings.show_categories !== false;
 const pagesForSitemap = [];
 
 const categories = readDir(path.join(C, 'categories')).map((f) => {
@@ -299,7 +300,7 @@ const personSchema = () => ({
     active: 'work', path: '/', jsonld: personSchema(),
     image: firstImg ? await variant(firstImg.frames[0], 1280) : '',
     body: `<h1 class="title">${headlineHtml(settings.headline || 'Director of Photography')}</h1>
-${usedCats.length ? `<div class="filters" role="group" aria-label="Filter projects by category">
+${usedCats.length && SHOW_CATS ? `<div class="filters" role="group" aria-label="Filter projects by category">
 <button type="button" data-filter="all" aria-pressed="true">All</button>
 ${usedCats.map((c) => `<button type="button" data-filter="${c.id}" aria-pressed="false">${esc(c.name)}</button>`).join('\n')}
 </div>` : '<div class="filters-space"></div>'}
