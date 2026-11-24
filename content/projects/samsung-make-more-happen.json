@@ -1,6 +1,10 @@
 {
   "title": "Samsung - Make More Happen",
-  "show": "work",
+  "visible": true,
+  "categories": [
+    "content/categories/lifestyle.json",
+    "content/categories/sports.json"
+  ],
   "frames": [
     "/images/Samsung - Make More Happen/Reel_03.00_00_18_10.Still012.jpg",
     "/images/Samsung - Make More Happen/Reel_03.00_01_41_15.Still044.jpg",
