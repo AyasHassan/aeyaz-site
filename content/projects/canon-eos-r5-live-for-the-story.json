@@ -1,8 +1,7 @@
 {
   "title": "Canon EOS R5 — Live for the Story",
-  "show": "work",
+  "visible": true,
   "categories": [
-    "content/categories/brands.json",
     "content/categories/musical.json"
   ],
   "frames": [
