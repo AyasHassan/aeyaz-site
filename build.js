@@ -423,7 +423,7 @@ ${settings.location ? `<p class="muted">${esc(settings.location)}</p>` : ''}
     '/featured': '/',
     '/saudia-arlines-rihla-journey': 'saudia-airlines-rihla-journey', '/jeetbuzz-x-sunil-narine-x-andre-russel': 'jeetbuzz-x-sunil-narine-x-andre-russell',
     '/e-money-stratgey-films': 'eand-money-strategy-films', '/mall-alone-dubai-tourism': 'mall-alone-dubai-tourism-tom-felton',
-    '/homecentre-creature': 'home-centre-fathers-day', '/jsw-cements': 'jsw-cement', '/noon': 'noon-this-is-us',
+    '/homecentre-creature': 'home-centre-fathers-day', '/jsw-cements': 'jsw-cement', '/noon': '/',
   };
   const redirects = [];
   for (const [from, to] of Object.entries(OLD_LINKS)) redirects.push(`${from} ${to.startsWith('/') ? to : `/work/${to}/`} 301`);
