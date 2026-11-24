@@ -1,5 +1,6 @@
 {
   "title": "Saudia Airlines - Rihla (Journey)",
+  "show": "work",
   "categories": [
     "content/categories/tourism.json",
     "content/categories/brands.json"
@@ -10,7 +11,7 @@
     "/images/Saudia Airlines - Rihla (Journey)/saudia-rihla-01.jpg"
   ],
   "videos": [
-    {}
+    "https://vimeo.com/932017395?fl=pl&fe=sh"
   ],
   "client": "Saudia Airlines",
   "agency": "Leo Burnett",
@@ -18,6 +19,7 @@
   "director": "Tahaab Rais",
   "dop": "Aeyaz",
   "executive_producer": "Sagar Rege",
+  "producer": "Swetha Sandip",
   "editor": "Neda Zag",
   "colourist": "Company 3",
   "stills": [
