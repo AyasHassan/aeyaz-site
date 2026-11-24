@@ -1,7 +1,13 @@
 {
   "title": "Nespresso — Time to Savour",
-  "categories": [],
-  "frames": [],
+  "frames": [
+    "/images/Nespresso/Reel_03.00_00_10_19.Still009.jpg",
+    "/images/Nespresso/Reel_03.00_00_12_00.Still010.jpg",
+    "/images/Nespresso/Reel_03.00_00_29_07.Still016.jpg"
+  ],
+  "videos": [
+    {}
+  ],
   "client": "Nespresso",
   "agency": "M&S Saatchi, Dubai",
   "production_house": "Dejavu, Dubai",
@@ -11,9 +17,13 @@
   "producer": "Sampada Harkara",
   "editor": "Rizwan Maple",
   "colourist": "Aeyaz",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/336304992"
+  "stills": [
+    "/images/Nespresso/Reel_03.00_00_06_21.Still007.jpg",
+    "/images/Nespresso/Reel_03.00_00_09_05.Still008.jpg",
+    "/images/Nespresso/Reel_03.00_00_10_19.Still009.jpg",
+    "/images/Nespresso/Reel_03.00_00_12_00.Still010.jpg",
+    "/images/Nespresso/Reel_03.00_00_29_07.Still016.jpg",
+    "/images/Nespresso/Reel_03.00_00_31_09.Still018.jpg",
+    "/images/Nespresso/Reel_03.00_00_30_01.Still017.jpg"
   ]
 }
