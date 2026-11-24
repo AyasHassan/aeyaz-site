@@ -1,6 +1,6 @@
 {
   "title": "Noon - This Is Us",
-  "visible": true,
+  "visible": false,
   "categories": [
     "content/categories/lifestyle.json",
     "content/categories/tourism.json"
