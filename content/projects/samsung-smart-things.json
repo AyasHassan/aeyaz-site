@@ -1,8 +1,8 @@
 {
   "title": "Samsung - Smart Things",
+  "visible": true,
   "categories": [
-    "content/categories/brands.json",
-    "content/categories/sports.json"
+    "content/categories/lifestyle.json"
   ],
   "frames": [
     "/images/Samsung - Smart Things/samsung-smartthings-01.jpg",
@@ -10,9 +10,7 @@
     "/images/Samsung - Smart Things/samsung-smartthings-09.jpg"
   ],
   "videos": [
-    {
-      "url": "https://vimeo.com/768495005?fl=pl&fe=sh"
-    }
+    "https://vimeo.com/768495005?fl=pl&fe=sh"
   ],
   "client": "Samsung",
   "production_house": "The Goldmine Films",
