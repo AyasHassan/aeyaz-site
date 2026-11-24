@@ -148,29 +148,22 @@ const bySlug = Object.fromEntries(projects.map((p) => [p.slug, p]));
 // Order and placement come from the "Arrange projects" page
 const placed = new Set();
 const pick = (list) => arr(list).map((r) => bySlug[stem(typeof r === 'object' && r ? r.project || r.value || r.path || '' : r)]).filter((p) => p && !placed.has(p.slug) && placed.add(p.slug));
-let work = [], archive = [];
+let work = [];
 if (arrange && Array.isArray(arrange.projects)) {
   // One list: order = drag order, each row says where it shows
   const refOf = (r) => (r && typeof r === 'object' ? r.project : r);
-  const showOf = (r) => String((r && r.show) || 'work').toLowerCase();
+  const showOf = (r) => { const v = String((r && r.show) || 'work').toLowerCase(); return v === 'hidden' ? 'hidden' : 'work'; };
   work = pick(arrange.projects.filter((r) => showOf(r) === 'work').map(refOf));
-  archive = pick(arrange.projects.filter((r) => showOf(r) === 'archive').map(refOf));
   pick(arrange.projects.filter((r) => showOf(r) === 'hidden').map(refOf));
 } else if (arrange) {
   work = pick(arrange.work);
-  archive = pick(arrange.archive);
   pick(arrange.hidden);
 }
 // Projects not placed yet: use their old setting, otherwise add to the end of Work
 const rest = projects.filter((p) => !placed.has(p.slug)).sort((a, b) => a.legacyOrder - b.legacyOrder || a.title.localeCompare(b.title));
 for (const p of rest) {
-  if (p.legacyStatus === 'archive') archive.push(p);
-  else if (p.legacyStatus !== 'hidden') work.push(p);
+  if (p.legacyStatus !== 'hidden') work.push(p);
 }
-
-// Archive page removed: every Archive project now shows on the Work page, after the Work ones
-work = work.concat(archive);
-archive = [];
 
 // ---------- layout ----------
 const NAV = [['work', 'Work', '/'], ['feature', 'Feature', '/feature-film/'], ['about', 'About', '/about/'], ['contact', 'Contact', '/contact/']];
@@ -300,9 +293,8 @@ const personSchema = () => ({
   copyDir(path.join(ROOT, 'files'), path.join(OUT, 'files'));
 
   // Work (home)
-  // Category buttons cover Work + Archive projects. "All" shows Work only;
-  // a category shows matching Work projects first, then matching Archive ones.
-  const usedCats = categories.filter((c) => work.concat(archive).some((p) => p.cats.some((pc) => pc.id === c.id)));
+  // Category buttons cover all Work projects.
+  const usedCats = categories.filter((c) => work.some((p) => p.cats.some((pc) => pc.id === c.id)));
   const workRows = [];
   for (const p of work) workRows.push(await row(p));
   const firstImg = work.find((p) => p.frames.length);
@@ -320,15 +312,15 @@ ${workRows.join('\n')}
   }));
 
   // Project pages
-  const hidden = projects.filter((p) => !work.includes(p) && !archive.includes(p));
-  for (const [list, isArchive] of [[work, false], [archive, true], [hidden, null]]) {
+  const hidden = projects.filter((p) => !work.includes(p));
+  for (const [list, isWork] of [[work, true], [hidden, null]]) {
     for (let i = 0; i < list.length; i++) {
       const p = list[i];
       const next = list[(i + 1) % list.length];
       const backHref = '/';
       const backLabel = 'Back to Work';
       write(`work/${p.slug}/index.html`, page({
-        title: p.title, active: isArchive ? 'archive' : 'work', path: `/work/${p.slug}/`,
+        title: p.title, active: 'work', path: `/work/${p.slug}/`,
         image: p.frames[0] ? await variant(p.frames[0], 1280) : '',
         description: `${p.title}${p.credits.find((c) => c.role === 'Client') ? ' for ' + p.credits.find((c) => c.role === 'Client').name : ''} — shot by ${PERSON}, Dubai-based Director of Photography.${p.credits.filter((c) => c.role !== 'Director of Photography').slice(0, 3).map((c) => ' ' + c.role + ': ' + c.name + '.').join('')}`,
         body: `<div class="project">
@@ -339,7 +331,7 @@ ${creditsBlock(p.credits)}
 ${await stillsBlock(p.stills, p.title)}
 <div class="pnav">
 <a class="back" href="${backHref}">${arrowL}${backLabel}</a>
-${isArchive !== null && list.length > 1 ? `<a class="next" href="/work/${next.slug}/">Next: ${esc(next.title)}${arrowR}</a>` : ''}
+${isWork !== null && list.length > 1 ? `<a class="next" href="/work/${next.slug}/">Next: ${esc(next.title)}${arrowR}</a>` : ''}
 </div>
 </div>`,
       }));
@@ -443,5 +435,5 @@ ${settings.location ? `<p class="muted">${esc(settings.location)}</p>` : ''}
 
   write('404.html', page({ title: 'Page not found', active: '', body: `<h1 class="title title-gap">Not found</h1><p class="muted">This page doesn’t exist. <a class="u" href="/">Back to Work</a></p>` }));
 
-  console.log(`Built ${work.length} work + ${archive.length} archive projects, ${categories.length} categories, ${imgCache.size} image versions → dist/`);
+  console.log(`Built ${work.length} work projects, ${categories.length} categories, ${imgCache.size} image versions → dist/`);
 })().catch((e) => { console.error(e); process.exit(1); });
