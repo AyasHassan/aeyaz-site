@@ -1,0 +1,31 @@
+{
+  "title": "Etihad Guest",
+  "visible": true,
+  "categories": [
+    "content/categories/lifestyle.json"
+  ],
+  "frames": [
+    "/images/Etihad Guest/Etihad_Guest_Film2_16x9.mov.00_00_02_04.Still001.jpg",
+    "/images/Etihad Guest/Etihad_Guest_Film1_16x9.mov.00_00_12_02.Still003.jpg",
+    "/images/Etihad Guest/Etihad_Guest_Film2_16x9.mov.00_00_06_16.Still003.jpg"
+  ],
+  "videos": [
+    "https://vimeo.com/1002359068?fl=pl&fe=sh",
+    "https://vimeo.com/1249760623?fl=pl&fe=sh"
+  ],
+  "client": "Etihad",
+  "production_house": "Moving Stills",
+  "director": "Shane Stephen",
+  "dop": "Aeyaz",
+  "executive_producer": "Sadanand",
+  "colourist": "Joshua",
+  "stills": [
+    "/images/Etihad Guest/Etihad_Guest_Film1_16x9.mov.00_00_00_00.Still001.jpg",
+    "/images/Etihad Guest/Etihad_Guest_Film1_16x9.mov.00_00_03_14.Still002.jpg",
+    "/images/Etihad Guest/Etihad_Guest_Film1_16x9.mov.00_00_12_02.Still003.jpg",
+    "/images/Etihad Guest/Etihad_Guest_Film2_16x9.mov.00_00_02_04.Still001.jpg",
+    "/images/Etihad Guest/Etihad_Guest_Film2_16x9.mov.00_00_03_15.Still002.jpg",
+    "/images/Etihad Guest/Etihad_Guest_Film2_16x9.mov.00_00_06_16.Still003.jpg",
+    "/images/Etihad Guest/Etihad_Guest_Film2_16x9.mov.00_00_13_04.Still004.jpg"
+  ]
+}
