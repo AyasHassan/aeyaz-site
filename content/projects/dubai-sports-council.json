@@ -1,14 +1,15 @@
 {
   "title": "Dubai Sports Council",
+  "visible": true,
   "categories": [
-    "content/categories/sports.json"
+    "content/categories/sports.json",
+    "content/categories/musical.json"
   ],
   "frames": [
     "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.11.jpg",
     "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.4.jpg",
     "/images/Dubai Sports Council/Dubai_Sports_Council_1.1.7.jpg"
   ],
-  "video": "https://vimeo.com/1142522236",
   "client": "Dubai Sports Council",
   "production_house": "The Company Films",
   "director": "Kiran Pullanoor",
