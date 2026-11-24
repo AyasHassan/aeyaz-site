@@ -393,7 +393,7 @@ ${settings.website ? `<div><span class="label">Website</span><a href="https://${
 <label><span class="label">Name</span><input class="field" type="text" name="name" required autocomplete="name" placeholder="Your name"></label>
 <label><span class="label">Email</span><input class="field" type="email" name="email" required autocomplete="email" placeholder="you@company.com"></label>
 </div>
-<label><span class="label">Message</span><textarea class="field" name="message" rows="5" required></textarea></label>
+<label><span class="label">Message</span><textarea class="field" name="message" rows="5" required placeholder="Type your message here"></textarea></label>
 <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
 <button type="submit" class="send">Send message</button>
 <p class="form-error" role="alert" hidden>Sorry, something went wrong. Please email me directly instead.</p>
