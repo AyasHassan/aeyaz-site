@@ -1,19 +1,21 @@
 {
-  "title": "STC — We Are Ready",
-  "categories": [],
-  "frames": [],
-  "client": "STC",
-  "agency": "",
-  "production_house": "",
-  "director": "Ahmed Hussain",
-  "dop": "Fatih Turker & Aeyaz",
-  "executive_producer": "",
-  "producer": "",
-  "editor": "",
-  "colourist": "",
-  "more_credits": [],
-  "stills": [],
+  "title": "STC  We Are Ready",
+  "categories": [
+    "content/categories/narrative.json",
+    "content/categories/tourism.json"
+  ],
+  "frames": [
+    "/images/STC - We Are Ready/stc-we-are-ready-03.jpg",
+    "/images/STC - We Are Ready/stc-we-are-ready-02.jpg",
+    "/images/STC - We Are Ready/stc-we-are-ready-01.jpg"
+  ],
   "videos": [
-    "https://vimeo.com/382172388"
-  ]
+    {
+      "url": "https://vimeo.com/382172388?fl=pl&fe=sh"
+    }
+  ],
+  "client": "STC",
+  "production_house": "Dejavu",
+  "director": "Ahmed Hussain",
+  "dop": "Fatih Turker & Aeyaz"
 }
