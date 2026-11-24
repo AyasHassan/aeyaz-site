@@ -1,5 +1,6 @@
 {
   "title": "Canon EOS R5 — Live for the Story",
+  "show": "work",
   "categories": [
     "content/categories/brands.json",
     "content/categories/musical.json"
@@ -10,7 +11,7 @@
     "/images/Canon EOS R5 - Live for the Story/canon-r5-24.jpg"
   ],
   "videos": [
-    {}
+    "https://vimeo.com/499939090?fl=pl&fe=sh"
   ],
   "client": "Canon Middle East",
   "agency": "Momentum",
