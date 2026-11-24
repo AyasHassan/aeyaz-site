@@ -1,5 +1,6 @@
 {
   "title": "Saudi Tourism - Ramadan",
+  "show": "work",
   "categories": [
     "content/categories/tourism.json"
   ],
@@ -9,7 +10,7 @@
     "/images/Saudi Tourism - Ramadan/saudi-tourism-ramadan-02.jpg"
   ],
   "videos": [
-    {}
+    "https://vimeo.com/1167443224?fl=pl&fe=sh"
   ],
   "client": "Saudi Tourism",
   "production_house": "Dejavu",
