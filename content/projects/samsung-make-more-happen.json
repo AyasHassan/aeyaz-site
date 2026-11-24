@@ -1,7 +1,13 @@
 {
-  "title": "Samsung — Make More Happen",
-  "categories": [],
-  "frames": [],
+  "title": "Samsung - Make More Happen",
+  "frames": [
+    "/images/Samsung - Make More Happen/Reel_03.00_00_18_10.Still012.jpg",
+    "/images/Samsung - Make More Happen/Reel_03.00_01_41_15.Still044.jpg",
+    "/images/Samsung - Make More Happen/Reel_03.00_00_15_20.Still011.jpg"
+  ],
+  "videos": [
+    {}
+  ],
   "client": "Samsung",
   "agency": "Cheil Worldwide, Dubai",
   "production_house": "Goldmine Films, Dubai",
@@ -11,9 +17,13 @@
   "producer": "Farha Moon",
   "editor": "Miraj Mohd",
   "colourist": "Aeyaz",
-  "more_credits": [],
-  "stills": [],
-  "videos": [
-    "https://vimeo.com/310942061"
+  "stills": [
+    "/images/Samsung - Make More Happen/Reel_03.00_00_15_20.Still011.jpg",
+    "/images/Samsung - Make More Happen/Reel_03.00_00_18_10.Still012.jpg",
+    "/images/Samsung - Make More Happen/Reel_03.00_00_21_07.Still013.jpg",
+    "/images/Samsung - Make More Happen/Reel_03.00_00_22_05.Still014.jpg",
+    "/images/Samsung - Make More Happen/Reel_03.00_00_22_14.Still015.jpg",
+    "/images/Samsung - Make More Happen/Reel_03.00_01_41_15.Still044.jpg",
+    "/images/Samsung - Make More Happen/Reel_03.00_01_40_17.Still043.jpg"
   ]
 }
