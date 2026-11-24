@@ -1,7 +1,9 @@
 {
   "title": "Noon - This Is Us",
+  "visible": true,
   "categories": [
-    "content/categories/lifestyle.json"
+    "content/categories/lifestyle.json",
+    "content/categories/tourism.json"
   ],
   "frames": [
     "/images/noon - This Is Us/noon-01.jpg",
@@ -9,9 +11,7 @@
     "/images/noon - This Is Us/noon-03.jpg"
   ],
   "videos": [
-    {
-      "url": "https://vimeo.com/317175582?fl=pl&fe=sh"
-    }
+    "https://vimeo.com/317175582?fl=pl&fe=sh"
   ],
   "client": "noon.com",
   "production_house": "Dejavu Dubai",
