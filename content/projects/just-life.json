@@ -4,6 +4,11 @@
   "categories": [
     "content/categories/lifestyle.json"
   ],
+  "frames": [
+    "/images/Just Life/JUSTLIFE FILM 3 FINAL HQ.mp4.00_00_16_09.Still006.jpg",
+    "/images/Just Life/JUSTLIFE FILM 3 FINAL HQ.mp4.00_00_10_15.Still005.jpg",
+    "/images/Just Life/JUSTLIFE FILM 3 FINAL HQ.mp4.00_00_02_15.Still002.jpg"
+  ],
   "videos": [
     "https://vimeo.com/1195703065?fl=pl&fe=sh",
     "https://vimeo.com/1195701953?fl=pl&fe=sh",
@@ -13,5 +18,13 @@
   "director": "Kiran Pullanoor",
   "dop": "Aeyaz",
   "producer": "Khushi Rawat",
-  "editor": "Lal Krishnan"
+  "editor": "Lal Krishnan",
+  "stills": [
+    "/images/Just Life/JUSTLIFE FILM 3 FINAL HQ.mp4.00_00_01_10.Still001.jpg",
+    "/images/Just Life/JUSTLIFE FILM 3 FINAL HQ.mp4.00_00_02_15.Still002.jpg",
+    "/images/Just Life/JUSTLIFE FILM 3 FINAL HQ.mp4.00_00_10_15.Still005.jpg",
+    "/images/Just Life/JUSTLIFE FILM 3 FINAL HQ.mp4.00_00_16_09.Still006.jpg",
+    "/images/Just Life/JUSTLIFE FILM 3 FINAL HQ.mp4.00_00_39_21.Still003.jpg",
+    "/images/Just Life/JUSTLIFE FILM 4 FINAL HQ.mp4.00_00_07_12.Still001.jpg"
+  ]
 }
