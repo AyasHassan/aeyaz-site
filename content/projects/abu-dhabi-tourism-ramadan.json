@@ -1,14 +1,14 @@
 {
   "title": "Abu Dhabi Tourism - Ramadan",
+  "visible": true,
   "categories": [
     "content/categories/tourism.json"
   ],
   "frames": [
-    "/images/DCT Ramadan/DCT_Ramadan (0-00-13-07).jpg",
     "/images/DCT Ramadan/DCT_Ramadan (0-00-44-05).jpg",
+    "/images/DCT Ramadan/DCT_Ramadan (0-00-13-07).jpg",
     "/images/DCT Ramadan/DCT_Ramadan (0-00-46-03).jpg"
   ],
-  "video": "https://vimeo.com/1056040266",
   "client": "Abu Dhabi Tourism",
   "production_house": "Dejavu",
   "director": "Samir Mallal",
