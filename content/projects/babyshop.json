@@ -1,5 +1,6 @@
 {
   "title": "Babyshop",
+  "show": "work",
   "categories": [
     "content/categories/brands.json",
     "content/categories/lifestyle.json"
@@ -10,9 +11,9 @@
     "/images/Babyshop/babyshop-02.jpg"
   ],
   "videos": [
-    {},
-    {},
-    {}
+    "https://vimeo.com/1054722308?fl=pl&fe=sh",
+    "https://vimeo.com/1054722839?fl=pl&fe=sh",
+    "https://vimeo.com/1054723292?fl=pl&fe=sh"
   ],
   "client": "Babyshop",
   "agency": "Leo Burnett",
