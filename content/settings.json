@@ -1,7 +1,7 @@
 {
   "name": "AEYAZ",
   "thumbnail_style": "three",
-  "show_categories": false,
+  "show_categories": true,
   "headline": "Director of Photography",
   "email": "email@aeyaz.com",
   "website": "www.aeyaz.com",
