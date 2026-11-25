@@ -374,7 +374,7 @@ ${isWork !== null && list.length > 1 ? `<a class="next" href="/work/${next.slug}
     description: `${film.title || 'Feature film'} — ${(arr(film.details)).join(', ')}. ${film.role || ''}`.trim(),
     image: filmPoster ? filmPoster.src : '',
     body: `<div class="film">
-<h1 style="position:absolute;left:-9999px">${esc(film.title || 'Feature Film')}</h1>
+<h1 class="ptitle">${esc(film.title || 'Feature Film')} - Feature Film</h1>
 ${filmPoster ? `<div class="film-poster">${imgTag(filmPoster, (film.title || 'Feature film') + ' poster', '100vw')}</div>` : ''}
 ${film.synopsis ? `<div class="film-synopsis">${String(film.synopsis).split(/\n\s*\n/).map((t) => t.trim()).filter(Boolean).map((t) => `<p>${esc(t)}</p>`).join('')}</div>` : ''}
 ${creditsBlock(arr(film.credits).filter((c) => c && (c.name || '').trim()))}
