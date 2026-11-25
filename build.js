@@ -204,6 +204,8 @@ ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld).replace(
 .ig:hover{opacity:1}
 .to-top{position:fixed;right:20px;bottom:20px;width:44px;height:44px;border:1px solid #F2F2F0;background:#0A0A0A;color:#F2F2F0;display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0;pointer-events:none;transition:opacity .3s;z-index:50;padding:0}
 .to-top.show{opacity:1;pointer-events:auto}
+.film-poster{margin:0 auto 48px;max-width:560px}
+.film-poster img{display:block;width:100%;height:auto}
 </style>
 </head>
 <body>
@@ -360,21 +362,19 @@ ${isWork !== null && list.length > 1 ? `<a class="next" href="/work/${next.slug}
 
   // Feature film
   const filmStills = await stillsBlock(arr(film.stills).map(imgPath).filter(Boolean), film.title || 'Feature film');
+  // Layout: poster at the top, then credits, trailer, teaser and stills
+  const filmPoster = film.poster ? await responsive(imgPath(film.poster), 1080, 2048) : null;
   write('feature-film/index.html', page({
     title: film.title || 'Feature Film', active: 'feature', path: '/feature-film/',
     description: `${film.title || 'Feature film'} — ${(arr(film.details)).join(', ')}. ${film.role || ''}`.trim(),
+    image: filmPoster ? filmPoster.src : '',
     body: `<div class="film">
-<div class="film-head">
-<h1 class="title">${esc(film.title || 'Feature Film')}</h1>
-<div class="film-meta">
-${arr(film.details).map((d) => `<span>${esc(d)}</span>`).join('\n')}
-${film.role ? `<span class="hi">${esc(film.role)}</span>` : ''}
-</div>
-</div>
+<h1 style="position:absolute;left:-9999px">${esc(film.title || 'Feature Film')}</h1>
+${filmPoster ? `<div class="film-poster">${imgTag(filmPoster, (film.title || 'Feature film') + ' poster', '100vw')}</div>` : ''}
+${creditsBlock(arr(film.credits).filter((c) => c && (c.name || '').trim()))}
 ${film.trailer ? player(film.trailer, (film.title || '') + ' trailer') : ''}
 ${film.teaser ? player(film.teaser, (film.title || '') + ' teaser') : ''}
 ${filmStills}
-${creditsBlock(arr(film.credits).filter((c) => c && (c.name || '').trim()))}
 </div>`,
   }));
 
