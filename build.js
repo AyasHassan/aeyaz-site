@@ -206,6 +206,11 @@ ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld).replace(
 .to-top.show{opacity:1;pointer-events:auto}
 .film-poster{margin:0 auto 48px;max-width:560px}
 .film-poster img{display:block;width:100%;height:auto}
+.film-synopsis{max-width:640px;margin:0 auto 56px;font-size:17px;line-height:1.6}
+.film-synopsis p{margin:0 0 16px}
+.film-video{margin:0 0 56px}
+.film-kicker{font-family:'DM Mono',monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#8a8a8a;margin:0 0 12px}
+.film-stills{margin-top:72px}
 </style>
 </head>
 <body>
@@ -371,10 +376,11 @@ ${isWork !== null && list.length > 1 ? `<a class="next" href="/work/${next.slug}
     body: `<div class="film">
 <h1 style="position:absolute;left:-9999px">${esc(film.title || 'Feature Film')}</h1>
 ${filmPoster ? `<div class="film-poster">${imgTag(filmPoster, (film.title || 'Feature film') + ' poster', '100vw')}</div>` : ''}
+${film.synopsis ? `<div class="film-synopsis">${String(film.synopsis).split(/\n\s*\n/).map((t) => t.trim()).filter(Boolean).map((t) => `<p>${esc(t)}</p>`).join('')}</div>` : ''}
 ${creditsBlock(arr(film.credits).filter((c) => c && (c.name || '').trim()))}
-${film.trailer ? player(film.trailer, (film.title || '') + ' trailer') : ''}
-${film.teaser ? player(film.teaser, (film.title || '') + ' teaser') : ''}
-${filmStills}
+${film.trailer ? `<div class="film-video"><p class="film-kicker">Trailer 1</p>${player(film.trailer, (film.title || '') + ' trailer 1')}</div>` : ''}
+${film.teaser ? `<div class="film-video"><p class="film-kicker">Trailer 2</p>${player(film.teaser, (film.title || '') + ' trailer 2')}</div>` : ''}
+${filmStills ? `<div class="film-stills"><p class="film-kicker">Stills</p>${filmStills}</div>` : ''}
 </div>`,
   }));
 
