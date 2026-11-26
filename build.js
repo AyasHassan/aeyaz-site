@@ -415,7 +415,7 @@ ${catRows.join('\n')}
 
   // All works: every live project in order.txt order, switched on or not
   const allRows = [];
-  for (const p of live) allRows.push(await row(p, 'all'));
+  for (const p of ordered) allRows.push(await row(p, 'all'));
   write('all/index.html', page({
     title: 'All works', active: 'work', path: '/all/',
     description: `All work by ${PERSON}, Dubai-based Director of Photography.`,
