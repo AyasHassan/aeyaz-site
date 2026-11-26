@@ -1,0 +1,32 @@
+{
+  "title": "Al Ain Tourism",
+  "visible": true,
+  "categories": [
+    "content/categories/tourism.json"
+  ],
+  "frames": [
+    "/images/Al Ain Tourism/Al Ain Tourism (0-00-15-12).jpg",
+    "/images/Al Ain Tourism/Al Ain Tourism (0-00-26-15).jpg",
+    "/images/Al Ain Tourism/Al Ain Tourism (0-00-29-07).jpg"
+  ],
+  "videos": [
+    "https://vimeo.com/889987621"
+  ],
+  "client": "Abu Dhabi Tourism",
+  "production_house": "Dejavu",
+  "director": "Neelay Shah",
+  "dop": "Aeyaz",
+  "producer": "Sampada",
+  "stills": [
+    "/images/Al Ain Tourism/Al Ain Tourism (0-00-04-06).jpg",
+    "/images/Al Ain Tourism/Al Ain Tourism (0-00-07-20).jpg",
+    "/images/Al Ain Tourism/Al Ain Tourism (0-00-11-16).jpg",
+    "/images/Al Ain Tourism/Al Ain Tourism (0-00-16-04).jpg",
+    "/images/Al Ain Tourism/Al Ain Tourism (0-00-21-03).jpg",
+    "/images/Al Ain Tourism/Al Ain Tourism (0-00-23-10).jpg",
+    "/images/Al Ain Tourism/Al Ain Tourism (0-00-28-05).jpg",
+    "/images/Al Ain Tourism/Al Ain Tourism (0-00-30-16).jpg",
+    "/images/Al Ain Tourism/Al Ain Tourism (0-00-34-16).jpg",
+    "/images/Al Ain Tourism/Al Ain Tourism (0-00-45-17).jpg"
+  ]
+}
