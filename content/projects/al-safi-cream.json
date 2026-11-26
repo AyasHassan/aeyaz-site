@@ -1,0 +1,23 @@
+{
+  "title": "Al Safi - Cream",
+  "visible": false,
+  "categories": [
+    "content/categories/food.json"
+  ],
+  "frames": [
+    "/images/Al Safi - Cream/Al Safi - Cream (0-00-00-21).jpg",
+    "/images/Al Safi - Cream/Al Safi - Cream (0-00-03-21).jpg",
+    "/images/Al Safi - Cream/Al Safi - Cream (0-00-05-01).jpg"
+  ],
+  "videos": [
+    "https://vimeo.com/1250342296/54fe8b2bab"
+  ],
+  "client": "Al Safi",
+  "director": "Ashish Varghese",
+  "dop": "Aeyaz",
+  "stills": [
+    "/images/Al Safi - Cream/Al Safi - Cream (0-00-05-16).jpg",
+    "/images/Al Safi - Cream/Al Safi - Cream (0-00-09-13).jpg",
+    "/images/Al Safi - Cream/Al Safi - Cream (0-00-13-23).jpg"
+  ]
+}

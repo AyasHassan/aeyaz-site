@@ -1,0 +1,53 @@
+{
+  "title": "Al Ansari Exchange",
+  "visible": false,
+  "categories": [
+    "content/categories/celebrities.json",
+    "content/categories/lifestyle.json"
+  ],
+  "frames": [
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Birthday Cake (0-00-20-14).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Snooker (0-00-22-24).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Birthday Cake (0-00-31-19).jpg"
+  ],
+  "videos": [
+    "https://vimeo.com/800157209",
+    "https://vimeo.com/856200078"
+  ],
+  "client": "Al Ansari Exchange",
+  "agency": "Yellow Media Dubai",
+  "production_house": "Bickiboss",
+  "director": "Jis Joy",
+  "dop": "Aeyaz",
+  "producer": "Ajmal",
+  "editor": "Kiran Thomas",
+  "colourist": "Rob Jos (The Colorbrewer Company)",
+  "more_credits": [
+    {
+      "role": "Music",
+      "name": "Kailas Menon"
+    }
+  ],
+  "stills": [
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Snooker (0-00-00-06).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Snooker (0-00-01-12).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Snooker (0-00-02-22).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Snooker (0-00-05-14).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Snooker (0-00-08-23).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Snooker (0-00-11-16).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Snooker (0-00-13-17).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Snooker (0-00-14-21).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Snooker (0-00-24-16).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Snooker (0-00-27-11).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Snooker (0-00-29-02).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Snooker (0-00-31-22).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Snooker (0-00-37-07).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Snooker (0-00-40-24).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Birthday Cake (0-00-03-00).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Birthday Cake (0-00-14-10).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Birthday Cake (0-00-15-14).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Birthday Cake (0-00-25-13).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Birthday Cake (0-00-27-16).jpg",
+    "/images/Al Ansari Exchange/Al Ansari Exchange - Birthday Cake (0-00-29-07).jpg"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "title": "KFC - Leg Piece",
+  "visible": false,
+  "categories": [
+    "content/categories/food.json"
+  ],
+  "frames": [
+    "/images/KFC - Leg Piece/KFC - Leg Piece (0-00-11-18).jpg",
+    "/images/KFC - Leg Piece/KFC - Leg Piece (0-00-24-18).jpg",
+    "/images/KFC - Leg Piece/KFC - Leg Piece (0-00-15-00).jpg"
+  ],
+  "videos": [
+    "https://vimeo.com/440606586"
+  ],
+  "client": "KFC India",
+  "agency": "Ogilvy India",
+  "director": "Neelay Shah",
+  "dop": "Aeyaz",
+  "producer": "Pratixa",
+  "more_credits": [
+    {
+      "role": "Food Stylist",
+      "name": "Alicia"
+    },
+    {
+      "role": "Production Designer",
+      "name": "Pranali Diwadkar"
+    }
+  ],
+  "stills": [
+    "/images/KFC - Leg Piece/KFC - Leg Piece (0-00-01-00).jpg",
+    "/images/KFC - Leg Piece/KFC - Leg Piece (0-00-07-19).jpg",
+    "/images/KFC - Leg Piece/KFC - Leg Piece (0-00-16-02).jpg",
+    "/images/KFC - Leg Piece/KFC - Leg Piece (0-00-17-11).jpg"
+  ]
+}

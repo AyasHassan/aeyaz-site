@@ -1,0 +1,44 @@
+{
+  "title": "HP Spectre",
+  "visible": false,
+  "categories": [
+    "content/categories/lifestyle.json"
+  ],
+  "frames": [
+    "/images/HP Spectre/HP Spectre (0-00-04-17).jpg",
+    "/images/HP Spectre/HP Spectre (0-00-15-14).jpg",
+    "/images/HP Spectre/HP Spectre (0-00-19-02).jpg"
+  ],
+  "videos": [
+    "https://vimeo.com/1051848115"
+  ],
+  "client": "HP Global",
+  "agency": "Impact BBDO",
+  "production_house": "Man Made Films",
+  "director": "Thamar",
+  "dop": "Aeyaz",
+  "editor": "Shervin Thomas",
+  "colourist": "Joshua",
+  "more_credits": [
+    {
+      "role": "Creative Director",
+      "name": "Hashim Sulaiman"
+    },
+    {
+      "role": "VFX Director",
+      "name": "Sanoop"
+    }
+  ],
+  "stills": [
+    "/images/HP Spectre/HP Spectre (0-00-02-22).jpg",
+    "/images/HP Spectre/HP Spectre (0-00-06-02).jpg",
+    "/images/HP Spectre/HP Spectre (0-00-10-15).jpg",
+    "/images/HP Spectre/HP Spectre (0-00-14-01).jpg",
+    "/images/HP Spectre/HP Spectre (0-00-16-09).jpg",
+    "/images/HP Spectre/HP Spectre (0-00-17-17).jpg",
+    "/images/HP Spectre/HP Spectre (0-00-25-02).jpg",
+    "/images/HP Spectre/HP Spectre (0-00-26-22).jpg",
+    "/images/HP Spectre/HP Spectre (0-00-28-02).jpg",
+    "/images/HP Spectre/HP Spectre (0-00-28-22).jpg"
+  ]
+}

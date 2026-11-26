@@ -1,0 +1,33 @@
+{
+  "title": "Yango Yasmina",
+  "visible": false,
+  "categories": [
+    "content/categories/lifestyle.json"
+  ],
+  "frames": [
+    "/images/Yango Yasmina/Yango Yasmina (0-00-06-02).jpg",
+    "/images/Yango Yasmina/Yango Yasmina (0-00-19-16).jpg",
+    "/images/Yango Yasmina/Yango Yasmina (0-00-46-11).jpg"
+  ],
+  "videos": [
+    "https://vimeo.com/1250343702"
+  ],
+  "client": "Yango",
+  "dop": "Aeyaz",
+  "stills": [
+    "/images/Yango Yasmina/Yango Yasmina (0-00-07-10).jpg",
+    "/images/Yango Yasmina/Yango Yasmina (0-00-11-23).jpg",
+    "/images/Yango Yasmina/Yango Yasmina (0-00-15-07).jpg",
+    "/images/Yango Yasmina/Yango Yasmina (0-00-16-19).jpg",
+    "/images/Yango Yasmina/Yango Yasmina (0-00-17-10).jpg",
+    "/images/Yango Yasmina/Yango Yasmina (0-00-22-17).jpg",
+    "/images/Yango Yasmina/Yango Yasmina (0-00-24-00).jpg",
+    "/images/Yango Yasmina/Yango Yasmina (0-00-26-19).jpg",
+    "/images/Yango Yasmina/Yango Yasmina (0-00-31-08).jpg",
+    "/images/Yango Yasmina/Yango Yasmina (0-00-33-19).jpg",
+    "/images/Yango Yasmina/Yango Yasmina (0-00-36-10).jpg",
+    "/images/Yango Yasmina/Yango Yasmina (0-00-39-12).jpg",
+    "/images/Yango Yasmina/Yango Yasmina (0-00-41-21).jpg",
+    "/images/Yango Yasmina/Yango Yasmina (0-00-48-12).jpg"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Yas Break Films",
+  "visible": false,
+  "categories": [
+    "content/categories/tourism.json"
+  ],
+  "frames": [
+    "/images/Yas Break Films/Yas Break Films - Bus (0-00-00-08).jpg",
+    "/images/Yas Break Films/Yas Break Films - Office (0-00-17-06).jpg",
+    "/images/Yas Break Films/Yas Break Films - Dinner (0-00-16-06).jpg"
+  ],
+  "videos": [
+    "https://vimeo.com/1250335071",
+    "https://vimeo.com/1250335075",
+    "https://vimeo.com/1250335076"
+  ],
+  "client": "Yas Island",
+  "production_house": "Dejavu",
+  "director": "Neelay Shah",
+  "dop": "Aeyaz",
+  "producer": "Thaha",
+  "stills": [
+    "/images/Yas Break Films/Yas Break Films - Bus (0-00-03-10).jpg",
+    "/images/Yas Break Films/Yas Break Films - Bus (0-00-04-03).jpg",
+    "/images/Yas Break Films/Yas Break Films - Bus (0-00-08-23).jpg",
+    "/images/Yas Break Films/Yas Break Films - Bus (0-00-14-13).jpg",
+    "/images/Yas Break Films/Yas Break Films - Bus (0-00-19-18).jpg",
+    "/images/Yas Break Films/Yas Break Films - Dinner (0-00-00-16).jpg",
+    "/images/Yas Break Films/Yas Break Films - Dinner (0-00-04-02).jpg",
+    "/images/Yas Break Films/Yas Break Films - Dinner (0-00-08-17).jpg",
+    "/images/Yas Break Films/Yas Break Films - Dinner (0-00-09-01).jpg",
+    "/images/Yas Break Films/Yas Break Films - Dinner (0-00-10-23).jpg",
+    "/images/Yas Break Films/Yas Break Films - Dinner (0-00-12-13).jpg",
+    "/images/Yas Break Films/Yas Break Films - Dinner (0-00-14-22).jpg",
+    "/images/Yas Break Films/Yas Break Films - Dinner (0-00-18-08).jpg",
+    "/images/Yas Break Films/Yas Break Films - Dinner (0-00-20-01).jpg",
+    "/images/Yas Break Films/Yas Break Films - Office (0-00-00-23).jpg",
+    "/images/Yas Break Films/Yas Break Films - Office (0-00-07-11).jpg",
+    "/images/Yas Break Films/Yas Break Films - Office (0-00-11-01).jpg",
+    "/images/Yas Break Films/Yas Break Films - Office (0-00-18-05).jpg"
+  ]
+}

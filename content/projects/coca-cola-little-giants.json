@@ -1,0 +1,46 @@
+{
+  "title": "Coca Cola - Little Giants",
+  "visible": false,
+  "categories": [
+    "content/categories/food.json"
+  ],
+  "frames": [
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-15-00).jpg",
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-20-12).jpg",
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-37-07).jpg"
+  ],
+  "videos": [
+    "https://vimeo.com/454679295"
+  ],
+  "client": "Coca Cola",
+  "agency": "Memac Ogilvy",
+  "director": "Amin Soltani",
+  "dop": "Aeyaz",
+  "producer": "Kavya Iyer",
+  "editor": "Aeyaz",
+  "colourist": "Aeyaz",
+  "more_credits": [
+    {
+      "role": "Production Designer",
+      "name": "Pranali Diwakar"
+    }
+  ],
+  "stills": [
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-00-13).jpg",
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-03-11).jpg",
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-04-09).jpg",
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-05-03).jpg",
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-07-01).jpg",
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-08-22).jpg",
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-11-02).jpg",
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-13-04).jpg",
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-14-05).jpg",
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-19-10).jpg",
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-23-07).jpg",
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-29-22).jpg",
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-33-08).jpg",
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-34-08).jpg",
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-38-17).jpg",
+    "/images/Coca Cola - Little Giants/Coca Cola - Little Giants (0-00-40-15).jpg"
+  ]
+}

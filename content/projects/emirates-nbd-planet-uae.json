@@ -1,0 +1,40 @@
+{
+  "title": "Emirates NBD - Planet UAE",
+  "visible": false,
+  "categories": [
+    "content/categories/narrative.json"
+  ],
+  "frames": [
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-10-19).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-28-21).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-38-12).jpg"
+  ],
+  "videos": [
+    "https://vimeo.com/1174139598"
+  ],
+  "client": "Emirates NBD",
+  "dop": "Aeyaz",
+  "stills": [
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-09-06).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-20-09).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-23-13).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-25-08).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-34-08).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-37-09).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-40-09).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-44-21).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-48-07).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-48-17).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-51-20).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-52-04).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-54-05).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-54-14).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-56-17).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-00-58-17).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-01-04-05).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-01-15-10).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-01-18-21).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-01-21-03).jpg",
+    "/images/Emirates NBD - Planet UAE/Emirates NBD - Planet UAE (0-01-26-15).jpg"
+  ]
+}
