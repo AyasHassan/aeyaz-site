@@ -1,6 +1,6 @@
 {
   "title": "MBR District One - Diwali",
-  "show": "work",
+  "visible": false,
   "categories": [
     "content/categories/lifestyle.json"
   ],
