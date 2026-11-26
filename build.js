@@ -147,21 +147,25 @@ const projects = readDir(path.join(C, 'projects')).map((f) => {
   };
 });
 const bySlug = Object.fromEntries(projects.map((p) => [p.slug, p]));
+const catSlug = (c) => String(c.id).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const CAT_NAMES_JSON = JSON.stringify(Object.fromEntries(categories.map((c) => [catSlug(c), c.name]))).replace(/</g, '\\u003c');
 
 // Order comes from content/order.txt (one project title per line, top first).
 // Matching ignores case, punctuation and spacing. Projects not listed go to the bottom, A–Z.
 const norm = (t) => String(t || '').toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, '');
 const orderFile = path.join(C, 'order.txt');
 const orderLines = fs.existsSync(orderFile) ? fs.readFileSync(orderFile, 'utf8').split('\n').map((l) => l.trim()).filter(Boolean) : [];
-const isHidden = (p) => !p.visible || p.show === 'hidden' || p.legacyStatus === 'hidden';
-const visible = projects.filter((p) => !isHidden(p));
-const work = [];
+const isRetired = (p) => p.show === 'hidden' || p.legacyStatus === 'hidden';
+const live = projects.filter((p) => !isRetired(p));
+const ordered = [];
 for (const line of orderLines) {
-  const hit = visible.find((p) => norm(p.title) === norm(line) && !work.includes(p));
-  if (hit) work.push(hit);
+  const hit = live.find((p) => norm(p.title) === norm(line) && !ordered.includes(p));
+  if (hit) ordered.push(hit);
   else console.log(`Order file: no project matches "${line}"`);
 }
-for (const p of visible.filter((p) => !work.includes(p)).sort((a, b) => a.title.localeCompare(b.title))) work.push(p);
+for (const p of live.filter((p) => !ordered.includes(p)).sort((a, b) => a.title.localeCompare(b.title))) ordered.push(p);
+// Main Work page: only projects switched on. Category pages use every live project in that category.
+const work = ordered.filter((p) => p.visible);
 
 // ---------- layout ----------
 const NAV = [['work', 'Work', '/'], ['feature', 'Feature', '/feature-film/'], ['about', 'About', '/about/'], ['contact', 'Contact', '/contact/']];
@@ -211,6 +215,10 @@ ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld).replace(
 .film-video{margin:0 0 56px}
 .film-kicker{font-family:'DM Mono',monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#8a8a8a;margin:0 0 12px}
 .film-stills{margin-top:72px}
+.filters a{min-height:32px;display:inline-flex;align-items:center;padding:0 14px;border-radius:999px;font-family:'DM Mono',monospace;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:#F2F2F0;border:1px solid #3A3A38;transition:background .2s,color .2s,border-color .2s}
+.filters a:hover{border-color:#F2F2F0}
+.filters a[aria-current="page"]{background:#F2F2F0;color:#0A0A0A;border-color:#F2F2F0}
+@media (max-width:700px){.filters a{font-size:10px;padding:0 10px;min-height:28px}}
 </style>
 </head>
 <body>
@@ -248,14 +256,14 @@ const headlineHtml = (t) => {
 const FRAME_SIZES = '(max-width: 900px) 33vw, 25vw';
 const STILL_SIZES = '(max-width: 900px) 50vw, 38vw';
 
-async function row(p) {
+async function row(p, from = '') {
   const cells = [];
   const n = THUMBS === 'one' ? 1 : 3;
   for (let i = 0; i < n; i++) {
     const r = p.frames[i] ? await responsive(p.frames[i], 640, 1280) : null;
     cells.push(`<div class="frame">${imgTag(r, i === 0 ? p.title : '', FRAME_SIZES)}</div>`);
   }
-  return `<a class="proj" href="/work/${p.slug}/" data-cats="${p.cats.map((c) => c.id).join(' ')}">
+  return `<a class="proj" href="/work/${p.slug}/${from ? '?from=' + from : ''}" data-cats="${p.cats.map((c) => c.id).join(' ')}">
 <div class="frames${THUMBS === 'one' ? ' one' : ''}">${cells.join('')}</div>
 <div class="pname">${esc(p.title)}</div>
 </a>`;
@@ -310,7 +318,11 @@ const personSchema = () => ({
 
   // Work (home)
   // Category buttons cover all Work projects.
-  const usedCats = categories.filter((c) => work.some((p) => p.cats.some((pc) => pc.id === c.id)));
+  const usedCats = categories.filter((c) => live.some((p) => p.cats.some((pc) => pc.id === c.id)));
+  const filterBar = (current) => (usedCats.length && SHOW_CATS ? `<nav class="filters" aria-label="Categories">
+<a href="/"${current === 'all' ? ' aria-current="page"' : ''}>All</a>
+${usedCats.map((c) => `<a href="/category/${catSlug(c)}/"${current === c.id ? ' aria-current="page"' : ''}>${esc(c.name)}</a>`).join('\n')}
+</nav>` : '<div class="filters-space"></div>');
   const workRows = [];
   for (const p of work) workRows.push(await row(p));
   const firstImg = work.find((p) => p.frames.length);
@@ -329,10 +341,7 @@ const personSchema = () => ({
     active: 'work', path: '/', jsonld: personSchema(),
     image: shareImage || (firstImg ? await variant(firstImg.frames[0], 1280) : ''),
     body: `<h1 class="title">${headlineHtml(settings.headline || 'Director of Photography')}</h1>
-${usedCats.length && SHOW_CATS ? `<div class="filters" role="group" aria-label="Filter projects by category">
-<button type="button" data-filter="all" aria-pressed="true">All</button>
-${usedCats.map((c) => `<button type="button" data-filter="${c.id}" aria-pressed="false">${esc(c.name)}</button>`).join('\n')}
-</div>` : '<div class="filters-space"></div>'}
+${filterBar('all')}
 <div class="rows${THUMBS === 'one' ? ' rows-one' : ''}" id="rows">
 ${workRows.join('\n')}
 </div>`,
@@ -360,6 +369,7 @@ ${await stillsBlock(p.stills, p.title)}
 <a class="back" href="${backHref}">${arrowL}${backLabel}</a>
 ${isWork !== null && list.length > 1 ? `<a class="next" href="/work/${next.slug}/">Next: ${esc(next.title)}${arrowR}</a>` : ''}
 </div>
+<script>(function(){var n=${CAT_NAMES_JSON};var f=new URLSearchParams(location.search).get('from');if(!f||!n[f])return;document.querySelectorAll('a.back').forEach(function(a){a.href='/category/'+f+'/';a.lastChild.textContent='Back to '+n[f];});})();</script>
 </div>`,
       }));
     }
@@ -383,6 +393,22 @@ ${film.teaser ? `<div class="film-video"><p class="film-kicker">Trailer 2</p>${p
 ${filmStills ? `<div class="film-stills"><p class="film-kicker">Stills</p>${filmStills}</div>` : ''}
 </div>`,
   }));
+
+  // Category pages: /category/<name>/ lists that category's projects in the same order
+  for (const c of usedCats) {
+    const list = ordered.filter((p) => p.cats.some((pc) => pc.id === c.id));
+    const catRows = [];
+    for (const p of list) catRows.push(await row(p, catSlug(c)));
+    write(`category/${catSlug(c)}/index.html`, page({
+      title: c.name, active: 'work', path: `/category/${catSlug(c)}/`,
+      description: `${c.name} — work by ${PERSON}, Dubai-based Director of Photography.`,
+      body: `<h1 class="title">${esc(c.name)}</h1>
+${filterBar(c.id)}
+<div class="rows${THUMBS === 'one' ? ' rows-one' : ''}" id="rows">
+${catRows.join('\n')}
+</div>`,
+    }));
+  }
 
   // About
   const paras = String(about.body || '').split(/\n\s*\n/).map((t) => t.trim()).filter(Boolean);

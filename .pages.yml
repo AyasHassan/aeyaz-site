@@ -21,7 +21,7 @@ content:
         type: string
         required: true
       - name: visible
-        label: Show on Work page (switch off to hide this project)
+        label: Show on main Work page (switch off to show it only on its category pages)
         type: boolean
         default: true
       - name: categories
@@ -153,14 +153,17 @@ content:
         type: image
         options:
           extensions: [jpg, jpeg, png, webp]
+      - name: synopsis
+        label: Story write-up (shown under the poster — leave a blank line between paragraphs)
+        type: text
       - name: trailer
-        label: Trailer link (Vimeo or YouTube)
+        label: Trailer 1 link (Vimeo or YouTube)
         type: string
       - name: teaser
-        label: Teaser link (Vimeo or YouTube)
+        label: Trailer 2 link (Vimeo or YouTube)
         type: string
       - name: stills
-        label: Frame grabs
+        label: Stills (upload all stills here — shown under the teaser)
         type: image
         options:
           multiple: true
