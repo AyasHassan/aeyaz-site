@@ -18,13 +18,22 @@
   "production_house": "Dejavu",
   "director": "Shakun Batra",
   "dop": "Aris Ziotopoulos",
-  "executive_producer": "Manasvi Gosalia",
-  "producer": "Sampada Hakara, Mohamed Taha",
-  "colourist": "Andrei Gordeev (MAP Berlin)",
   "more_credits": [
     {
       "role": "Second Unit DOP",
       "name": "Aeyaz"
+    },
+    {
+      "role": "Executive Producer",
+      "name": "Manasvi Gosalia"
+    },
+    {
+      "role": "Producer",
+      "name": "Sampada Hakara, Mohamed Taha"
+    },
+    {
+      "role": "Colourist",
+      "name": "Andrei Gordeev (MAP Berlin)"
     },
     {
       "role": "Featuring",
