@@ -324,7 +324,7 @@ const personSchema = () => ({
   const filterBar = (current) => (usedCats.length && SHOW_CATS ? `<nav class="filters" aria-label="Categories">
 <a href="/"${current === 'all' ? ' aria-current="page"' : ''}>Selected works</a>
 ${usedCats.map((c) => `<a href="/category/${catSlug(c)}/"${current === c.id ? ' aria-current="page"' : ''}>${esc(c.name)}</a>`).join('\n')}
-<a href="/all/"${current === 'everything' ? ' aria-current="page"' : ''}>All</a>
+<a href="/all/"${current === 'everything' ? ' aria-current="page"' : ''}>All works</a>
 </nav>` : '<div class="filters-space"></div>');
   const workRows = [];
   for (const p of work) workRows.push(await row(p));
