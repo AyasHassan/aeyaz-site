@@ -1,6 +1,6 @@
 {
   "title": "Zain Telecom",
-  "visible": true,
+  "visible": false,
   "categories": [
     "content/categories/vfx.json",
     "content/categories/lifestyle.json"
