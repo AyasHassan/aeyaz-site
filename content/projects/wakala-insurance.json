@@ -1,6 +1,6 @@
 {
   "title": "Wakala Insurance",
-  "visible": true,
+  "visible": false,
   "categories": [
     "content/categories/lifestyle.json"
   ],
