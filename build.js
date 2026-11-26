@@ -81,7 +81,9 @@ function embedUrl(url) {
   if (!url) return '';
   url = String(url).trim();
   let m = url.match(/player\.vimeo\.com\/video\/(\d+)(?:\?h=([a-z0-9]+))?/i);
-  if (!m) m = url.match(/vimeo\.com\/(?:.*?\/)?(\d+)(?:\/([a-z0-9]+))?/i);
+  // The video number must be a whole path segment, so the hash of an unlisted link
+  // (vimeo.com/1250342296/54fe8b2bab) is never mistaken for the video number.
+  if (!m) m = url.match(/vimeo\.com\/(?:.*?\/)?(\d+)(?=[\/?#]|$)(?:\/([a-z0-9]+)(?=[\/?#]|$))?/i);
   if (m) return `https://player.vimeo.com/video/${m[1]}?${m[2] ? 'h=' + m[2] + '&' : ''}title=0&byline=0&portrait=0&dnt=1`;
   m = url.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([\w-]{11})/i);
   if (m) return `https://www.youtube-nocookie.com/embed/${m[1]}?rel=0`;
