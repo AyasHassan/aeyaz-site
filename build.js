@@ -470,7 +470,7 @@ ${settings.location ? `<p class="muted">${esc(settings.location)}</p>` : ''}
 
   // Search engines: sitemap + robots
   const today = new Date().toISOString().slice(0, 10);
-  const urls = [...new Set(pagesForSitemap)].filter((u) => !hidden.some((h) => u === `/work/${h.slug}/`));
+  const urls = [...new Set(pagesForSitemap)].filter((u) => !projects.some((p) => isRetired(p) && u === `/work/${p.slug}/`));
   write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>${SITE_URL}${u}</loc><lastmod>${today}</lastmod></url>`).join('\n')}\n</urlset>\n`);
   write('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`);
 
