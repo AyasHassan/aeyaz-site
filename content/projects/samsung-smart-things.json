@@ -1,6 +1,6 @@
 {
   "title": "Samsung - Smart Things",
-  "visible": true,
+  "visible": false,
   "categories": [
     "content/categories/lifestyle.json"
   ],
