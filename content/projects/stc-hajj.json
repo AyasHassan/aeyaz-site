@@ -1,6 +1,6 @@
 {
   "title": "STC Hajj",
-  "show": "work",
+  "visible": false,
   "categories": [
     "content/categories/tourism.json"
   ],
