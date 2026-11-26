@@ -150,7 +150,7 @@ const projects = readDir(path.join(C, 'projects')).map((f) => {
 });
 const bySlug = Object.fromEntries(projects.map((p) => [p.slug, p]));
 const catSlug = (c) => String(c.id).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-const CAT_NAMES_JSON = JSON.stringify(Object.fromEntries([...categories.map((c) => [catSlug(c), c.name]), ['all', 'All works']])).replace(/</g, '\\u003c');
+const CAT_NAMES_JSON = JSON.stringify(Object.fromEntries([...categories.map((c) => [catSlug(c), c.name]), ['all', 'All']])).replace(/</g, '\\u003c');
 
 // Order comes from content/order.txt (one project title per line, top first).
 // Matching ignores case, punctuation and spacing. Projects not listed go to the bottom, A–Z.
@@ -322,9 +322,9 @@ const personSchema = () => ({
   // Category buttons cover all Work projects.
   const usedCats = categories.filter((c) => live.some((p) => p.cats.some((pc) => pc.id === c.id)));
   const filterBar = (current) => (usedCats.length && SHOW_CATS ? `<nav class="filters" aria-label="Categories">
-<a href="/"${current === 'all' ? ' aria-current="page"' : ''}>Selected works</a>
+<a href="/"${current === 'all' ? ' aria-current="page"' : ''}>Featured</a>
 ${usedCats.map((c) => `<a href="/category/${catSlug(c)}/"${current === c.id ? ' aria-current="page"' : ''}>${esc(c.name)}</a>`).join('\n')}
-<a href="/all/"${current === 'everything' ? ' aria-current="page"' : ''}>All works</a>
+<a href="/all/"${current === 'everything' ? ' aria-current="page"' : ''}>All</a>
 </nav>` : '<div class="filters-space"></div>');
   const workRows = [];
   for (const p of work) workRows.push(await row(p));
@@ -417,9 +417,9 @@ ${catRows.join('\n')}
   const allRows = [];
   for (const p of ordered) allRows.push(await row(p, 'all'));
   write('all/index.html', page({
-    title: 'All works', active: 'work', path: '/all/',
+    title: 'All', active: 'work', path: '/all/',
     description: `All work by ${PERSON}, Dubai-based Director of Photography.`,
-    body: `<h1 class="title">All works</h1>
+    body: `<h1 class="title">All</h1>
 ${filterBar('everything')}
 <div class="rows${THUMBS === 'one' ? ' rows-one' : ''}" id="rows">
 ${allRows.join('\n')}
