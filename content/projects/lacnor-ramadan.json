@@ -1,0 +1,26 @@
+{
+  "title": "Lacnor - Ramadan",
+  "visible": false,
+  "categories": [
+    "content/categories/food.json"
+  ],
+  "frames": [
+    "/images/Lacnor - Ramadan/Lacnor - Ramadan (0-00-01-02).jpg",
+    "/images/Lacnor - Ramadan/Lacnor - Ramadan (0-00-14-12).jpg",
+    "/images/Lacnor - Ramadan/Lacnor - Ramadan (0-00-25-01).jpg"
+  ],
+  "videos": [
+    "https://vimeo.com/1250341386"
+  ],
+  "client": "Lacnor",
+  "production_house": "Ghair Art Productions",
+  "director": "Ahmed Adil Noor",
+  "dop": "Aeyaz",
+  "stills": [
+    "/images/Lacnor - Ramadan/Lacnor - Ramadan (0-00-02-10).jpg",
+    "/images/Lacnor - Ramadan/Lacnor - Ramadan (0-00-04-10).jpg",
+    "/images/Lacnor - Ramadan/Lacnor - Ramadan (0-00-05-17).jpg",
+    "/images/Lacnor - Ramadan/Lacnor - Ramadan (0-00-17-07).jpg",
+    "/images/Lacnor - Ramadan/Lacnor - Ramadan (0-00-26-02).jpg"
+  ]
+}
