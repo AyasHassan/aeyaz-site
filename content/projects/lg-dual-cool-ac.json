@@ -1,0 +1,30 @@
+{
+  "title": "LG - Dual Cool AC",
+  "visible": false,
+  "categories": [
+    "content/categories/lifestyle.json"
+  ],
+  "frames": [
+    "/images/LG - Dual Cool AC/LG - Dual Cool AC (0-00-00-19).jpg",
+    "/images/LG - Dual Cool AC/LG - Dual Cool AC (0-00-02-15).jpg",
+    "/images/LG - Dual Cool AC/LG - Dual Cool AC (0-00-12-09).jpg"
+  ],
+  "videos": [
+    "https://vimeo.com/1002359930"
+  ],
+  "client": "LG",
+  "production_house": "Montage Films",
+  "director": "Omar El Mohandes",
+  "dop": "Aeyaz",
+  "stills": [
+    "/images/LG - Dual Cool AC/LG - Dual Cool AC (0-00-00-11).jpg",
+    "/images/LG - Dual Cool AC/LG - Dual Cool AC (0-00-01-09).jpg",
+    "/images/LG - Dual Cool AC/LG - Dual Cool AC (0-00-01-18).jpg",
+    "/images/LG - Dual Cool AC/LG - Dual Cool AC (0-00-02-02).jpg",
+    "/images/LG - Dual Cool AC/LG - Dual Cool AC (0-00-03-03).jpg",
+    "/images/LG - Dual Cool AC/LG - Dual Cool AC (0-00-05-01).jpg",
+    "/images/LG - Dual Cool AC/LG - Dual Cool AC (0-00-07-12).jpg",
+    "/images/LG - Dual Cool AC/LG - Dual Cool AC (0-00-10-07).jpg",
+    "/images/LG - Dual Cool AC/LG - Dual Cool AC (0-00-14-21).jpg"
+  ]
+}
