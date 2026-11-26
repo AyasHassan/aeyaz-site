@@ -1,6 +1,6 @@
 {
   "title": "JSW Cement",
-  "visible": true,
+  "visible": false,
   "categories": [
     "content/categories/tourism.json"
   ],
