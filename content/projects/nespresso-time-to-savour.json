@@ -1,6 +1,6 @@
 {
   "title": "Nespresso — Time to Savour",
-  "visible": true,
+  "visible": false,
   "categories": [
     "content/categories/lifestyle.json",
     "content/categories/narrative.json"
