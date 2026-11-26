@@ -1,6 +1,6 @@
 {
   "title": "Al Ain Tourism",
-  "visible": true,
+  "visible": false,
   "categories": [
     "content/categories/tourism.json"
   ],
