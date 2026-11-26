@@ -150,7 +150,7 @@ const projects = readDir(path.join(C, 'projects')).map((f) => {
 });
 const bySlug = Object.fromEntries(projects.map((p) => [p.slug, p]));
 const catSlug = (c) => String(c.id).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-const CAT_NAMES_JSON = JSON.stringify(Object.fromEntries(categories.map((c) => [catSlug(c), c.name]))).replace(/</g, '\\u003c');
+const CAT_NAMES_JSON = JSON.stringify(Object.fromEntries([...categories.map((c) => [catSlug(c), c.name]), ['all', 'All works']])).replace(/</g, '\\u003c');
 
 // Order comes from content/order.txt (one project title per line, top first).
 // Matching ignores case, punctuation and spacing. Projects not listed go to the bottom, A–Z.
@@ -322,8 +322,9 @@ const personSchema = () => ({
   // Category buttons cover all Work projects.
   const usedCats = categories.filter((c) => live.some((p) => p.cats.some((pc) => pc.id === c.id)));
   const filterBar = (current) => (usedCats.length && SHOW_CATS ? `<nav class="filters" aria-label="Categories">
-<a href="/"${current === 'all' ? ' aria-current="page"' : ''}>All</a>
+<a href="/"${current === 'all' ? ' aria-current="page"' : ''}>Selected works</a>
 ${usedCats.map((c) => `<a href="/category/${catSlug(c)}/"${current === c.id ? ' aria-current="page"' : ''}>${esc(c.name)}</a>`).join('\n')}
+<a href="/all/"${current === 'everything' ? ' aria-current="page"' : ''}>All</a>
 </nav>` : '<div class="filters-space"></div>');
   const workRows = [];
   for (const p of work) workRows.push(await row(p));
@@ -371,7 +372,7 @@ ${await stillsBlock(p.stills, p.title)}
 <a class="back" href="${backHref}">${arrowL}${backLabel}</a>
 ${isWork !== null && list.length > 1 ? `<a class="next" href="/work/${next.slug}/">Next: ${esc(next.title)}${arrowR}</a>` : ''}
 </div>
-<script>(function(){var n=${CAT_NAMES_JSON};var f=new URLSearchParams(location.search).get('from');if(!f||!n[f])return;document.querySelectorAll('a.back').forEach(function(a){a.href='/category/'+f+'/';a.lastChild.textContent='Back to '+n[f];});})();</script>
+<script>(function(){var n=${CAT_NAMES_JSON};var f=new URLSearchParams(location.search).get('from');if(!f||!n[f])return;var u=f==='all'?'/all/':'/category/'+f+'/';document.querySelectorAll('a.back').forEach(function(a){a.href=u;a.lastChild.textContent='Back to '+n[f];});})();</script>
 </div>`,
       }));
     }
@@ -411,6 +412,19 @@ ${catRows.join('\n')}
 </div>`,
     }));
   }
+
+  // All works: every live project in order.txt order, switched on or not
+  const allRows = [];
+  for (const p of live) allRows.push(await row(p, 'all'));
+  write('all/index.html', page({
+    title: 'All works', active: 'work', path: '/all/',
+    description: `All work by ${PERSON}, Dubai-based Director of Photography.`,
+    body: `<h1 class="title">All works</h1>
+${filterBar('everything')}
+<div class="rows${THUMBS === 'one' ? ' rows-one' : ''}" id="rows">
+${allRows.join('\n')}
+</div>`,
+  }));
 
   // About
   const paras = String(about.body || '').split(/\n\s*\n/).map((t) => t.trim()).filter(Boolean);
